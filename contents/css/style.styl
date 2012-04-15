@@ -1,0 +1,390 @@
+@import nib
+
+baseColor = #E9E7E2
+left-width = 110px
+logo-radius = 40
+
+:root
+  font-size 12px
+
+body
+  //background-image url('../images/bg.gif')
+  text-rendering optimizelegibility
+  padding: 40px
+
+.ornament
+  fill hsl(43, 7%, 82%)
+  text-align center
+  svg
+    display inline
+    width: 100px
+
+header
+  clearfix()
+
+#top-header
+  position fixed
+  top: 0
+  left: 0
+  background: black
+  height 30px
+  width: 100%
+  z-index 10
+  svg
+    position absolute
+    left 73px
+    top 8px
+  
+h1
+  width: left-width
+  float: left
+  #logo-outer
+    height: 80px
+    width: 80px
+    display: block
+    background black
+    animation intro 2s .75s both
+    position: relative
+    border-radius: 40px
+    svg
+      position: absolute
+      top: 33px
+      left: 33px
+
+
+p.desc
+  margin-top: 55px
+  font-family: monospace
+  padding-left: 30px
+  float: left
+  color: hsl(44, 9%, 50%)
+
+#content
+  max-width 700px
+  text-shadow 0 1px 1px hsla(0, 0%, 100%, .3)
+  padding-top 50px
+  color hsl(0, 0%, 9%)
+  font-size 1em
+  font-size 1rem
+  line-height 1.85em
+  padding-bottom 100px
+  article
+    clearfix()
+    margin-bottom: 100px
+
+  header
+
+    padding-bottom 0px
+    margin-bottom 30px
+    
+    .ornament
+      margin-top 30px
+      margin-bottom 20px
+
+      /*background baseColor
+      position relative
+      bottom -10px
+      padding: 3px 10px*/
+
+  aside.meta
+    width: 110px
+    float: left
+    time
+      font-family monoco, monospace
+      color hsl(45, 9%, 50%)
+      letter-spacing -0.08em
+      word-spacing: -.4em
+
+  .body-text
+    width: 450px
+    float: left
+    padding-left 30px
+
+
+    p
+      margin-top 0
+  ul
+    padding-left 40px
+    margin-top: 10px
+    margin-bottom: 20px
+
+  footer
+    border-top 1px solid hsl(45, 9%, 70%)
+    margin-top 50px
+    padding-top 50px
+    text-align center
+    width: 450px
+    margin-left: 150px
+    float: left
+    .share
+      display inline-block
+      margin-top 0px
+      font-family: monoco, monospace
+      font-weight: normal
+      position relative
+      .share-text
+         position: absolute
+         width: 248px;
+         top: 5px
+         color hsl(43, 7%, 60%)
+         text-shadow: 0 1px 1px white
+      .social
+        margin-left: 0
+        padding-left: 19px
+        display: block
+
+        li
+          list-style: none
+          overflow hidden
+          display: inline-block
+          float: left
+      svg
+        width: 98 * 1.2 px
+        height: 50 * 1.2 px
+        display: inline-block
+
+        path
+          animation-duration: 1s
+          animation-timing-function: ease
+          animation-iteration-count: infinite
+          animation-direction: alternate
+          animation-fill-mode: both
+          transform: translate3d(0, 0, 0)
+          transition: fill .4s
+          fill hsl(43, 7%, 60%)
+
+      &:hover
+        .share-text
+          animation fade-scale-out .15s both
+        path
+          fill: hsl(223, 44%, 54%)
+        
+        g
+          animation fade-out 2s infinite
+
+          path
+            fill: hsl(223, 44%, 40%)
+
+          path:nth-of-type(1)
+            animation-name further-right
+
+          path:nth-of-type(2)
+            animation-name inner-right
+
+          path:nth-of-type(3)
+            animation-name inner-left
+
+          path:nth-of-type(4)
+            animation-name further-left
+
+  code
+    background-color: hsla(0, 0%, 97%, .5)
+    border: 1px solid hsl(0, 0%, 85%)
+    line-height: 19px
+    overflow: auto
+    padding: 2px 6px
+    border-radius: 3px
+  pre
+    margin:1em 0;
+    font-size: 1em;
+    background-color: hsla(0, 0%, 100%, .3);
+    border:1px solid #ddd;
+    padding:5px;
+    line-height: 1.4em
+    color:#444;
+    overflow:auto;
+
+    code
+      padding: 0
+      background-color: transparent
+      border: none
+  a
+    text-decoration: none
+    color: black
+
+  /*a
+    padding: 2px 6px;
+    color #78829C
+    font-weight bold*/
+    
+  
+  h3
+    font-size 1.3rem
+    margin-top: 20px
+    margin-bottom: 5px
+
+  blockquote
+    font-style italic
+    margin: 1em 40px
+    border-left: 10px solid hsl(45, 4%, 75%)
+    padding: .1em 40px
+    margin: 0
+
+.social
+  li
+    margin-left: 15px
+    margin-right: 15px
+    transform scale(.1)
+    //opacity 0
+    animation-name scale-away
+    animation-duration .4s
+    animation-fill-mode both
+    -webkit-backface-visibility: hidden
+  .g
+    width 32px
+    animation-delay .2s
+  .t
+    width 57px
+    animation-delay .1s
+  .f
+    width: 48px
+    animation-delay 0s
+
+.share:hover
+  .social
+    li
+      opacity 0
+      animation-fill-mode forwards, forwards
+      animation-name scale-up, scale-pop
+      animation-iteration-count 1, infinite
+      animation-duration .4s, 10.25s
+    .g
+      animation-delay .2s, 2s
+    .t
+      animation-delay .3s, 2.1s
+    .f
+      animation-delay .4s, 2.2s
+
+@keyframes scale-up
+  0%
+    transform scale(.1)
+    //opacity 0
+  90%
+    transform scale(1.03)
+  100%
+    transform scale(1)
+    opacity 1
+
+@keyframes scale-away
+  0%
+    transform scale(1)
+  30%
+    transform scale(.93)
+    opacity 1
+  100%
+    transform scale(1.5)
+    opacity 0
+    
+
+@keyframes scale-pop
+  0%
+    transform scale(1)
+  75%
+    transform scale(1)
+  80%
+    transform scale(.95)
+  90%
+    transform scale(1.1)
+  100%
+    transform scale(1)
+
+
+@keyframes fade-out
+  0%
+    opacity: 0
+  15%
+    opacity: 1
+  
+  80%
+    opacity: 0
+  100%
+    opacity: 0
+
+@keyframes fade-scale-out
+  0%
+    opacity: 0
+    transform: scale(1)
+  15%
+    opacity: 1
+    transform: scale(1)
+  
+  80%
+    opacity: 0
+  100%
+    opacity: 0
+    transform: scale(.1)
+    
+
+@keyframes further-right
+  0%
+    transform: translate3d(0, 0, 0 )
+  
+  100%
+    transform: translate3d(350px, 0, 0)
+
+  
+@keyframes inner-right
+  10%
+    transform: translate3d(-10px, 0, 0 )
+  
+  100%
+    transform: translate3d(150px, 0, 0)
+
+  
+@keyframes inner-left
+  10%
+    transform: translate3d(10px, 0, 0 )
+  
+  100%
+    transform: translate3d(-150px, 0, 0)
+
+  
+@keyframes further-left
+  0%
+    transform: translate3d(0, 0, 0 )
+  
+  100%
+    transform: translate3d(-350px, 0, 0)
+
+PI = 3.14159265
+rotation = -1
+rotationOver = 0.1
+
+calcRotation(rotation, radius, is3D){
+  xPos = -2 * PI * rotation *  radius
+  if( is3D ){
+    translate = "translate3d"
+  } else {
+    translate = "translate"
+  }
+  return translate3d( - xPos px, 0, 0) rotate( rotation * 360 deg)
+}
+  
+
+@keyframes intro
+  0%
+    transform calcRotation(-.5, logo-radius, true)
+  60%
+    transform calcRotation(.05, logo-radius, true)
+    animation-timing-function ease-in-out
+  100%
+    transform calcRotation(0, logo-radius, true)
+
+
+@keyframes intro-path
+  0%
+    transform rotate(45deg) translate3d(0, -40px, 0) scale(1, 20)
+
+  40%
+    opacity: 0
+  50%
+    transform rotate(0deg) scale(1, 20) translate3d(0, -39px, 0)
+    opacity: 0
+  60%
+    opacity: 1
+    transform rotate(0deg) scale(.1, .1) translate3d(0, 0px, 0)
+    transform-origin 50% 50%
+  100%
+    opacity: 1
+    transform rotate(0deg) scale(1, 1) translate3d(0, 0px, 0)
+

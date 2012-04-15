@@ -1,0 +1,14 @@
+{
+  "locals": {
+    "url": "http://localhost:8080",
+    "name": "an autodidact's thoughts",
+    "owner": "mnmly",
+    "description": "an autodidact who needs output",
+    "index_articles": 3
+  },
+  "plugins": [
+    "./node_modules/wintersmith-stylus/",
+    "./node_modules/wintersmith-coffee/",
+    "./plugins/moment"
+  ]
+}
