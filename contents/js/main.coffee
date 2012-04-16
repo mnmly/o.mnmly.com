@@ -6,6 +6,8 @@ require.config
     coffee: "libs/coffee-script"
     modernizr: "libs/modernizr.custom"
     rAF: "libs/raf"
+    analytics: "libs/g-analytics"
+    socialite: "libs/socialite.min"
 
 require [
   'jquery',
@@ -14,15 +16,21 @@ require [
   "mobile"
   "rAF"
   "modernizr"
+  "analytics"
+  "socialite"
   ], ($, Scroll, Preview, Mobile)->
 
   $ ->
+
     scroll  = new Scroll
     preview = new Preview
-    #ticker = new Ticker
+    
+    # init socialite
+    Socialite.load()
+
     do animloop = ->
       requestAnimationFrame( animloop )
       scroll.update()
-
+  
     if Modernizr.touch
       mobile = new Mobile
