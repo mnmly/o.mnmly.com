@@ -1,6 +1,5 @@
 @import nib
 
-baseColor = #E9E7E2
 left-width = 110px
 logo-radius = 40
 
@@ -13,8 +12,8 @@ body
   padding: 40px
 
 .ornament
-  fill hsl(43, 7%, 82%)
   text-align center
+  fill hsl(43, 7%, 82%)
   svg
     display inline
     width: 100px
@@ -24,16 +23,54 @@ header
 
 #top-header
   position fixed
-  top: 0
+  top: -5px
   left: 0
-  background: black
+  background: white
+  border-bottom 3px solid hsla(0, 0%, 0%, 0.8)
+  padding-top: 5px
   height 30px
   width: 100%
   z-index 10
-  svg
+  opacity 0
+  overflow hidden
+  transition opacity .2s
+  box-shadow 0 5px 0 5px white
+  animation pull-up .5s forwards cubic-bezier(0.860, 0.000, 0.070, 1.000)
+
+  >svg
     position absolute
     left 73px
-    top 8px
+    top 13px
+
+    rect
+      fill black
+
+  .inner
+    position absolute
+    top: 0
+    left 160px
+    height 100%
+    box-sizing border-box
+    padding-top 9px
+  h5
+    color: black
+    font-size: 1.5em
+    line-height 1.3em
+    margin: 0
+    display inline-block
+    float left
+    margin-right 20px
+
+  ul
+    margin 0
+    padding 0
+    display inline-block
+    float left
+    color white
+    
+.passed-logo
+  #top-header
+    animation pull-down .5s .25s both cubic-bezier(0.860, 0.000, 0.070, 1.000)
   
 h1
   width: left-width
@@ -42,8 +79,8 @@ h1
     height: 80px
     width: 80px
     display: block
-    background black
-    animation intro 2s .75s both
+    background: black
+    animation: intro 2s .75s both
     position: relative
     border-radius: 40px
     svg
@@ -55,12 +92,18 @@ h1
 p.desc
   margin-top: 55px
   font-family: monospace
-  padding-left: 30px
+  padding-left: 10px
   float: left
   color: hsl(44, 9%, 50%)
+  animation fade-in .5s 2.5s both
+
+.touch
+  #content
+    .fade-pane
+      display none
 
 #content
-  max-width 700px
+  max-width 570px
   text-shadow 0 1px 1px hsla(0, 0%, 100%, .3)
   padding-top 50px
   color hsl(0, 0%, 9%)
@@ -68,6 +111,18 @@ p.desc
   font-size 1rem
   line-height 1.85em
   padding-bottom 100px
+  animation fade-in 1s 3s cubic-bezier(0.860, 0.000, 0.070, 1.000) both
+  position relative
+  .fade-pane
+    position: absolute;
+    content: ""
+    width: 100%
+    background-image: linear-gradient(left, hsla(0, 0%, 100%, 0) 0%, white 30%)
+    height: 100%
+    top: 0
+    right: 0
+    animation fade-from-left 2s 2.5s cubic-bezier(0.860, 0.000, 0.070, 1.000) both
+
   article
     clearfix()
     margin-bottom: 100px
@@ -75,19 +130,19 @@ p.desc
   header
 
     padding-bottom 0px
-    margin-bottom 30px
-    
+    margin-bottom 10px
+
+    h2
+      margin-left: 21.2%
+      display inline-block
+      border-bottom 1px dotted hsla(0, 0%, 0%, .5)
+
     .ornament
       margin-top 30px
       margin-bottom 20px
 
-      /*background baseColor
-      position relative
-      bottom -10px
-      padding: 3px 10px*/
-
   aside.meta
-    width: 110px
+    width: 19.4%
     float: left
     time
       font-family monoco, monospace
@@ -95,87 +150,29 @@ p.desc
       letter-spacing -0.08em
       word-spacing: -.4em
 
-  .body-text
-    width: 450px
+  .article-container
+    width: 77.3%
     float: left
-    padding-left 30px
+    padding-left 10px
+
+  .body-text
+    border-bottom 1px dotted hsla(0, 0%, 0%, .5)
+    padding-bottom: 50px
+    ul
+      padding-left 40px
+      margin-top: 10px
+      margin-bottom: 20px
 
 
     p
       margin-top 0
-  ul
-    padding-left 40px
-    margin-top: 10px
-    margin-bottom: 20px
-
+  
   footer
-    border-top 1px solid hsl(45, 9%, 70%)
-    margin-top 50px
-    padding-top 50px
+    padding-top: 30px
+    padding-bottom: 30px
     text-align center
-    width: 450px
-    margin-left: 150px
-    float: left
-    .share
-      display inline-block
-      margin-top 0px
-      font-family: monoco, monospace
-      font-weight: normal
-      position relative
-      .share-text
-         position: absolute
-         width: 248px;
-         top: 5px
-         color hsl(43, 7%, 60%)
-         text-shadow: 0 1px 1px white
-      .social
-        margin-left: 0
-        padding-left: 19px
-        display: block
-
-        li
-          list-style: none
-          overflow hidden
-          display: inline-block
-          float: left
-      svg
-        width: 98 * 1.2 px
-        height: 50 * 1.2 px
-        display: inline-block
-
-        path
-          animation-duration: 1s
-          animation-timing-function: ease
-          animation-iteration-count: infinite
-          animation-direction: alternate
-          animation-fill-mode: both
-          transform: translate3d(0, 0, 0)
-          transition: fill .4s
-          fill hsl(43, 7%, 60%)
-
-      &:hover
-        .share-text
-          animation fade-scale-out .15s both
-        path
-          fill: hsl(223, 44%, 54%)
-        
-        g
-          animation fade-out 2s infinite
-
-          path
-            fill: hsl(223, 44%, 40%)
-
-          path:nth-of-type(1)
-            animation-name further-right
-
-          path:nth-of-type(2)
-            animation-name inner-right
-
-          path:nth-of-type(3)
-            animation-name inner-left
-
-          path:nth-of-type(4)
-            animation-name further-left
+    background: url('../images/bg.gif')
+    border-bottom 1px dotted hsla(0, 0%, 0%, .5)
 
   code
     background-color: hsla(0, 0%, 97%, .5)
@@ -184,6 +181,7 @@ p.desc
     overflow: auto
     padding: 2px 6px
     border-radius: 3px
+
   pre
     margin:1em 0;
     font-size: 1em;
@@ -192,21 +190,16 @@ p.desc
     padding:5px;
     line-height: 1.4em
     color:#444;
-    overflow:auto;
+    overflow: auto
 
     code
       padding: 0
       background-color: transparent
       border: none
+
   a
     text-decoration: none
     color: black
-
-  /*a
-    padding: 2px 6px;
-    color #78829C
-    font-weight bold*/
-    
   
   h3
     font-size 1.3rem
@@ -225,11 +218,12 @@ p.desc
     margin-left: 15px
     margin-right: 15px
     transform scale(.1)
+    height
     //opacity 0
     animation-name scale-away
     animation-duration .4s
     animation-fill-mode both
-    -webkit-backface-visibility: hidden
+    backface-visibility: hidden
   .g
     width 32px
     animation-delay .2s
@@ -240,20 +234,108 @@ p.desc
     width: 48px
     animation-delay 0s
 
-.share:hover
+.share
+  display inline-block
+  margin-top 0px
+  font-family: monoco, monospace
+  font-weight: normal
+  position relative
+
+  .seduce-text
+    position absolute
+    top 21px
+    left 140px
+    color hsl(44, 9%, 50%)
+    opacity 1
+    transition opacity .5s cubic-bezier(0.860, 0.000, 0.070, 1.000)
+    transition-delay .40s
+
+    &::after, &::before
+      content ''
+      position absolute
+      top: 50%
+      display block
+      height 1px
+      width: 35px
+      border-top 1px dotted hsl(44, 9%, 50%)
+      left: -40px
+
+    &::after
+      right -40px
+      left: auto
+
   .social
+    margin-left: -5px
+    padding-left: 0px
+    display: block
+    width: 227px
+    float: left
+    margin-top: 23px
+    margin-bottom: 0
     li
+      list-style: none
+      overflow hidden
+      display: inline-block
+      float: left
+  svg
+    width: 98 * 1.2 px
+    height: 50 * 1.2 px
+    display: block
+    float left
+    margin-left -110px
+    display: block
+    float: left
+    margin-left: -30px
+    path
+      animation-duration: 1s
+      animation-timing-function: ease
+      animation-iteration-count: infinite
+      animation-direction: alternate
+      animation-fill-mode: both
+      transform: translate3d(0, 0, 0)
+      transition: fill .4s
+      fill hsl(43, 7%, 60%)
+
+  &:hover, &.on
+    .seduce-text
       opacity 0
-      animation-fill-mode forwards, forwards
-      animation-name scale-up, scale-pop
-      animation-iteration-count 1, infinite
-      animation-duration .4s, 10.25s
-    .g
-      animation-delay .2s, 2s
-    .t
-      animation-delay .3s, 2.1s
-    .f
-      animation-delay .4s, 2.2s
+      transition-delay 0s
+
+    path
+      fill: hsl(223, 44%, 54%)
+    
+    g
+      animation fade-out 2s infinite
+
+      path
+        fill: hsl(223, 44%, 40%)
+
+      path:nth-of-type(1)
+        animation-name further-right
+
+      path:nth-of-type(2)
+        animation-name inner-right
+
+      path:nth-of-type(3)
+        animation-name inner-left
+
+      path:nth-of-type(4)
+        animation-name further-left
+
+
+    .social
+      li
+        opacity 0
+        animation-fill-mode forwards, forwards
+        animation-name scale-up, scale-pop
+        animation-iteration-count 1, infinite
+        animation-duration .4s, 10.25s
+      .g
+        animation-delay .2s, 2s
+      .t
+        animation-delay .3s, 2.1s
+      .f
+        animation-delay .4s, 2.2s
 
 @keyframes scale-up
   0%
@@ -288,6 +370,17 @@ p.desc
   100%
     transform scale(1)
 
+@keyframes fade-in
+  0%
+    opacity: 0
+  100%
+    opacity: 1
+
+@keyframes fade-from-left
+  0%
+    width: 100%
+  100%
+    width: 0%
 
 @keyframes fade-out
   0%
@@ -363,7 +456,7 @@ calcRotation(rotation, radius, is3D){
 
 @keyframes intro
   0%
-    transform calcRotation(-.5, logo-radius, true)
+    transform calcRotation(-1, logo-radius, true)
   60%
     transform calcRotation(.05, logo-radius, true)
     animation-timing-function ease-in-out
@@ -388,3 +481,27 @@ calcRotation(rotation, radius, is3D){
     opacity: 1
     transform rotate(0deg) scale(1, 1) translate3d(0, 0px, 0)
 
+@keyframes pull-down
+  0%
+    transform translate3d(0, -35px, 0)
+  80%
+    transform translate3d(0, 3px, 0)
+  100%
+    transform translate3d(0, 0px, 0)
+
+@keyframes pull-up
+  0%
+    transform translate3d(0, 0px, 0)
+
+  40%
+    transform translate3d(0, 3px, 0)
+  100%
+    transform translate3d(0, -35px, 0)
+
+
+img, object, embed
+  max-width: 100%
+  height: auto
+
+img
+  -ms-interpolation-mode: bicubic

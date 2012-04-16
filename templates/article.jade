@@ -3,30 +3,29 @@ extends layout
 block prepend title
   #{ page.title } -
 
-block header
+block append sticky
+  div.inner
+    h5 #{ page.title }
 
 block content
   article.post
     header
       h2.title= page.title
-      //include ../includes/ornament
 
     aside.meta
       time(datetime=page.date)= moment(page.date).format("MMM. Do, YYYY")
-
-    section.body-text!= page.html
-
-    footer
-      include ../includes/ornament
-      div.share
-        span.share-text Share
-        ul.social
-          li.g
-            .g-plusone( data-size = "medium", data-annotation = "inline", data-width =  "100" )
-          li.t
-            a.twitter-share-button(href="https://twitter.com/share", data-via = "mnmly", data-lang = "en" )
-          li.f
-            div.fb-like(data-send = "false", data-layout = "button_count", data-width = "100", data-show-faces = "false")
-
-        include ../includes/share
     
+    div.article-container
+      section.body-text!= page.html
+
+      footer
+        div.share
+          include ../includes/share.svg
+          span.seduce-text Did you like it?
+          ul.social
+            li.g
+              .g-plusone( data-size = "medium", data-annotation = "inline", data-width =  "100" )
+            li.t
+              a.twitter-share-button(href="https://twitter.com/share", data-via = "mnmly", data-lang = "en" )
+            li.f
+              div.fb-like(data-send = "false", data-layout = "button_count", data-width = "100", data-show-faces = "false")

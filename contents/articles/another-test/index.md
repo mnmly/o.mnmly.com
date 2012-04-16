@@ -5,15 +5,13 @@ template: article.jade
 
 Syntax highlighting with highlight.js
 
-### JavaScript
+### CoffeeScript
 
-```javascript
-function factorial(n) {
-  if (n === 0) {
+```coffeescript
+factorial = (n)->
+  if n is 0
     return 1;
-  }
-  return n * factorial(n - 1);
-}
+  n * factorial(n - 1)
 ```
 
 ## More samples

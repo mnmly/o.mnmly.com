@@ -70,7 +70,7 @@ Nikeのプロジェクトに一段落つくと、J1ビザが切れたのでい�
 -   `History API`を用いた`URL Pagination`による無限スクロール機能の向上
 -   [Shopify]で作ったストアでのアイテムのカスタム機能
 -   それに伴って`www`と`store`間の`CORS`を実装
--   すべてを`JS`を`CoffeeScript`に`CSS`を`Sass`に書き換え
+-   `JS`を`CoffeeScript`に,`CSS`を`Sass`に書き換え
 -   `require.js`によるモジュールの管理方法の変更
 -   ユーザがダウンロードしたアイコンを`WebSocket`を用いてリアルタイムに表示
 
