@@ -28,24 +28,27 @@ html(lang='en')
         } else{
           require(['main-built']);
         }
-  body
-    #top-header
-      block sticky
-        include ../includes/logo.svg
 
-    header
-      div.inner
-        block header
-          h1
-            a(href=locals.url)
-              div#logo-outer
-                include ../includes/logo.svg
+  - bodyClass = "index"
+  block bodyBlock
+    body(class=bodyClass)
+      #top-header
+        block sticky
+          include ../includes/logo.svg
 
-          p.desc= locals.description
+      header
+        div.inner
+          block header
+            h1
+              a(href=locals.url)
+                div#logo-outer
+                  include ../includes/logo.svg
 
-    div#content
-      .fade-pane
-      block content
-        h2 Welcome to zombocom!
+            p.desc= locals.description
 
-    #fb-root
+      div#content
+        .fade-pane
+        block content
+          h2 Welcome to zombocom!
+
+      #fb-root

@@ -22,15 +22,21 @@ require [
 
   $ ->
 
-    scroll  = new Scroll
+    isIndex = $('body').hasClass 'index'
+
     preview = new Preview
     
     # init socialite
     Socialite.load()
-
-    do animloop = ->
-      requestAnimationFrame( animloop )
-      scroll.update()
+    
+    if isIndex
+      scroll = new Scroll
+      do animloop = ->
+        requestAnimationFrame( animloop )
+        scroll.update()
+    else
+      $("#top-header").css('opacity', 1)
+      $('body').addClass('passed-logo')
   
     if Modernizr.touch
       mobile = new Mobile

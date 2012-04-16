@@ -12,10 +12,8 @@ define ->
       @body          = $('body')
       @topHeader     = $("#top-header")
       @logoOuter     = $("#logo-outer")
-      @
 
     update: ->
-      
       scrollTop = window.pageYOffset
       
       if scrollTop isnt @lastScrollTop
@@ -49,6 +47,5 @@ define ->
             _opacity = ( 100 - scrollTop ) / 100
             @logoOuter.css 'opacity', _opacity
             @body.removeClass 'passed-logo'
-
 
       @lastScrollTop = scrollTop

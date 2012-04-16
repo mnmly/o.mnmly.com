@@ -22,14 +22,15 @@ define ['jquery',  'coffee', 'highlight'], ($, CoffeeScript)->
         $compiled = $("<pre />").append($("<code class='javascript' />").text(cs))
         hljs.highlightBlock( $compiled.find('code').get(0) ,'    ' )
         $compiled.hide()
+        $handleWrapper = $("<div class='handle-wrapper'/>")
         $handle = $("<button />").addClass("handle")
         $handle.attr "title", "Click to toggle between CoffeeScript & JavaScript"
         $handle.click ->
           $original.toggle()
           $compiled.toggle()
-
+        $handleWrapper.append $handle
         $wrap = $("<div />").addClass("wrap")
         $wrap.append $original
         $wrap.append $compiled
-        $wrap.append $handle
+        $wrap.append $handleWrapper
         $el.replaceWith $wrap
