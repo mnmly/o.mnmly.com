@@ -2,7 +2,6 @@ define ['libs/asevented.min'], ->
 
   class Pjax
 
-
     constructor: ->
 
       @pageCache = {}
@@ -35,7 +34,8 @@ define ['libs/asevented.min'], ->
         @pageCache[url] = data
         @updatePage(data)
         fn(historyObj) if fn?
-      
+    
+    
     attachEvents: ->
 
       window.addEventListener 'popstate', (e)=>
@@ -49,7 +49,7 @@ define ['libs/asevented.min'], ->
 
         e.preventDefault()
 
-        url = e.target.href
+        url   = e.target.href
         title = e.target.textContent
 
         @loadPage title, url, (historyObj)->
