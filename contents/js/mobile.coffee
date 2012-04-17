@@ -16,14 +16,16 @@ define ['zepto', "swipe"], ($)->
       # Trigger mobile styling
       $(".share").addClass 'on'
     
+  
     setupIntroAnimation: ->
 
-      # 1. White screen
+      # 1. Start with white screen
       # 2. Logo rolls in
       # 3. tagline appears
-      # 4. wait for n milliseconds
+      # 4. stay this state for a bit
       # 5. pull up header
-      # 6. scale up content: done
+      # 6. scale up content
+      # 7. DONE.
       
       header           = "header.identity-header"
       logo             = "#logo-outer"
@@ -48,6 +50,7 @@ define ['zepto', "swipe"], ($)->
         if $target.is(desc)
           # kick off #4
           @triggerAnimation($animationTarget.filter(header), "slide-up .75s .75s both")
+
           # kick off #5 right before [.5s] #4 finishes
           @triggerAnimation($animationTarget.filter(content), "fade-scale-up 1.5s 1s both cubic-bezier(0.860, 0.000, 0.070, 1.000)")
 
@@ -57,18 +60,16 @@ define ['zepto', "swipe"], ($)->
     triggerAnimation: ($elem, value)->
       $elem.removeClass(_killAnimationClass).get(0).style[_animationPropName] = value
 
-    waitForAnimation: ->
-
     setupSwipe: ->
       
       content = document.getElementById('article-list')
 
       $(content).find('.post').each ->
 
-        $slide = $(this)
-        headerHeight = $slide.find('header').outerHeight(true)
+        $slide       = $(this)
         metaHeight   = $slide.find('aside.meta').outerHeight(true)
         bodyHeight   = $slide.find('.article-container').outerHeight(true)
+        headerHeight = $slide.find('header').outerHeight(true)
         $slide.data('postHeight', headerHeight + metaHeight + bodyHeight)
 
 
