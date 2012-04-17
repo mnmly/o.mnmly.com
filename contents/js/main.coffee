@@ -22,31 +22,40 @@ require [
   'zepto',
   "scroll",
   "preview",
+  "header",
   "pjax",
   "mobile"
+  "update-message"
   "rAF"
   "modernizr"
   "analytics"
   "socialite"
-  ], ($, Scroll, Preview, Pjax, Mobile)->
+  ], ($, Scroll, Preview, Header, Pjax, Mobile, UpdateMessage)->
+
+  return new UpdateMessage if ( Modernizr.cssanimations and Modernizr.csstransforms3d )
+
   $ ->
 
     isIndex = $('body').hasClass 'index'
 
     preview = new Preview
     pjax    = new Pjax
-
     # init socialite
     Socialite.load()
     
     if isIndex
-      scroll = new Scroll
+      header = header = new Header
+      scroll = scroll = new Scroll
+
+      scroll.bind "scroll", header.onScroll
+
       do animloop = ->
         requestAnimationFrame( animloop )
         scroll.update()
+
     else
       $("#top-header").css('opacity', 1)
       $('body').addClass('passed-logo')
   
-    #if Modernizr.touch
-    mobile = new Mobile
+    if Modernizr.touch
+      mobile = new Mobile

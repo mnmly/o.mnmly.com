@@ -1,6 +1,5 @@
 define ['zepto', "swipe"], ($)->
   
-  
   class Mobile
 
     _killAnimationClass = 'kill-animation'
@@ -11,14 +10,18 @@ define ['zepto', "swipe"], ($)->
                                   .replace(/^Moz.*/, "animationend")
 
     constructor: ->
+
       @setupSwipe()
       @setupIntroAnimation()
+
       # Trigger mobile styling
       $(".share").addClass 'on'
     
   
     setupIntroAnimation: ->
 
+      # Animation Sequence
+      # ==================
       # 1. Start with white screen
       # 2. Logo rolls in
       # 3. tagline appears
@@ -48,6 +51,7 @@ define ['zepto', "swipe"], ($)->
 
         # when #3 ends
         if $target.is(desc)
+
           # kick off #4
           @triggerAnimation($animationTarget.filter(header), "slide-up .75s .75s both")
 
@@ -57,8 +61,10 @@ define ['zepto', "swipe"], ($)->
       # Currently #1, lets kickoff #2
       @triggerAnimation($animationTarget.filter(logo), 'intro 2s both')
     
+
     triggerAnimation: ($elem, value)->
       $elem.removeClass(_killAnimationClass).get(0).style[_animationPropName] = value
+
 
     setupSwipe: ->
       
@@ -74,7 +80,8 @@ define ['zepto', "swipe"], ($)->
 
 
       # ### Overriding Swipe
-      # In order to attach `willSlideCallback`, not entirely great implementation, tho.
+      # In order to attach `willSlideCallback`,
+      # not entirely great implementation, tho.
       
       _slide = Swipe::slide
       
