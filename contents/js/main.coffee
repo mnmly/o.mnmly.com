@@ -32,7 +32,7 @@ require [
   "socialite"
   ], ($, Scroll, Preview, Header, Pjax, Mobile, UpdateMessage)->
 
-  return new UpdateMessage if ( Modernizr.cssanimations and Modernizr.csstransforms3d )
+  return new UpdateMessage unless ( Modernizr.cssanimations and Modernizr.csstransforms3d )
 
   $ ->
 
@@ -40,6 +40,11 @@ require [
 
     preview = new Preview
     pjax    = new Pjax
+
+    pjax.bind "load:article", ->
+      Socialite.load()
+      
+
     # init socialite
     Socialite.load()
     
