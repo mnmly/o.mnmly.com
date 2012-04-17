@@ -1,7 +1,7 @@
 define ['zepto'], ($)->
   
-  
   class Preview
+
     constructor: ->
       $(".handle").on 'click', ->
         $wrap = $(this).parents('.wrap')
