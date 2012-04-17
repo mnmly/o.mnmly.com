@@ -1,4 +1,4 @@
-define ->
+define ['zepto'], ($)->
 
   class Scroll
 

@@ -1,4 +1,4 @@
-define ['jquery'], ->
+define ['zepto'], ($)->
 
   class Mobile
 

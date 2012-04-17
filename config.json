@@ -9,6 +9,6 @@
   "plugins": [
     "./node_modules/wintersmith-stylus/",
     "./node_modules/wintersmith-coffee/",
-    "./plugins/moment"
+    "./plugins/jade.extend"
   ]
 }
