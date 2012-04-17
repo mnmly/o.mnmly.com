@@ -1,5 +1,21 @@
+@import nib
+@import '_utils'
 
 @media only screen and (max-width: 550px)
+    
+  // ============ INTRO ==============
+  //  ANIMATION RESET CLASS
+  .kill-animation
+    animation: none
+
+  // SET INITIAL STATE
+  #logo-outer
+    transform calcRotation(-1, logo-radius, true)
+
+  p.desc
+    opacity: 0
+
+    
   body
     padding 0
     position relative
@@ -17,11 +33,8 @@
       border-left 1px solid hsla(0, 0%, 0%, .1)
   
   header.identity-header
-
-  header.identity-header
     position absolute
     border-bottom 1px solid hsla(0, 0%, 0%, .1)
-    //padding-bottom 100px
     background white
     padding-top 130px
     width 100%
@@ -32,9 +45,10 @@
       h1
         width 100%
         text-align center
-        
+
         #logo-outer
           display inline-block
+  
 
     p.desc
       width 100%
@@ -43,10 +57,12 @@
       text-align center
 
   #content
+    transform-origin 50% 50px
     padding 0px
     padding-top 50px
     .fade-pane
       display none
+
     header
       margin-bottom 5px
       border-bottom none

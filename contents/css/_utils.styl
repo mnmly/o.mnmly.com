@@ -1,0 +1,12 @@
+PI = 3.14159265
+logo-radius = 40
+
+calcRotation(rotation, radius, is3D){
+  xPos = -2 * PI * rotation *  radius
+  if( is3D ){
+    translate = "translate3d"
+  } else {
+    translate = "translate"
+  }
+  return translate3d( - xPos px, 0, 0) rotate( rotation * 360 deg)
+}

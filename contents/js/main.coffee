@@ -35,6 +35,7 @@ require [
 
     preview = new Preview
     pjax    = new Pjax
+
     # init socialite
     Socialite.load()
     
