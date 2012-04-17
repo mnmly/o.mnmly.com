@@ -8,24 +8,32 @@ require.config
     rAF: "libs/raf"
     analytics: "libs/g-analytics"
     socialite: "libs/socialite.min"
+    swipe: "libs/swipe.min"
+
+#if Modernizr.touch
+#  # Hide address bar
+
+setTimeout ->
+  window.scrollTo 0, 1
+, 0
 
 require [
   'jquery',
   "scroll",
   "preview",
+  "pjax",
   "mobile"
   "rAF"
   "modernizr"
   "analytics"
   "socialite"
-  ], ($, Scroll, Preview, Mobile)->
-
+  ], ($, Scroll, Preview, Pjax, Mobile)->
   $ ->
 
     isIndex = $('body').hasClass 'index'
 
     preview = new Preview
-    
+    pjax    = new Pjax
     # init socialite
     Socialite.load()
     
@@ -38,5 +46,5 @@ require [
       $("#top-header").css('opacity', 1)
       $('body').addClass('passed-logo')
   
-    if Modernizr.touch
-      mobile = new Mobile
+    #if Modernizr.touch
+    mobile = new Mobile

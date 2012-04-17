@@ -8,6 +8,7 @@ define ->
       
     constructor: ->
       @initialAnim   = no
+      @isPersist     = no
       @lastScrollTop = 0
       @body          = $('body')
       @topHeader     = $("#top-header")
@@ -38,6 +39,9 @@ define ->
             unless @initialAnim
               @topHeader.css 'opacity', 1 # - _opacity
               @initialAnim = yes
+              if Modernizr.touch
+                @body.addClass 'passed-logo'
+                @isPersist = yes
             unless @body.hasClass 'passed-logo'
               @body.addClass 'passed-logo'
           
@@ -46,6 +50,8 @@ define ->
           if scrollTop < 250
             _opacity = ( 100 - scrollTop ) / 100
             @logoOuter.css 'opacity', _opacity
-            @body.removeClass 'passed-logo'
+            unless $("#content").hasClass 'in'
+              @body.removeClass 'passed-logo'
+
 
       @lastScrollTop = scrollTop

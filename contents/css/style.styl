@@ -88,6 +88,9 @@ h1
       top: 33px
       left: 33px
 
+header.identity-header
+  &.slide-up
+    animation: slide-up .5s 1.5s both
 
 p.desc
   margin-top: 55px
@@ -99,8 +102,11 @@ p.desc
 
 .touch
   #content
+    &.in
+      animation fade-scale-up 1.5s 2.0s both cubic-bezier(0.860, 0.000, 0.070, 1.000)
     .fade-pane
       display none
+
 
 
 #content
@@ -525,6 +531,23 @@ calcRotation(rotation, radius, is3D){
   100%
     transform translate3d(0, -35px, 0)
 
+@keyframes slide-up
+  0%
+    transform translate3d(0, 0px, 0)
+  40%
+    transform translate3d(0, 5px, 0)
+  100%
+    transform translate3d(0, -500px, 0)
+
+@keyframes fade-scale-up
+  0%
+    transform scale(0.96)
+    opacity 0
+  20%
+    opacity 0
+  100%
+    transform scale(1)
+    opacity 1
 
 img, object, embed
   max-width: 100%

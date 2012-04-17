@@ -28,6 +28,9 @@ html(lang='en')
         } else{
           require(['main-built']);
         }
+        window.scrollTo(0, 1);
+
+
 
   - bodyClass = "index"
   block bodyBlock
@@ -36,7 +39,7 @@ html(lang='en')
         block sticky
           include ../includes/logo.svg
 
-      header
+      header.identity-header
         div.inner
           block header
             h1

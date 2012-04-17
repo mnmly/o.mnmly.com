@@ -1,29 +1,31 @@
 extends layout
 
 block content
-  include author
-  //- underscore helps us filter and sort our articles
-  - var articles = _.chain(contents.articles._.directories).map(function(item) {
-  -   // map articles to index pages of subdirectories of 'articles'
-  -   return item.index
-  - }).compact().sortBy(function(item) { // compact removes any directories w/o an index
-  -   // sort them by date
-  -   return -item.date
-  - }).first(5).value() // and finally take the first 5
-  each article in articles
-    article.post
-      header
-        
-        h2
-          //include ../includes/pointer.svg
-          a(href=article.url)= article.title
+  section#article-list
+    div.inner
+      //include author
+      //- underscore helps us filter and sort our articles
+      - var articles = _.chain(contents.articles._.directories).map(function(item) {
+      -   // map articles to index pages of subdirectories of 'articles'
+      -   return item.index
+      - }).compact().sortBy(function(item) { // compact removes any directories w/o an index
+      -   // sort them by date
+      -   return -item.date
+      - }).first(5).value() // and finally take the first 5
+      each article in articles
+        article.post
+          header
+            
+            h2
+              //include ../includes/pointer.svg
+              a(href=article.url)= article.title
 
-      aside.meta
-        time(datetime=article.date)= moment(article.date).format("MMM. Do, YYYY")
-      
-      div.article-container
-        section.body-text!= article.intro
-          if article.hasMore
-            p.read-more
-              a(href=article.url) read more
+          aside.meta
+            time(datetime=article.date)= moment(article.date).format("MMM. Do, YYYY")
+          
+          div.article-container
+            section.body-text!= article.intro
+              if article.hasMore
+                p.read-more
+                  a(href=article.url) read more
   a(href='archive.html')#archive Visit the archives!
