@@ -1,11 +1,11 @@
-define ['jquery', "swipe"], ($)->
+define ['zepto', "swipe"], ($)->
   
   _slide = Swipe::slide
 
   Swipe::slide = (index, duration)->
     @options.willSlideCallback(@slides[index])
     _slide.bind(@)(index, duration)
-
+  
   class Mobile
 
     constructor: ->

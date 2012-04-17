@@ -2,11 +2,12 @@ require.config
   baseUrl: '/js'
   paths:
     jquery: "libs/jquery-1.7.2.min"
+    zepto: "libs/zepto"
     highlight: "libs/highlight.pack"
     coffee: "libs/coffee-script"
     modernizr: "libs/modernizr.custom"
     rAF: "libs/raf"
-    analytics: "libs/g-analytics"
+    analytics: "libs/analytics"
     socialite: "libs/socialite.min"
     swipe: "libs/swipe.min"
 
@@ -18,7 +19,7 @@ setTimeout ->
 , 0
 
 require [
-  'jquery',
+  'zepto',
   "scroll",
   "preview",
   "pjax",
