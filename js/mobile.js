@@ -1,6 +1,6 @@
 (function() {
 
-  define(['jquery'], function() {
+  define(['zepto'], function($) {
     var Mobile;
     return Mobile = (function() {
 

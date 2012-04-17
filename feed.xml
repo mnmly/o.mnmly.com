@@ -135,4 +135,59 @@ Altoに拠点を置くいわゆるスタートアップでお世話になる予�
 &lt;p&gt;どちらにしてもよろしくお願い致します。
 
 &lt;/p&gt;
+</description></item><item><title>Demo Post No1</title><link>http://localhost:8080/articles/test-post-01/</link><pubDate>Wed, 02 May 2012 12:00:00 -0500</pubDate><guid isPermaLink="true">http://localhost:8080/articles/test-post-01/</guid><author></author><description>&lt;p&gt;今回は&lt;code&gt;require.js&lt;/code&gt;を使って&lt;code&gt;AMD&lt;/code&gt;の説明をしていきたいと思います。
+
+&lt;/p&gt;
+&lt;h3&gt;AMDって？&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;http://wiki.commonjs.org/wiki/Modules/AsynchronousDefinition&quot;&gt;CommonJS Wiki&lt;/a&gt;より引用すると:
+
+&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The Asynchronous Module Definition API specifies a mechanism for defining modules such that the module and its dependencies can be asynchronously loaded. This is particularly well suited for the browser environment where synchronous loading of modules incurs performance, usability, debugging, and cross-domain access problems. 
+
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;つまり簡単にいえば、&lt;strong&gt;依存関係のあるモジュール(ファイル)をうまく管理する仕組み&lt;/strong&gt;みたいなものです。
+
+&lt;/p&gt;
+&lt;h3&gt;使い方&lt;/h3&gt;
+&lt;p&gt;まずモジュールの定義の方法
+
+&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;coffeescript&quot;&gt;define -&gt;
+
+  &lt;span class=&quot;keyword&quot;&gt;class&lt;/span&gt; Person
+
+    _state =
+      STOP: &lt;span class=&quot;string&quot;&gt;&quot;stop&quot;&lt;/span&gt;
+      RUN: &lt;span class=&quot;string&quot;&gt;&quot;run&quot;&lt;/span&gt;
+      WALK: &lt;span class=&quot;string&quot;&gt;&quot;walk&quot;&lt;/span&gt;
+
+    constructor: (@state = &lt;span class=&quot;keyword&quot;&gt;null&lt;/span&gt;)-&gt;
+
+
+      @state = _state.STOP unless @checkState(@state)
+
+      console.log &lt;span class=&quot;string&quot;&gt;&quot;App init&quot;&lt;/span&gt;
+
+      run: -&gt;
+        @state = _state.RUN
+
+      walk: -&gt;
+        @state = _state.WALK
+
+      checkState: (stateName)-&gt;
+        &lt;span class=&quot;keyword&quot;&gt;for&lt;/span&gt; key, val of _state
+          &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; stateName is val
+            &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; yes
+        &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; no&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;このモジュールを使うには、
+
+&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;coffeescript&quot;&gt;
+    &lt;span class=&quot;keyword&quot;&gt;require&lt;/span&gt; [&lt;span class=&quot;string&quot;&gt;'person'&lt;/span&gt;], (Person)-&gt;
+
+      runner = &lt;span class=&quot;keyword&quot;&gt;new&lt;/span&gt; Person(&lt;span class=&quot;string&quot;&gt;'run'&lt;/span&gt;)
+
+       console.log runner.state &lt;span class=&quot;comment&quot;&gt;# =&gt; run&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 </description></item></channel></rss>

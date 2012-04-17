@@ -1,6 +1,6 @@
 (function() {
 
-  define(function() {
+  define(['zepto'], function($) {
     var Scroll;
     return Scroll = (function() {
       var _calcRotation;
@@ -19,8 +19,6 @@
         this.body = $('body');
         this.topHeader = $("#top-header");
         this.logoOuter = $("#logo-outer");
-        this;
-
       }
 
       Scroll.prototype.update = function() {
