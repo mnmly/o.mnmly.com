@@ -8,11 +8,6 @@ require.config
     modernizr: "libs/modernizr.custom"
     rAF: "libs/raf"
     analytics: "libs/analytics"
-    socialite: "libs/socialite.min"
-    swipe: "libs/swipe.min"
-
-#if Modernizr.touch
-#  # Hide address bar
 
 setTimeout ->
   window.scrollTo 0, 1
@@ -40,6 +35,11 @@ require [
 
     preview = new Preview
     pjax    = new Pjax
+
+    pjax.bind "load:article", ->
+      Socialite.load()
+      
+
     # init socialite
     Socialite.load()
     
