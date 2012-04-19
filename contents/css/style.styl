@@ -1,23 +1,28 @@
 @import nib
 @import '_utils'
 
+//vendor-prefixes = webkit
+
 left-width = 110px
 logo-radius = 40
+
+.no-amin  *
+  animation-fill-mode backwards !important
+  animation-delay 0 !important
+  animation-duration .1s !important
+  .fade-pane
+    display none
 
 :root
   font-size 12px
 
+::selection
+  background-color: hsl(200, 100%, 50%)
+  color: white
+
 body
-  //background-image url('../images/bg.gif')
   text-rendering optimizelegibility
   padding: 40px
-
-.ornament
-  text-align center
-  fill hsl(43, 7%, 82%)
-  svg
-    display inline
-    width: 100px
 
 header
   clearfix()
@@ -39,13 +44,17 @@ header
 
   animation pull-up .5s forwards cubic-bezier(0.860, 0.000, 0.070, 1.000)
 
-  >svg
-    position absolute
-    left 73px
-    top 13px
+  &.passed-article
+    h5
+      opacity 1
+  a
+    svg
+      position absolute
+      left 73px
+      top 13px
 
-    rect
-      fill black
+      rect
+        fill black
 
   .inner
     position absolute
@@ -62,6 +71,8 @@ header
     display inline-block
     float left
     margin-right 20px
+    opacity 0
+    transition opacity .3s cubic-bezier(0.860, 0.000, 0.070, 1.000)
 
   ul
     margin 0
@@ -147,7 +158,7 @@ p.desc
   .fade-pane
     position: absolute;
     content: ""
-    width: 100%
+    width: 130%
     background-image: linear-gradient(left, hsla(0, 0%, 100%, 0) 0%, white 30%)
     height: 100%
     top: 0
@@ -159,7 +170,6 @@ p.desc
     margin-bottom: 100px
 
   header
-
     padding-bottom 0px
     margin-bottom 10px
 
@@ -175,6 +185,7 @@ p.desc
   aside.meta
     width: 19.4%
     float: left
+
     time
       font-family monoco, monospace
       color hsl(45, 9%, 50%)
@@ -188,7 +199,7 @@ p.desc
 
   .body-text
     border-bottom 1px dotted hsla(0, 0%, 0%, .5)
-    padding-bottom: 50px
+    padding-bottom: 30px
     ul
       padding-left 40px
       margin-top: 10px
@@ -197,6 +208,25 @@ p.desc
 
     p
       margin-top 0
+
+    p.read-more
+      margin-top 30px
+      a
+        display: inline-block
+        padding: 5px 10px
+        margin-left: -3px
+        background: hsl(0, 0%, 95%)
+        text-transform: uppercase
+        font-weight: bold
+        border: 1px solid hsl(0, 0%, 90%)
+        transition .2s
+        &::after
+          content: '☞'
+          padding-left: 10px
+        &:hover
+          background: hsl(0, 0%, 105%)
+          color: hsl(0, 0%, 40%)
+          text-shadow: 0 1px 0px white
   
   footer
     padding-top: 30px
@@ -234,8 +264,8 @@ p.desc
   
   h3
     font-size 1.3rem
-    margin-top: 20px
     margin-bottom: 5px
+    margin-top: 0
 
   blockquote
     font-style italic
@@ -245,6 +275,7 @@ p.desc
     margin: 0
 
 body.article
+
   #content
     animation-delay: .3s
     .fade-pane
@@ -376,6 +407,14 @@ body.article
       .f
         animation-delay .4s, 2.2s
 
+
+img, object, embed
+  max-width: 100%
+  height: auto
+
+img
+  -ms-interpolation-mode: bicubic
+
 @keyframes scale-up
   0%
     transform scale(.1)
@@ -417,7 +456,7 @@ body.article
 
 @keyframes fade-from-left
   0%
-    width: 100%
+    width: 130%
   100%
     width: 0%
 
@@ -539,10 +578,3 @@ body.article
   100%
     transform scale(1)
     opacity 1
-
-img, object, embed
-  max-width: 100%
-  height: auto
-
-img
-  -ms-interpolation-mode: bicubic

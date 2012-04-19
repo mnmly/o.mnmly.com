@@ -20,24 +20,24 @@ html(lang='en')
       link(rel='stylesheet', href='/css/github.css')
       link(rel='stylesheet', href='/css/style.css')
       link(rel='stylesheet', href='/css/mobile.css')
-      
-      script(src="/js/libs/require.js", data-main="/js/main.js")
+      script(src="/js/libs/require.js")
       script
         if( /\:8080/.test( document.location.href ) ){
-          require(['main']);
+          document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js"></' + 'script>')
+          require(['/js/main.js']);
         } else{
-          require(['main-built']);
+          require(['/js/main-built.js']);
         }
         window.scrollTo(0, 1);
 
-
-
   - bodyClass = "index"
+
   block bodyBlock
     body(class=bodyClass)
       #top-header
         block sticky
-          include ../includes/logo.svg
+          a(href='/')
+            include ../includes/logo.svg
 
       header.identity-header
         div.inner

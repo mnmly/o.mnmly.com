@@ -9,9 +9,15 @@ define ->
       @body          = $('body')
       @topHeader     = $("#top-header")
       @logoOuter     = $("#logo-outer")
+      @containerTop  = $('.article-container').offset().top
     
     onScroll: (scrollTop, direction)=>
-
+      
+      if scrollTop > @containerTop
+        @topHeader.addClass 'passed-article'
+      else
+        @topHeader.removeClass 'passed-article'
+          
       switch direction
         when -1
           # Change the opacity

@@ -1,12 +1,13 @@
+# Require.js
 require.config
   baseUrl: '/js'
   paths:
+    rAF: "libs/raf"
     jquery: "libs/jquery-1.7.2.min"
     zepto: "libs/zepto"
     highlight: "libs/highlight.pack"
     coffee: "libs/coffee-script"
     modernizr: "libs/modernizr.custom"
-    rAF: "libs/raf"
     analytics: "libs/analytics"
     socialite: "libs/socialite.min"
     swipe: "libs/swipe.min"
@@ -38,24 +39,25 @@ require [
     preview = new Preview
     pjax    = new Pjax
 
-    pjax.bind "load:article", ->
+    pjax.bind "load:article", (data)->
+      # Swap top-header's title
+      $("#top-header h5").text $(data).find('.title').text()
       Socialite.load()
       
 
     # init socialite
     Socialite.load()
     
-    if isIndex
-      header = header = new Header
-      scroll = scroll = new Scroll
+    header = new Header
+    scroll = new Scroll
 
-      scroll.bind "scroll", header.onScroll
+    scroll.bind "scroll", header.onScroll
 
-      do animloop = ->
-        requestAnimationFrame( animloop )
-        scroll.update()
+    do animloop = ->
+      requestAnimationFrame( animloop )
+      scroll.update()
 
-    else
+    unless isIndex
       $("#top-header").css('opacity', 1)
       $('body').addClass('passed-logo')
   
