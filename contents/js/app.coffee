@@ -9,6 +9,7 @@ define [
   "modernizr"
   "analytics"
   "socialite"
+  "zepto.scroll"
   ], ($, Scroll, Preview, Header, Pjax, Mobile, UpdateMessage)->
 
   class App
@@ -43,7 +44,12 @@ define [
       ###
       @scroll.bind "scroll", @header.onScroll
 
-      $("a").on 'click tap', (e)->
+      $("#top-header").on 'click tap', (e)->
+        return true if e.target.tagName is 'svg'
+        e.preventDefault()
+        $.scroll(0, 400)
+        
+      $(".post").on 'click tap', 'a', (e)->
         e.preventDefault()
         $('body').get(0).style.opacity = 0
         setTimeout ->

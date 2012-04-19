@@ -28,10 +28,6 @@ body
 header
   clearfix()
 
-.article
-  #top-header
-    animation pull-down .5s .25s both cubic-bezier(0.860, 0.000, 0.070, 1.000)
-    opacity 1
   
 
 #top-header
@@ -281,8 +277,11 @@ p.desc
     padding: .1em 40px
     margin: 0
 
-body.article
-
+body.article,
+body.archive
+  #top-header
+    animation pull-down .5s .25s both cubic-bezier(0.860, 0.000, 0.070, 1.000)
+    opacity 1
   #content
     animation-delay: .3s
     .fade-pane

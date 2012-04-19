@@ -1,6 +1,11 @@
 
 extends layout
 
+block prepend bodyBlock
+  - bodyClass = 'archive'
+
+block header
+
 block content
   != page.html
   - var archive = _.chain(contents.articles._.directories).map(function(item) {
