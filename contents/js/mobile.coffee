@@ -12,7 +12,8 @@ define ['zepto', "swipe"], ($)->
     constructor: ->
 
       @setupSwipe()
-      @setupIntroAnimation()
+      
+      @setupIntroAnimation() if $('#logo-outer').length > 0
       # Trigger mobile styling
       $(".share").addClass 'on'
     

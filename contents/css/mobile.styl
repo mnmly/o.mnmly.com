@@ -31,8 +31,15 @@
     .inner
       left 56px
       border-left 1px solid hsla(0, 0%, 0%, .1)
-  
-  .touch
+
+  .no-touch
+    .index
+      header.identity-header
+        position: relative
+        height auto
+        padding-top 30px
+        padding-bottom 30px
+  .index
     header.identity-header
       position absolute
       border-bottom 1px solid hsla(0, 0%, 0%, .1)
@@ -81,9 +88,11 @@
     .article-container
       width 100%
       padding-left 0
+      padding-bottom 30px
       .body-text
         ul
           padding-left 15px
+
     footer
       padding-top 10px
       padding-bottom 10px

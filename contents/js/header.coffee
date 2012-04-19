@@ -41,5 +41,5 @@ define ->
             _opacity = ( 100 - scrollTop ) / 100
             @logoOuter.css 'opacity', _opacity
             unless $("#content").hasClass 'in'
-              @body.removeClass 'passed-logo'
+              @topHeader.removeClass 'passed-logo'
 

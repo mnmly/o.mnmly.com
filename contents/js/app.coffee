@@ -22,8 +22,8 @@ define [
       @header  = new Header
       @scroll  = new Scroll
 
-      #if Modernizr.touch
-      @mobile  = new Mobile
+      if Modernizr.touch
+        @mobile  = new Mobile
       
       @initPage()
       @attachEvents()
@@ -42,6 +42,16 @@ define [
         @mobile.setupSwipe(index)
       ###
       @scroll.bind "scroll", @header.onScroll
+
+      $("a").on 'click tap', (e)->
+        e.preventDefault()
+        $('body').get(0).style.opacity = 0
+        setTimeout ->
+          if e.target.href?
+            location.href = e.target.href
+          else
+            location.href = "/"
+        , 500
 
     kickOffMonitor: ->
       do animloop = =>
