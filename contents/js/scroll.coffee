@@ -1,4 +1,4 @@
-define ['zepto', 'libs/asevented.min'], ($)->
+define ['zepto', 'libs/asevented.min', "rAF"], ($)->
 
   class Scroll
 

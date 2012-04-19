@@ -10,7 +10,8 @@ define ->
       @topHeader     = $("#top-header")
       @logoOuter     = $("#logo-outer")
       @containerTop  = $('.article-container').offset().top
-    
+
+
     onScroll: (scrollTop, direction)=>
       
       if scrollTop > @containerTop
@@ -29,10 +30,10 @@ define ->
               @topHeader.css 'opacity', 1 # - _opacity
               @initialAnim = yes
               if Modernizr.touch
-                @body.addClass 'passed-logo'
+                @topHeader.addClass 'passed-logo'
                 @isPersist = yes
-            unless @body.hasClass 'passed-logo'
-              @body.addClass 'passed-logo'
+            unless @topHeader.hasClass 'passed-logo'
+              @topHeader.addClass 'passed-logo'
           
         when 1
           # Change the opacity

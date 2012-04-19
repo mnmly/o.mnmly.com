@@ -64,16 +64,16 @@ define ['zepto', "swipe"], ($)->
       $elem.removeClass(_killAnimationClass).get(0).style[_animationPropName] = value
 
 
-    setupSwipe: ->
+    setupSwipe: (sliderIndex = 0)->
       
       content = document.getElementById('article-list')
 
       $(content).find('.post').each ->
 
         $slide       = $(this)
-        metaHeight   = $slide.find('aside.meta').height(true)
-        bodyHeight   = $slide.find('.article-container').height(true)
-        headerHeight = $slide.find('header').height(true)
+        metaHeight   = $slide.find('aside.meta').height()
+        bodyHeight   = $slide.find('.article-container').height()
+        headerHeight = $slide.find('header').height()
         $slide.data('postHeight', headerHeight + metaHeight + bodyHeight)
 
 
@@ -83,15 +83,14 @@ define ['zepto', "swipe"], ($)->
       
       _slide = Swipe::slide
       Swipe::slide = (index, duration)->
-        @options.willSlideCallback(@slides[index])
+        @options.willSlideCallback.bind(@)(@slides[index])
         # trigger `slide` method, but with the `this` context
         _slide.bind(@)(index, duration)
       
       @swipe = new Swipe content,
-
+        startSlide: sliderIndex
         willSlideCallback: (slide)->
-          $slide = $(slide)
-          $("#article-list .inner").css
-            height: $slide.data("postHeight")
+          
+          @element.style.height = $( slide ).data("postHeight") + 'px'
           
         callback: (e, index, slide)->
