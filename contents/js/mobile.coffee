@@ -13,7 +13,6 @@ define ['zepto', "swipe"], ($)->
 
       @setupSwipe()
       @setupIntroAnimation()
-
       # Trigger mobile styling
       $(".share").addClass 'on'
     
@@ -50,8 +49,7 @@ define ['zepto', "swipe"], ($)->
           @triggerAnimation($animationTarget.filter(desc), "fade-in .5s both")
 
         # when #3 ends
-        if $target.is(desc)
-
+        else if $target.is(desc)
           # kick off #4
           @triggerAnimation($animationTarget.filter(header), "slide-up .75s .75s both")
 
@@ -73,9 +71,9 @@ define ['zepto', "swipe"], ($)->
       $(content).find('.post').each ->
 
         $slide       = $(this)
-        metaHeight   = $slide.find('aside.meta').outerHeight(true)
-        bodyHeight   = $slide.find('.article-container').outerHeight(true)
-        headerHeight = $slide.find('header').outerHeight(true)
+        metaHeight   = $slide.find('aside.meta').height(true)
+        bodyHeight   = $slide.find('.article-container').height(true)
+        headerHeight = $slide.find('header').height(true)
         $slide.data('postHeight', headerHeight + metaHeight + bodyHeight)
 
 
@@ -84,7 +82,6 @@ define ['zepto', "swipe"], ($)->
       # not entirely great implementation, tho.
       
       _slide = Swipe::slide
-      
       Swipe::slide = (index, duration)->
         @options.willSlideCallback(@slides[index])
         # trigger `slide` method, but with the `this` context
