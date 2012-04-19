@@ -61,5 +61,6 @@ require [
       $("#top-header").css('opacity', 1)
       $('body').addClass('passed-logo')
   
-    if Modernizr.touch
-      mobile = new Mobile
+    #if Modernizr.touch
+    mobile = new Mobile
+    
