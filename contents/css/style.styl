@@ -52,7 +52,7 @@ header
 
   &.passed-article
     h5
-      opacity 1
+      transform translate3d(0, 0px,0)
   a
     svg
       position absolute
@@ -69,16 +69,18 @@ header
     height 100%
     box-sizing border-box
     padding-top 9px
+
   h5
     color: black
     font-size: 1.5em
     line-height 1.3em
     margin: 0
-    display inline-block
+    display block
     float left
     margin-right 20px
-    opacity 0
-    transition opacity .3s cubic-bezier(0.860, 0.000, 0.070, 1.000)
+    opacity 1
+    transform translate3d(0, 50px, 0)
+    transition .5s cubic-bezier(0.860, 0.000, 0.070, 1.000)
 
   ul
     margin 0
@@ -134,12 +136,12 @@ p.desc
   text-shadow 0 1px 1px hsla(0, 0%, 100%, .3)
   padding-top 50px
   color hsl(0, 0%, 9%)
-  font-size 1em
-  font-size 1rem
+  font-size 1.2rem
   line-height 1.85em
   padding-bottom 100px
-  animation fade-in 1s 3s cubic-bezier(0.860, 0.000, 0.070, 1.000) both
+  //animation fade-in 1s 3s cubic-bezier(0.860, 0.000, 0.070, 1.000) both
   position relative
+  overflow hidden
   .wrap
     position relative
     .handle-wrapper
@@ -160,13 +162,16 @@ p.desc
 
   .fade-pane
     position: absolute;
-    content: ""
-    width: 130%
+    width: 140%
     background-image: linear-gradient(left, hsla(0, 0%, 100%, 0) 0%, white 30%)
-    height: 100%
+    height: 1000px
     top: 0
     right: 0
-    animation fade-from-left 2s 2.5s cubic-bezier(0.860, 0.000, 0.070, 1.000) both
+    transform translate3d(0px, 0px, 0px)
+    transition 2s .5s cubic-bezier(0.860, 0.000, 0.070, 1.000)
+    z-index 9
+    &.in
+      transform translate3d(1000px, 0px, 0)
 
   article
     clearfix()
@@ -179,7 +184,9 @@ p.desc
     h2
       margin-left: 21.2%
       display inline-block
-      border-bottom 1px dotted hsla(0, 0%, 0%, .5)
+      //border-bottom 1px dotted hsla(0, 0%, 0%, .5)
+      a
+        color black
 
     .ornament
       margin-top 30px
@@ -194,6 +201,7 @@ p.desc
       color hsl(45, 9%, 50%)
       letter-spacing -0.08em
       word-spacing: -.4em
+      font-size 1.0rem
 
   .article-container
     width: 77.3%
@@ -211,6 +219,13 @@ p.desc
 
     p
       margin-top 0
+    
+    a
+      color: hsl(200, 100%, 50%)
+      font-weight bold
+      &:visited
+        color: hsl(200, 100%, 50%)
+          
 
     p.read-more
       margin-top 30px
@@ -223,6 +238,7 @@ p.desc
         font-weight: bold
         border: 1px solid hsl(0, 0%, 90%)
         transition .2s
+        color: black
         &::after
           content: '☞'
           padding-left: 10px
@@ -235,7 +251,7 @@ p.desc
     padding-top: 30px
     padding-bottom: 30px
     text-align center
-    background: url('../images/bg.gif')
+    //background: url('../images/bg.gif')
     border-bottom 1px dotted hsla(0, 0%, 0%, .5)
 
   code
@@ -263,7 +279,6 @@ p.desc
 
   a
     text-decoration: none
-    color: black
   
   h3
     font-size 1.3rem
@@ -279,13 +294,16 @@ p.desc
 
 body.article,
 body.archive
+
   #top-header
     animation pull-down .5s .25s both cubic-bezier(0.860, 0.000, 0.070, 1.000)
     opacity 1
+
   #content
     animation-delay: .3s
     .fade-pane
-      animation-delay 0s
+      transition-duration 1s
+      transition-delay 0s
       
 
 .social
@@ -325,6 +343,7 @@ body.archive
     opacity 1
     transition opacity .5s cubic-bezier(0.860, 0.000, 0.070, 1.000)
     transition-delay .40s
+    font-size 1.0rem
 
     &::after, &::before
       content ''
@@ -415,8 +434,14 @@ body.archive
 
 
 img, object, embed
-  max-width: 100%
-  height: auto
+  max-width: 100%;
+  height: auto;
+  /*max-height: 370px;
+  display: block;
+  float: left;
+  margin-right: 20px;*/
+  margin-top: 20px
+  margin-bottom: 20px
 
 img
   -ms-interpolation-mode: bicubic
@@ -462,9 +487,9 @@ img
 
 @keyframes fade-from-left
   0%
-    width: 130%
+    transform translate3d(0, 0, 0)
   100%
-    width: 0%
+    transform translate3d(400px, 0, 0)
 
 @keyframes fade-out
   0%
