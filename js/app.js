@@ -65,7 +65,7 @@
         });
         return $(".post").on('click tap', 'a', function(e) {
           var url;
-          if (target.getAttribute('target') === "_blank") {
+          if (e.target.getAttribute('target') === "_blank") {
             return true;
           }
           e.preventDefault();
