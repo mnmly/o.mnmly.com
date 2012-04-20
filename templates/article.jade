@@ -30,8 +30,8 @@ block content
           span.seduce-text Did you like it?
           ul.social
             li.g
-              .socialite.googleplus( data-size = "medium", data-annotation = "inline", data-width =  "100" )
+              a.socialite.googleplus( data-size = "medium", data-annotation = "inline", data-width =  "100" )
             li.t
               a.socialite.twitter(href="https://twitter.com/share", data-via = "mnmly", data-lang = "en" )
             li.f
-              div.socialite.facebook(data-send="false", data-layout="button_count", data-width="60", data-show-faces="false", rel="nofollow", target="_blank")
+              a.socialite.facebook(href="http://www.facebook.com/sharer.php?u=" + locals.url + page.url + "&t=" + page.title, data-href=locals.url + page.url, data-send="false", data-layout="button_count", data-width="60", data-show-faces="false", rel="nofollow", target="_blank")
