@@ -56,28 +56,32 @@ define [
         Socialite.load()
         @mobile.setupSwipe(index)
       ###
+      
       @scroll.bind "scroll", @header.onScroll
 
-      $("#top-header").on 'click tap', (e)->
+      $("#top-header").on 'click tap', (e)=>
         target = e.target
-        return yes if target.tagName in [ 'svg', 'g', 'rect', 'a' ]
+        return @fadeOutScene('/') if target.tagName in [ 'svg', 'g', 'rect', 'a' ]
         e.preventDefault()
         $.scroll(0, 400)
         
-      $(".post").on 'click tap', 'a', (e)->
+      $(".post").on 'click tap', 'a', (e)=>
 
         return true if target.getAttribute('target') is "_blank"
 
         e.preventDefault()
+        if e.target.href?
+          url = e.target.href
+        else
+          url = '/'
+        @fadeOutScene(url)
 
-        $('body').get(0).style.opacity = 0
-        setTimeout ->
-          if e.target.href?
-            location.href = e.target.href
-          else
-            location.href = "/"
-        , 500
-
+    fadeOutScene: (url)->
+      $('body').get(0).style.opacity = 0
+      setTimeout ->
+        location.href = url
+      , 500
+      
     kickOffMonitor: ->
       do animloop = =>
         requestAnimationFrame( animloop )
