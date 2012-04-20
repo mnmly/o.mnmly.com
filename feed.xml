@@ -1,35 +1,43 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>an autodidact's thoughts</title><atom:link href="http://localhost:8080/feed.xml" rel="self" type="application/rss+xml"></atom:link><link>http://localhost:8080</link><description>an autodidact who needs output</description><pubDate>Tue, 01 May 2012 12:00:00 -0500</pubDate><generator>The mighty Wintersmith</generator><language>en</language><item><title>Next</title><link>http://localhost:8080/articles/next/</link><pubDate>Tue, 01 May 2012 12:00:00 -0500</pubDate><guid isPermaLink="true">http://localhost:8080/articles/next/</guid><author></author><description>&lt;p&gt;2012年3月末で1年半ほどお世話になった、シカゴを去ることにしました。
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>an autodidact's thoughts</title><atom:link href="http://o.mnmly.com/feed.xml" rel="self" type="application/rss+xml"></atom:link><link>http://o.mnmly.com</link><description>an autodidact who needs output</description><pubDate>Tue, 01 May 2012 12:00:00 -0500</pubDate><generator>The mighty Wintersmith</generator><language>en</language><item><title>Next</title><link>http://o.mnmly.com/articles/next/</link><pubDate>Tue, 01 May 2012 12:00:00 -0500</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/next/</guid><author></author><description>&lt;p&gt;2012年3月で1年半ほどお世話になったシカゴを去ることにしました。
 
 &lt;/p&gt;
-&lt;p&gt;予定ではもう少しこちらに滞在している予定でしたが、とりあえずこの段階で一段落付けさせていただきました。
+&lt;p&gt;おそらくボスの&lt;a href=&quot;http://simplescott.com&quot;&gt;Scott&lt;/a&gt;にインターンとしてシカゴに行くと言いだしたのもこのころだったと思います。あの頃はWebのことなんてほとんど何にも知らなかったのによくもまぁこんなあほみたいな僕を雇ってくれました。本当に感謝しています。
 
 &lt;/p&gt;
-&lt;p&gt;おそらくボスの&lt;a href=&quot;http://simplescott.com&quot;&gt;Scott&lt;/a&gt;にインターンとしてシカゴに行くと言いだしたのもこのころだったと思います。あの頃はWebのことなんてほとんど何にも知らなかったのによくもまぁそんな僕を雇ってくれました。本当に感謝しています。
-
-&lt;/p&gt;
-&lt;p&gt;ここで少し1年半を振り返ってみたいと思います。
+&lt;p&gt;この時期はいろんな人が移動する時期なので、こんな記事はたくさんありますが、ここで自身の少し1年半を振り返ってみたいと思います。半分はどうしても技術的なお話ですが…
 
 &lt;/p&gt;
 &lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;
 
 &lt;/p&gt;
-&lt;h3&gt;ついたらすぐにお勉強&lt;/h3&gt;
-&lt;p&gt;シカゴについてすぐはまさに勉強しっぱなしでした。
-&lt;code&gt;Git&lt;/code&gt;ってなに？なんなん&lt;code&gt;PublicKey&lt;/code&gt;って… みたいなそんな状況。サイトの更新もFTPみたいなレベルでした。
+&lt;h3&gt;僕がいたチーム&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;http://o.mnmly.com/articles/next/IMG_2467.JPG&quot; alt=&quot;&quot;&gt;
+さて、僕は&lt;a href=&quot;http://simplehonestwork.com&quot;&gt;Simple.Honest.Work&lt;/a&gt;という&lt;a href=&quot;http://simplescott.com&quot;&gt;SimpleScott&lt;/a&gt;をはじめとするWeb中心のデザインファームで1年半お世話になりました。僕が始めたときのチームはScott, &lt;a href=&quot;http://geremygood.com&quot;&gt;Jeremy&lt;/a&gt;, &lt;a href=&quot;http://theelisabeth.com&quot;&gt;Elisabeth&lt;/a&gt;, そして僕の4人の小規模のチームでした。ざっくりとした役割は、ScottとJeremyがデザイン+&lt;code&gt;HTML&lt;/code&gt;+&lt;code&gt;CSS&lt;/code&gt;、僕はそれに加えて&lt;code&gt;Javascript&lt;/code&gt;とバックエンドとサーバ管理を担当していて、 Elisabethがクライアントとのコミュニケーションとスタジオのマネジメントを担当していました。
 
 &lt;/p&gt;
-&lt;p&gt;まず始めたのは、触ったことも無い言語:&lt;code&gt;Python&lt;/code&gt;の勉強でした。というかこのStudioでこの言語を使ったことある人は皆無でした。ただ、&lt;code&gt;Ruby&lt;/code&gt;か&lt;code&gt;Python&lt;/code&gt;ってときになぜか最終的にこちらになったんです。
+&lt;p&gt;サーバってなんなん？(サーバ：インターネットのどこかに置いてあるパソコンみたいなもの)って状況だった僕でも、する人が居ないんだからするしかない。。。あの黒い画面(&lt;code&gt;Terminal&lt;/code&gt;)は、へんなこと打ったらパソコンを壊してしまいそうでこわかったです。
+デザインも忙しいScottからもらえるMockupはスケッチ程度のペンの殴り書きみたいなものなので、それからマークアップしてスタイルを当てるのは僕とかJeremyの役割でした。
+
+&lt;/p&gt;
+&lt;p&gt;小さいチームは大変ですが、その分一人一人にまかされる役目はものすごく幅が広くいろんなことをまかされるので非常にいい環境でたくさんのことを学べました。
+
+
+&lt;/p&gt;
+&lt;h3&gt;ついたらすぐにお勉強&lt;/h3&gt;
+&lt;p&gt;シカゴについてすぐは本当に勉強のしっぱなしでした。
+別にコンピュータサイエンスの大学を出た訳でもない僕にとって、&lt;code&gt;Git&lt;/code&gt;ってなに？なんなん&lt;code&gt;PublicKey&lt;/code&gt;って… みたいなそんな状況。サイトの更新も&lt;code&gt;FTP&lt;/code&gt;みたいなレベルでした。
+
+&lt;/p&gt;
+&lt;p&gt;まず最初に始めたのは、触ったことも無い言語:&lt;code&gt;Python&lt;/code&gt;の勉強でした。というかこのStudio(ちなみに、仕事場のことをみんなスタジオっていいます)でこの言語を使ったことある人は一人もいませんでした。ただ、ボスから&lt;code&gt;Ruby&lt;/code&gt;か&lt;code&gt;Python&lt;/code&gt;でやるでーってときになぜか最終的にこちらになったんです。
 
 &lt;/p&gt;
 &lt;p&gt;というのもその3ヶ月後にはそれを使って&lt;a href=&quot;http://thenounproject.com&quot;&gt;The Noun Project&lt;/a&gt;と&lt;a href=&quot;http://miessociety.org&quot;&gt;Mies van der Rohe Society&lt;/a&gt;を作らなくてはならなかったため、毎日毎日勉強でした。
 
 &lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;The Noun Project&lt;/strong&gt;は世界の様々な標識などのアイコンを集める図書館のようなプロジェクトで、多くのアイコンがパブリックドメインもしくはCreative
-Commons
-Attributionで配布されています。このサイトの特別な要素としては、これらのアイコンは&lt;code&gt;png&lt;/code&gt;や&lt;code&gt;jpg&lt;/code&gt;などではなく、&lt;code&gt;svg&lt;/code&gt;と呼ばれるファイルフォーマットをHTML内に使用している点です。「&lt;code&gt;svg&lt;/code&gt;ってなんなん？」って聞かれることもありますが、要は拡大したときに&lt;em&gt;ゲジゲジにならない&lt;/em&gt;(ベクター形式)とおもってもらえればいいと思います。
+&lt;p&gt;&lt;strong&gt;The Noun Project&lt;/strong&gt;は世界の様々な標識などのアイコンを集める図書館のようなプロジェクトで、多くのアイコンがパブリックドメインもしくはCreative Commons Attributionで配布されています。このサイトの特別な要素としては、これらのアイコンは&lt;code&gt;png&lt;/code&gt;や&lt;code&gt;jpg&lt;/code&gt;などではなく、&lt;code&gt;svg&lt;/code&gt;と呼ばれるファイルフォーマットをHTML内に使用している点です。「&lt;code&gt;svg&lt;/code&gt;ってなんなん？」って聞かれることもありますが、要は拡大したときに&lt;em&gt;ゲジゲジにならない&lt;/em&gt;(ベクター形式)とおもってもらえればいいと思います。イラレでも使えるし、ちょこっといじれば&lt;code&gt;Keynote&lt;/code&gt;でも使うことができる便利なやつです。
 
 &lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mies van der Rohe Society&lt;/strong&gt;も同様に多くの時間とエネルギーがかかって作られています。クライアントから話を頂いたときは、基本的なIITの一団体のウェブページっという目的だったのですが、ミースの功績や歴史を考えてみても、それだけでは匹敵しないということで、「ミースのアーカイブ」としてのサイト構築に切り替えました。
+&lt;p&gt;&lt;strong&gt;Mies van der Rohe Society&lt;/strong&gt;も同様に多くの時間とエネルギーがかかって作られています。クライアントから話を頂いたときは、基本的なIIT(Illinois Institute of Technology)の一団体のウェブページっという目的だったのですが、ミースの功績や歴史を考えてみても、それだけでは寂しいなぁってことで、「ミースの業績のアーカイブ」としてのサイト構築に切り替えました。
 
 &lt;/p&gt;
 &lt;p&gt;ミースの業績とその作品を見ていただくためにこのサイトのメインは高解像度の写真となっています。ここでも、ユーザに長い時間写真を見るために待ってもらわないために、バックグラウンドで画像を読み込んだり、画像は&lt;code&gt;nginx&lt;/code&gt;と呼ばれる静的なファイルをうまく処理してくれるサーバを使用したり、目に見えない工夫もいくつか施しました。
@@ -39,41 +47,48 @@ Attributionで配布されています。このサイトの特別な要素とし
 &lt;p&gt;それらが一段落すると、次は政府系のサイトの制作に携わりました。
 
 &lt;/p&gt;
-&lt;p&gt;政府系はやはり特殊。サーバ周りのことはセキュリティの観点から全く触ることが出来なかったため、管理する会社と何度もコミュニケーションをとりながら進めていったのですが、やはり政府系のプロジェクトなので、こちらからいろんな提案をしても、クライアント側は「上の人からの判断を待ってから」とものすごく時間がかかってしまう。
+&lt;p&gt;政府系はやはり特殊。サーバ周りのことはセキュリティの観点から全く触ることが出来なかったため、管理する会社と何度もコミュニケーションをとりながら進めていったのですが、やはり政府系。こちらからいろんな提案をしても、クライアント側は「上の人からの判断を待ってから」とものすごく時間がかかってしまう。
 
 &lt;/p&gt;
-&lt;p&gt;さらにその納期は1ヶ月と訳の分からないスケジュール。さらにさらに、僕もその頃は大学4年であったこと、さらに実は単位を全部とりきっていないまま、調子に乗ってシカゴに来てしまっていたので、期末テストを受けに日本に帰らなくてはいけませんでした。そのため、なんとしてもそれまでになんとかそれを仕上げなければならず、本当にばたばたした1ヶ月でした。
+&lt;p&gt;さらにその納期は1ヶ月と訳の分からないスケジュール。さらにさらに、僕もその頃は大学4年であったこと、さらに実は単位を全部とりきっていないまま、調子に乗ってシカゴに来てしまっていたので、期末テストを受けに日本に帰らなくてはいけませんでした。そのため、なんとしてもそれまでに仕上げなければならず、本当にばたばたした1ヶ月でした。
 
 &lt;/p&gt;
 &lt;p&gt;日本のある政府のサイトも批判を受けていましたが、あんなものは妥当です。大変です。
 
 &lt;/p&gt;
+&lt;p&gt;でもなんとか乗り切りました!もちろんちゃんと卒業できましたが、怖いのであんまり(というか全く)お勧めできないです。
+
+&lt;/p&gt;
 &lt;h3&gt;飛行機で行ったり来たり&lt;/h3&gt;
-&lt;p&gt;それが終わると同時くらいに、Nikeのプロジェクトが始まりました。最初はシカゴから遠隔でプロトタイプを作ってサーバにあげて、そこからフィードバックをもらっていたのですが、それではコーミュニケーションにも時間がかかるし、その場じゃないと伝わらないこともあるということで、Portlandへと飛んで一ヶ月半ほど滞在して現地でプロジェクトに関わることになりました。&lt;a href=&quot;http://www.nikebetterworld.com/&quot;&gt;Nike
-Better World&lt;/a&gt;で有名な&lt;a href=&quot;http://kingcoyle.com/&quot;&gt;Ian Coyle + Duane
+&lt;p&gt;&lt;img src=&quot;http://o.mnmly.com/articles/next/IMG_0769.JPG&quot; alt=&quot;&quot;&gt;
+これが終わる頃には&lt;a href=&quot;http://www.zinnidesign.com/&quot;&gt;Tony&lt;/a&gt;, &lt;a href=&quot;http://bjoyski.com/&quot;&gt;Brittany&lt;/a&gt;の2人のデザイナーも加わり、スタジオも少し大きくなり始めました。
+
+&lt;/p&gt;
+&lt;p&gt;この政府のお仕事がおわったぐらいから、Nikeのプロジェクトが始まりました。最初はシカゴから遠隔でプロトタイプを作ってサーバにあげて、そこからフィードバックをもらっていたのですが、それではコーミュニケーションにも時間がかかるし、その場じゃないと伝わらないこともあるということで、Portlandへと飛んで一ヶ月半ほど滞在して現地でプロジェクトに関わることになりました。&lt;a href=&quot;http://www.nikebetterworld.com/&quot;&gt;Nike Better World&lt;/a&gt;で有名な&lt;a href=&quot;http://kingcoyle.com/&quot;&gt;Ian Coyle + Duane
 King&lt;/a&gt;のユニットや、Nike全般のクリエイティブを手がける&lt;a href=&quot;http://www.rga.com/&quot;&gt;R/GA&lt;/a&gt;,
 テクノロジーを駆使したキャンペーンを多く手がける&lt;a href=&quot;http://www.akqa.com/&quot;&gt;AKQA&lt;/a&gt;など、すばらしい方々とのお仕事通して、本当にたくさんのことを学ばせていただきました。
 
 &lt;/p&gt;
 &lt;p&gt;その後に2週間ほどロンドンに飛び、AKQAのデザイナーとUXのリサーチャーなどから構成される総勢6名位のチームとこちらからはScottと僕の二人でRapid
-Prototypingをすることになりました。夜遅くまでやいやいしたり、AKQAのオフィスでみんなでフーズボールしたりと、忙しいなかにも、きちんと遊びを取り入れているのは非常にすばらしい労働環境だと感じました。
+Prototypingをすることになりました。夜遅くまでやいやいしたり、AKQAのオフィスでみんなでフーズボールしたりと、職場環境にも遊びを取り入れられているのでいつでも頭のリフレッシュができます。
 
 &lt;/p&gt;
-&lt;p&gt;またこのケースでは、プロトタイプを実装したのちにユーザテストを行うことになっていたため、一つのページで何パターンものバリエーションを作ることを求められました。AKQAのデザイナーの2人とスコットとやいやい話しながら、「このパターンのものとこのパターンのものを作ってみよう」ってことで、その話し合いの初期の段階でインタラクションや情報の構造をまず話し合い、僕はそれをメモ帳に簡単に書いておいて、デザインコンプのPSDを待たずにその方向でページを作り始め、デザイナーからPSDがくるときには&lt;code&gt;SASS&lt;/code&gt;と&lt;code&gt;CoffeeScript&lt;/code&gt;のパラメータを変更すればいい状態にまで作り込んでいました。というのも、実際にコードをうってページを作るのは、僕だけだったこと、完全なデザインを待っているほど時間も無かったので、ロンドンに滞在してお仕事していた10日間ほどの&lt;code&gt;Git&lt;/code&gt;(ファイル管理を便利にしてくれるもの)への&lt;code&gt;commit&lt;/code&gt;(「たった今こんなコードにかきかえましたよー」的なセーブポイント)の数はゆうに5000を超えていました。
+&lt;p&gt;またこのケースでは、プロトタイプを実装したのちにユーザテストを行うことになっていたため、一つのページで何パターンものバリエーションを作ることを求められました。AKQAのデザイナーの2人とスコットとやいやい話しながら、「このパターンのものとこのパターンのものを作ってみよう」ってことで、その話し合いの初期の段階でインタラクションや情報の構造をまず話し合い、僕はそれをメモ帳に簡単に書いておいて、デザインコンプのPSDを待たずにその方向でページを作り始め、デザイナーからPSDがくるときには &lt;code&gt;SASS&lt;/code&gt;と&lt;code&gt;CoffeeScript&lt;/code&gt;のパラメータを変更すればいい状態にまで作り込んでいました。というのも、実際にコードをうってページを作るのは、僕だけだったこと、完全なデザインを待っているほど時間も無かったので、ロンドンに滞在してお仕事していた10日間ほどの&lt;code&gt;Git&lt;/code&gt;(ファイル管理を便利にしてくれるもの)への&lt;code&gt;commit&lt;/code&gt;(「たった今こんなコードにかきかえましたよー」的なセーブポイント)の数はゆうに5000を超えていました。
 
 &lt;/p&gt;
-&lt;p&gt;ただ、このプロジェクトを通して、デザインフェーズと開発フェーズを平行して行うことの重要性と即効性を体験することが出来ました。提案(Deck)をクライアントに何度もおくって、やっとこさオッケーが出てから作り始めるのでは、遅すぎますし、実際つくってみないと見えてこない要素は山ほどあるのです。
+&lt;p&gt;ただ、このプロジェクトを通して、デザインフェーズと開発フェーズを平行して行うことの重要性と即効性を体験することが出来ました。提案プレゼン(Deck)をクライアントに何度もおくって、やっとこさオッケーが出てから作り始めるのでは遅すぎますし、実際つくってみないと見えてこない要素なんて山ほどあるのです。
 
-&lt;/p&gt;
-&lt;p&gt;こうして、ロンドン滞在は驚くほど早く過ぎ去りました :)
 
 &lt;/p&gt;
 &lt;h3&gt;新しいビザ&lt;/h3&gt;
-&lt;p&gt;Nikeのプロジェクトに一段落つくと、J1ビザが切れたのでいったん日本に帰り、今度はH1Bビザを頂いてインターンから正社員という形でシカゴで働き始めました。結構簡単に見えますが、ビザをとるのって、ものっっっっすごくめんどくさいです。謎に英語でかかれた書類ばっかりです。ばりばり日本に21年いた僕にとっては、サインを書かなくては行けない一枚一に対して常にこんなん&lt;code&gt;☞(´・д・｀)&lt;/code&gt;でした。ただ、人間は不思議なもので、自分で一からしようと思っても出来ないようなことも、もう無理矢理周りから固めてしまって「もうどうしてもそうせざるを得ない状況」を作ることで、結構やってのけれるものです。普通に生活している状態:&lt;code&gt;Confort Zone&lt;/code&gt;を少しでも出て「あかん。。。やばい」状況になってみると意外といけるものなんです。
+&lt;p&gt;Nikeのプロジェクトに一段落つくと、J1ビザが切れたのでいったん日本に帰り、今度はH1Bビザを頂いてインターンから正社員という形でシカゴで働き始めました。結構簡単に見えますが、ビザをとるのって、ものっっっっすごくめんどくさいです。英語でかかれた書類ばっかりです。ばりばり日本に21年いた僕にとっては、サインを書かなくてはいけない書類一枚一枚に対して常にこんなん☞&lt;code&gt;(´・д・｀)&lt;/code&gt;でした。ただ、不思議なもので、自分で一からしようと思っても出来ないようなことも、もう無理矢理周りから固めてしまって「もうどうしてもそうせざるを得ない状況」を作ることで、結構やってのけれるものです。普通に生活している状態:&lt;code&gt;Confort Zone&lt;/code&gt;を少しでも出て「あかん。。。やばい」状況になってみると意外といけるものですね。
 
 &lt;/p&gt;
 &lt;h3&gt;シカゴに戻って&lt;/h3&gt;
-&lt;p&gt;シカゴに戻ってからは、&lt;a href=&quot;http://www.fastcodesign.com/&quot;&gt;Co.Design&lt;/a&gt;や&lt;a href=&quot;http://www.fastcoexist.com/&quot;&gt;Co.Exists&lt;/a&gt;のフロントエンドの実装の手助けと、主に&lt;code&gt;The Noun Project&lt;/code&gt;のバージョンアップをリードして多くの時間を費やしました。
+&lt;p&gt;&lt;img src=&quot;http://o.mnmly.com/articles/next/IMG_1030.JPG&quot; alt=&quot;&quot;&gt;
+
+&lt;/p&gt;
+&lt;p&gt;シカゴに戻ってからは、&lt;a href=&quot;http://www.fastcodesign.com/&quot;&gt;Co.Design&lt;/a&gt;や&lt;a href=&quot;http://www.fastcoexist.com/&quot;&gt;Co.Exists&lt;/a&gt;のフロントエンドの実装の手助けと、主に&lt;code&gt;The Noun Project&lt;/code&gt;のバージョンアップをリードして多くの時間を費やしました。またバックエンドのシニアデベロッパの&lt;a href=&quot;http://chadpaulson.com&quot;&gt;Chad&lt;/a&gt;もチームに加わります。
 
 &lt;/p&gt;
 &lt;p&gt;バージョンアップには:
@@ -89,11 +104,11 @@ Prototypingをすることになりました。夜遅くまでやいやいした
 &lt;li&gt;&lt;code&gt;require.js&lt;/code&gt;によるモジュールの管理方法の変更&lt;/li&gt;
 &lt;li&gt;ユーザがダウンロードしたアイコンを&lt;code&gt;WebSocket&lt;/code&gt;を用いてリアルタイムに表示&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;などなど大半は機能面の追加とそれに伴うチューニングを主としていました。
+&lt;p&gt;などなど(自分で書いていてもよくわからないです)大半は機能面の追加とそれに伴うチューニングを主としていました。
 
 &lt;/p&gt;
 &lt;h3&gt;考え事とタイミング&lt;/h3&gt;
-&lt;p&gt;正直、この頃から少しずつこのプロジェクトに対するモチベーションが低下しているのに気がつき始めました。
+&lt;p&gt;この&lt;strong&gt;The Noun Project&lt;/strong&gt;に関わり続けて一年以上、この頃から少しずつこのプロジェクトに対するモチベーションが低下しているのに気がつき始めました。
 
 &lt;/p&gt;
 &lt;p&gt;プロジェクトはある程度までいくと、大きな変更や目新しい機能の追加をすることが難しくなってきます。一見シンプルに見えたある機能の追加も、一度作り始めてみると、それまでに作られた枠組みや仕組みによってなかなかうまくいかなかったりしますし、追加したことで生まれるバグの発生率も増えます。
@@ -102,92 +117,49 @@ Prototypingをすることになりました。夜遅くまでやいやいした
 &lt;p&gt;またWebの世界の動きはめまぐるしく、そのスピードはとてつもなく速いです。毎日新しいライブラリが作られ、毎月新しい技術が発表され、毎年何かしらの領域でパラダイムシフトが起こるような変なところです。そのため、毎日何かしらをお勉強しなくちゃいけないんですが、毎日バグを直したりインクリメンタルな改善を加えているだけでは、その学んだことを実際に使う機会を見いだすのは難しいと感じるようになりました。
 
 &lt;/p&gt;
-&lt;p&gt;この頃から徐々にフリーランスで、日本からプロジェクトを受けるようにしました。そうすることで、少しはこの考え事を払拭できると感じたからです。どことなく定期テストにも似た、フリーランスのお仕事は楽しいです。プロジェクトを一から話して、なにが必要でなにが必要でないかを見極めて、きちんとしたスペックで締め切りに間に合わせたり。
+&lt;p&gt;もちろん、関わったプロジェクトの数がすべてではないですが、ただ一方でもう少し自分のできることに幅を出すにはいろんなプロジェクトに関われる方がいいなぁと思い始めました。また、チームのメンバーの数も増えたため必然的に自分の役割も専門的になっていってしまったのも少し影響しているかもしれません。
+
 
 &lt;/p&gt;
-&lt;p&gt;ただこれだけでは、プロジェクトへのモチベーションを高めることは出来ませんでした。そう思い始めて2-3ヶ月で、もうそろそろ無理だと感じた矢先に、資金を調達するという話になりました。というのはこのプロジェクトのクライアントはScottの友達で、彼らからお金を頂いているわけでもなく、完全な非営利のプロジェクトでした。
+&lt;p&gt;この頃から徐々にフリーランスで、日本からプロジェクトを受けるようにしました。そうすることで、少しはこの考え事を払拭できるかなと思って。どことなく定期テストにも似たフリーランスのお仕事は楽しいです。プロジェクトを一から話して、なにが必要でなにが必要でないかを話し合って、デザインと実装をして締め切りに間に合わせる。
 
 &lt;/p&gt;
-&lt;p&gt;資金を調達するということは、今まで1年以上リードしてきた僕はさらに2,3年このプロジェクトリードすることを意味します。この1ヶ月前にもモチベーションが落ちてきているという話は直接していましたが、結局その一ヶ月に僕がキチンと関わることができた他のプロジェクトもなかったため、ここでその旨を伝えることにしました。
+&lt;p&gt;ただこれだけでは、プロジェクトへのモチベーションを高めることにはつながりませんでした。それから2-3ヶ月で、もうそろそろ無理だと感じた矢先に、このプロジェクトに資金を調達するという話になりました。というのはこのプロジェクトのクライアントはScottの友達で、彼らからお金を頂いているわけでもなく、完全な非営利のプロジェクトでした。
+
+&lt;/p&gt;
+&lt;p&gt;資金を調達するということは、今まで1年以上リードしてきた僕はさらに2,3年このプロジェクトリードすることを意味します。この1ヶ月前にもモチベーションが落ちてきているという話はボスに直接していましたが、その一ヶ月に僕がキチンと関わることができた他のプロジェクトもなかったことと、モチベーションの低いままでこれから2,3年同じプロジェクトに関わることは自分にとっても、チームにとっても良くないということで、ここでその旨を伝えることにしました。
+
 
 &lt;/p&gt;
 &lt;h3&gt;何かを学ぶこと&lt;/h3&gt;
-&lt;p&gt;年齢的にまだ若いだけかもしれないですが、今は幅広いことを学びたいという思考の方が強い気がします。
-というか、僕はべつに「すごいウェブデベロッパーになろうლ(・∀・
-)ლ」とかは思ってないんです。
+&lt;p&gt;&lt;img src=&quot;http://o.mnmly.com/articles/next/IMG_2754.JPG&quot; alt=&quot;&quot;&gt;
 
 &lt;/p&gt;
-&lt;p&gt;大学の時に、ビジネスを学んでて気付いたのは、&lt;code&gt;マーケティングの4P&lt;/code&gt;であったり&lt;code&gt;SBU&lt;/code&gt;であったり、&lt;code&gt;ポーターのダイアモンド&lt;/code&gt;とかの戦略とか方法論をフレームワークとして知っておくのはいいことやけど、結局それをするための絶対条件である&lt;strong&gt;製品そのもの&lt;/strong&gt;であったりとか&lt;strong&gt;作る&lt;/strong&gt;という過程が欠けてへん？ってこと。それを自分で体験するためにも、Webは勝手に趣味程度に始めたものでした。
+&lt;p&gt;年齢的にまだ若いだけかもしれないですが、今は幅広いことを学びたいという考えの方が強い気がします。というか、僕はべつに「すごいウェブデベロッパーになろうლ(・∀・)ლ」とか思ってないんです。
 
 &lt;/p&gt;
-&lt;p&gt;でも実際、なにかを作れるようになるのは楽しいし、自分の思った通りにうごいてくれるものを作るのはもっと楽しい。でもそこにたどり着くには、地道に勉強しなくちゃならないし、特に&lt;strong&gt;作る&lt;/strong&gt;ということに関しては、やり方をわかっただけじゃなくて、実際に作ってみないと学べないものってものすごく多い。
+&lt;p&gt;大学の時に、マーケティングの4Pであったりポーターのダイアモンドとかの戦略とか方法論、フレームワークや企業家精神・リーダシップ論などを勉強してて面白かったんですが、一方でふと思ったのは、結局それらを実行するための絶対条件である&lt;strong&gt;製品そのもの&lt;/strong&gt;であったりとか&lt;strong&gt;ものを作る&lt;/strong&gt;という過程が欠けてしまっていたということ。&lt;strong&gt;何か作ってみる&lt;/strong&gt;(所詮デジタルなものなんですが…)ということをを自分で体験するためにも、Webは勝手に趣味程度に始めたものでした。
 
 &lt;/p&gt;
-&lt;p&gt;別にガリ勉ってわけでも無いけど、僕は&lt;strong&gt;Autodidact&lt;/strong&gt;(独学者)って言葉が好きで、何か学んで、それを応用して何かを作ることってものすごいわくわくすることで、それをお仕事の中で出来るのは理想やなぁと思います。
+&lt;p&gt;でも実際、なにかを作れるようになるのは楽しいし、自分の思った通りにうごいてくれるものを作るのはもっと楽しい。でもそこにたどり着くには、地道に勉強しなくちゃならないし、特にこの&lt;strong&gt;作る&lt;/strong&gt;ということに関しては、頭で覚えて身につけられるものではなく、実際に作ってみないと学べないものです。
+
+&lt;/p&gt;
+&lt;p&gt;別にガリ勉ってわけでも無いけど、僕は&lt;strong&gt;Autodidact (独学者)&lt;/strong&gt;って言葉が好きで、何か学び、それを応用して何かを作ることってものすごいわくわくできることで、それをお仕事の中で出来るのは理想やなぁと思います。
 
 &lt;/p&gt;
 &lt;h3&gt;次のステップ&lt;/h3&gt;
-&lt;p&gt;さてさて、次はなにをするかというと、Palo
-Altoに拠点を置くいわゆるスタートアップでお世話になる予定です。publicじゃ無いので詳細は言えませんが、一ヶ月ほど前にお声がけして頂いて、ビザの件がきちんといけば(未だに書類的にいろいろと微妙で不安…)近いうちにそちらに移住する予定です。もしビザのトランスファーがうまく行かずに、10月まで待たないといけない状況になる場合は、おそらく日本でお仕事を始めます
-:D
+&lt;p&gt;さてさて、次はなにをするかというと、Palo Altoの会社でWebアプリのお手伝いをする予定になっています。Redpoint Ventures、Andreessen Horowitzとかに出資を受けている、いわゆるスタートアップでお世話になります。会社としてはまだステルスモードなので詳細は言えませんが、一ヶ月ほど前にお声がけして頂いて、ビザの件がきちんといけば(未だに書類的にいろいろと微妙で不安…)近いうちにそちらに移住する予定です。
 
 &lt;/p&gt;
-&lt;p&gt;どちらにしてもよろしくお願い致します。
+&lt;p&gt;人数は20人未満で比較的小規模ですが、&lt;a href=&quot;http://simplehonestwork.com&quot;&gt;Simple.Honest.Work&lt;/a&gt;とはこれまた違う雰囲気で、また違ったことをお勉強できそうです。頑張ります :)
+
 
 &lt;/p&gt;
-</description></item><item><title>Demo Post No1</title><link>http://localhost:8080/articles/test-post-01/</link><pubDate>Wed, 02 May 2012 12:00:00 -0500</pubDate><guid isPermaLink="true">http://localhost:8080/articles/test-post-01/</guid><author></author><description>&lt;p&gt;今回は&lt;code&gt;require.js&lt;/code&gt;を使って&lt;code&gt;AMD&lt;/code&gt;の説明をしていきたいと思います。
+&lt;p&gt;あと、時間があるときはフリーランスもしているので何かありましたら&lt;a href=&quot;mailto:i.am@mnmly.com&quot;&gt;メール&lt;/a&gt;か&lt;a href=&quot;http://twitter.com/mnmly&quot;&gt;Tweet&lt;/a&gt;でご連絡ください。UXとかUI/フロントエンド周りだったら何かしらの話し相手になります！
 
 &lt;/p&gt;
-&lt;h3&gt;AMDって？&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;http://wiki.commonjs.org/wiki/Modules/AsynchronousDefinition&quot;&gt;CommonJS Wiki&lt;/a&gt;より引用すると:
+&lt;p&gt;(も、もし！！ビザのトランスファーがうまく行かずに、10月まで待たないといけない状況になる場合は、おそらく日本でお仕事をする予定にはしているので、その際は何かお声がけください…)
+
 
 &lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The Asynchronous Module Definition API specifies a mechanism for defining modules such that the module and its dependencies can be asynchronously loaded. This is particularly well suited for the browser environment where synchronous loading of modules incurs performance, usability, debugging, and cross-domain access problems. 
-
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;つまり簡単にいえば、&lt;strong&gt;依存関係のあるモジュール(ファイル)をうまく管理する仕組み&lt;/strong&gt;みたいなものです。
-
-&lt;/p&gt;
-&lt;h3&gt;使い方&lt;/h3&gt;
-&lt;p&gt;まずモジュールの定義の方法
-
-&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;coffeescript&quot;&gt;define -&gt;
-
-  &lt;span class=&quot;keyword&quot;&gt;class&lt;/span&gt; Person
-
-    _state =
-      STOP: &lt;span class=&quot;string&quot;&gt;&quot;stop&quot;&lt;/span&gt;
-      RUN: &lt;span class=&quot;string&quot;&gt;&quot;run&quot;&lt;/span&gt;
-      WALK: &lt;span class=&quot;string&quot;&gt;&quot;walk&quot;&lt;/span&gt;
-
-    constructor: (@state = &lt;span class=&quot;keyword&quot;&gt;null&lt;/span&gt;)-&gt;
-
-
-      @state = _state.STOP unless @checkState(@state)
-
-      console.log &lt;span class=&quot;string&quot;&gt;&quot;App init&quot;&lt;/span&gt;
-
-      run: -&gt;
-        @state = _state.RUN
-
-      walk: -&gt;
-        @state = _state.WALK
-
-      checkState: (stateName)-&gt;
-        &lt;span class=&quot;keyword&quot;&gt;for&lt;/span&gt; key, val of _state
-          &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; stateName is val
-            &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; yes
-        &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; no&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;このモジュールを使うには、
-
-&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;coffeescript&quot;&gt;
-    &lt;span class=&quot;keyword&quot;&gt;require&lt;/span&gt; [&lt;span class=&quot;string&quot;&gt;'person'&lt;/span&gt;], (Person)-&gt;
-
-      runner = &lt;span class=&quot;keyword&quot;&gt;new&lt;/span&gt; Person(&lt;span class=&quot;string&quot;&gt;'run'&lt;/span&gt;)
-
-       console.log runner.state &lt;span class=&quot;comment&quot;&gt;# =&gt; run&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 </description></item></channel></rss>
