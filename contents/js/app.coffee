@@ -4,13 +4,13 @@ define [
   "preview",
   "header",
   "pjax",
+  "social"
   "mobile"
   "update-message"
   "modernizr"
   "analytics"
-  "socialite"
   "zepto.scroll"
-  ], ($, Scroll, Preview, Header, Pjax, Mobile, UpdateMessage)->
+  ], ($, Scroll, Preview, Header, Pjax, Social, Mobile, UpdateMessage)->
 
   class App
 
@@ -28,13 +28,15 @@ define [
       if Modernizr.touch
         @mobile  = new Mobile
       
-      @initPage()
+      @initSocial()
       @setTargetBlank()
       @attachEvents()
       @kickOffMonitor()
     
-    initPage: ->
-      Socialite.load()
+    initSocial: ->
+      return if $(".social").length is 0
+      social = new Social
+
   
     setTargetBlank: ->
       $('.post a').each ->

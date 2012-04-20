@@ -353,16 +353,20 @@ body.colophone
     
 
 .social
+  opacity 0
+  transition opacity .4s
   li
     margin-left: 15px
     margin-right: 15px
     transform scale(.1)
     height: 30px
-    //opacity 0
     animation-name scale-away
     animation-duration .4s
     animation-fill-mode both
     backface-visibility: hidden
+    &:hover
+      .tooltip
+        opacity 1
   .g
     width 32px
     animation-delay .2s
@@ -415,9 +419,40 @@ body.colophone
     margin-bottom: 0
     li
       list-style: none
-      overflow hidden
       display: inline-block
       float: left
+      &:hover
+        .tooltip
+          opacity 1
+          transform translate3d(0, 0, 0)
+
+      .socialised
+        overflow: hidden
+
+      .tooltip 
+        position: absolute
+        top: -35px
+        text-align: center
+        width: 100%
+        transform: translate3d(0, 15px, 0)
+        z-index -1
+        opacity: 0
+        transition: .25s cubic-bezier(0.860, 0.000, 0.070, 1.000)
+        background-color white
+        
+        span
+          width: 33px
+          display: inline-block
+          line-height: 1.8em
+          box-sizing: border-box
+          text-align: center
+          background-image url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAYCAYAAACbU/80AAABEElEQVR42s2Wy2qEMBSG8yIdn6p9XHURwWtduNBI0ZUuHHDwfjft70BLl9MyiQc+jBH9v3PchKRpenEc56aqKgeapgkBmUmSKAQLy7J4Xdd82za+7/vTqaqKG4ZxSBDYYAMPRFKWJUf2IbCuK7oXyrIs3wLYkMGvCcjgPAL4HzI4kcA8zzI4kcA0TTL4ERjHUQYnEhiGQQYnEuj7Xjht294FcAi5Xq/CBbIs48gmlmXdKKU8z3PeNA3vuu6poHOEIxPZhDGmYPHIcco0TUzt+GBRFFzXdXTzEMiM4/iF/KXwsuu6x0nKtu17JyIrDMM3TCIIAo7r1/0rEV2e530g3Pf9dyKjoihSKKULY+xC/lGfvSm5sOFs9ksAAAAASUVORK5CYII=")
+          background-repeat no-repeat
+          background-position center 2px
+          position relative
+          padding-bottom 2px
+          color hsl(0, 0%, 40%)
+
   svg
     width: 98 * 1.2 px
     height: 50 * 1.2 px
@@ -465,18 +500,18 @@ body.colophone
 
 
     .social
+      opacity 1
       li
-        opacity 0
-        animation-fill-mode forwards, forwards
-        animation-name scale-up, scale-pop
-        animation-iteration-count 1, infinite
-        animation-duration .4s, 10.25s
+        animation-fill-mode forwards
+        animation-name scale-up
+        animation-iteration-count 1
+        animation-duration .4s
       .g
-        animation-delay .2s, 2s
+        animation-delay .2s
       .t
-        animation-delay .3s, 2.1s
+        animation-delay .3s
       .f
-        animation-delay .4s, 2.2s
+        animation-delay .4s
 
 
 img, object, embed
@@ -492,6 +527,10 @@ img, object, embed
 img
   -ms-interpolation-mode: bicubic
 
+// Kills google plus
+div[style*="2000000"]
+  display none
+
 @keyframes scale-up
   0%
     transform scale(.1)
@@ -499,8 +538,7 @@ img
   90%
     transform scale(1.03)
   100%
-    transform scale(1)
-    opacity 1
+   transform scale(1)
 
 @keyframes scale-away
   0%
