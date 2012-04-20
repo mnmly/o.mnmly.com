@@ -4,14 +4,15 @@ html(lang='en')
     block head
       meta(charset='utf-8')
       meta(name="viewport", content="width=device-width")
-      meta(property='og:title', content=locals.name)
+      meta(property='og:title', content= ( page.title != "Untitled" ? page.title + " - " : "" ) + locals.name)
       meta(property='og:type', content="article")
       meta(property='og:url', content=locals.url + page.url)
       meta(property='og:site_name', content=locals.name)
       
-      //meta(property='og:image', content='http://ia.media-imdb.com/rock.jpg')
       //meta(property='fb:admins', content='USER_ID')
-      meta(property='og:description', content='thougts by mnmly')
+      
+      meta(property='og:description', content= (page._content) ? page._content.replace(/\[(.*?)\]\(.*?\)/ig, "$1").substring(0, 100) + "…" : "output by mnmly")
+
       title
         block title
           = locals.name

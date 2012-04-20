@@ -1,4 +1,5 @@
 template: colophone.jade
+title: Colophone
 
 ### About
 
