@@ -51,30 +51,38 @@
                 Socialite.load()
                 @mobile.setupSwipe(index)
         */
+
+        var _this = this;
         this.scroll.bind("scroll", this.header.onScroll);
         $("#top-header").on('click tap', function(e) {
           var target, _ref;
           target = e.target;
           if ((_ref = target.tagName) === 'svg' || _ref === 'g' || _ref === 'rect' || _ref === 'a') {
-            return true;
+            return _this.fadeOutScene('/');
           }
           e.preventDefault();
           return $.scroll(0, 400);
         });
         return $(".post").on('click tap', 'a', function(e) {
+          var url;
           if (target.getAttribute('target') === "_blank") {
             return true;
           }
           e.preventDefault();
-          $('body').get(0).style.opacity = 0;
-          return setTimeout(function() {
-            if (e.target.href != null) {
-              return location.href = e.target.href;
-            } else {
-              return location.href = "/";
-            }
-          }, 500);
+          if (e.target.href != null) {
+            url = e.target.href;
+          } else {
+            url = '/';
+          }
+          return _this.fadeOutScene(url);
         });
+      };
+
+      App.prototype.fadeOutScene = function(url) {
+        $('body').get(0).style.opacity = 0;
+        return setTimeout(function() {
+          return location.href = url;
+        }, 500);
       };
 
       App.prototype.kickOffMonitor = function() {
