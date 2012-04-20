@@ -1,4 +1,4 @@
-title: Next Step
+title: シカゴから西海岸へお引っ越しします
 date: 2012-04-20 12:00
 template: article.jade
 
