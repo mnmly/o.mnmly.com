@@ -89,12 +89,14 @@ header:after {
 #top-header .inner {
   position: absolute;
   top: 0;
-  left: 160px;
+  left: 0;
+  margin-left: 160px;
   height: 100%;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding-top: 9px;
+  width: 100%;
 }
 #top-header h5 {
   color: #000;
