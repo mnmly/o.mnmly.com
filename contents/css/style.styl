@@ -310,8 +310,9 @@ p.desc
     
 body.article,
 body.colophone,
-body.archive
-
+body.archive,
+body.four-oh-four
+  
   #top-header
     animation pull-down .5s .25s both cubic-bezier(0.860, 0.000, 0.070, 1.000)
     opacity 1
@@ -325,6 +326,43 @@ body.archive
   small
     opacity .5
     font-size 1.0rem
+
+body.four-oh-four
+  background: hsl(200, 100%, 50%)
+
+  #top-header
+    background hsl(200, 100%, 50%)
+    border-color: white
+    box-shadow none
+
+    svg *
+      fill white
+    h3
+      color white
+
+  #content
+    animation-delay: .3s
+    .fade-pane
+      background-image: linear-gradient(left, hsla(200, 100%, 50%, 0) 0%, hsla(200, 100%, 50%, 1) 30%)
+      transition-duration 1.5s
+      transition-delay 0s
+  h1
+    margin-left 120px
+    font-size 4rem
+    color: transparent
+    text-shadow: 0 0 23px white
+    display: inline-block
+    line-height: 2em
+    transition 2s cubic-bezier(0.860, 0.000, 0.070, 1.000)
+
+  .mobile-logo
+    display none
+
+.no-touch, .touch
+  .four-oh-four
+    h1
+      text-shadow: 0 0 0px white
+  
 
 body.colophone
   section
