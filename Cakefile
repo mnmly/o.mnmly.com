@@ -34,8 +34,9 @@ task 'build', 'Build project', ->
       console.log "mmain-built.js has been generated."
 
 task 'deploy', 'Deploy project', ->
-
-  exec 'cd build; git add . ; git commit -am "built"; git push origin gh-pages; cd ..;', (err, stdout, stderr)->
+  log = fs.readFileSync('.git/logs/HEAD').toString('ascii').split(/\n/)
+  lastCommit = log[log.length - 2].split(' ')[1].substring(0, 10)
+  exec 'cd build; git add . ; git commit -am "built on ' + lastCommit + '"; git push origin gh-pages; cd ..;', (err, stdout, stderr)->
 
     throw err if err
     console.log stdout + stderr
