@@ -12,6 +12,7 @@ html(lang='en')
       //meta(property='fb:admins', content='USER_ID')
       
       meta(property='og:description', content= (page._content) ? page._content.replace(/\[(.*?)\]\(.*?\)/ig, "$1").substring(0, 100) + "…" : "output by mnmly")
+      meta(name='description', content= (page._content) ? page._content.replace(/\[(.*?)\]\(.*?\)/ig, "$1").substring(0, 100) + "…" : "output by mnmly")
 
       title
         block title
