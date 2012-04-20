@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>an autodidact's thoughts</title><atom:link href="http://o.mnmly.com/feed.xml" rel="self" type="application/rss+xml"></atom:link><link>http://o.mnmly.com</link><description>an autodidact who needs output</description><pubDate>Tue, 01 May 2012 12:00:00 -0500</pubDate><generator>The mighty Wintersmith</generator><language>en</language><item><title>Next</title><link>http://o.mnmly.com/articles/next/</link><pubDate>Tue, 01 May 2012 12:00:00 -0500</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/next/</guid><author></author><description>&lt;p&gt;2012年3月で1年半ほどお世話になったシカゴを去ることにしました。
 
 &lt;/p&gt;
-&lt;p&gt;おそらくボスの&lt;a href=&quot;http://simplescott.com&quot;&gt;Scott&lt;/a&gt;にインターンとしてシカゴに行くと言いだしたのもこのころだったと思います。あの頃はWebのことなんてほとんど何にも知らなかったのによくもまぁこんなあほみたいな僕を雇ってくれました。本当に感謝しています。
+&lt;p&gt;おそらくインターンとしてシカゴに行くと言いだしたのもこのころだったと思います。あの頃はWebのことなんてほとんど何にも知らなかったのによくもまぁこんなあほみたいな僕を雇ってくれました。&lt;a href=&quot;http://simplescott.com&quot;&gt;Scott&lt;/a&gt;には本当に感謝しています。
 
 &lt;/p&gt;
 &lt;p&gt;この時期はいろんな人が移動する時期なので、こんな記事はたくさんありますが、ここで自身の少し1年半を振り返ってみたいと思います。半分はどうしても技術的なお話ですが…
@@ -127,7 +127,10 @@ Prototypingをすることになりました。夜遅くまでやいやいした
 &lt;p&gt;ただこれだけでは、プロジェクトへのモチベーションを高めることにはつながりませんでした。それから2-3ヶ月で、もうそろそろ無理だと感じた矢先に、このプロジェクトに資金を調達するという話になりました。というのはこのプロジェクトのクライアントはScottの友達で、彼らからお金を頂いているわけでもなく、完全な非営利のプロジェクトでした。
 
 &lt;/p&gt;
-&lt;p&gt;資金を調達するということは、今まで1年以上リードしてきた僕はさらに2,3年このプロジェクトリードすることを意味します。この1ヶ月前にもモチベーションが落ちてきているという話はボスに直接していましたが、その一ヶ月に僕がキチンと関わることができた他のプロジェクトもなかったことと、モチベーションの低いままでこれから2,3年同じプロジェクトに関わることは自分にとっても、チームにとっても良くないということで、ここでその旨を伝えることにしました。
+&lt;p&gt;資金を調達するということは、今まで1年以上リードしてきた僕はさらに2,3年このプロジェクトリードすることを意味します。この1ヶ月前にもモチベーションが落ちてきているという話はScottに直接していましたが、その一ヶ月に僕がキチンと関わることができた他のプロジェクトもなかったことと、モチベーションの低いままでこれから2,3年同じプロジェクトに関わることは自分にとっても、チームにとっても良くないということで、ここでその旨を伝えることにしました。
+
+&lt;/p&gt;
+&lt;p&gt;Scottもこの気持ちを理解してくれ、その後は二人でバーに行って、僕が始めてシカゴに来たときのこと、これからのチームのこと、Scottと僕自身のそれぞれの将来のことなどを謎に日本酒を飲みながら話しました :)
 
 
 &lt;/p&gt;
