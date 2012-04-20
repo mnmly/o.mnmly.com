@@ -25,6 +25,10 @@ body
   padding: 40px
   transition opacity .5s cubic-bezier(0.860, 0.000, 0.070, 1.000)
 
+a
+  color: hsl(200, 100%, 50%)
+  font-weight bold
+
 header
   clearfix()
 
@@ -138,7 +142,7 @@ p.desc
   color hsl(0, 0%, 9%)
   font-size 1.2rem
   line-height 1.85em
-  padding-bottom 100px
+  padding-bottom 40px
   //animation fade-in 1s 3s cubic-bezier(0.860, 0.000, 0.070, 1.000) both
   position relative
   overflow hidden
@@ -168,7 +172,7 @@ p.desc
     top: 0
     right: 0
     transform translate3d(0px, 0px, 0px)
-    transition 2s .5s cubic-bezier(0.860, 0.000, 0.070, 1.000)
+    transition 2.5s 1s cubic-bezier(0.860, 0.000, 0.070, 1.000)
     z-index 9
     &.in
       transform translate3d(1000px, 0px, 0)
@@ -176,6 +180,9 @@ p.desc
   article
     clearfix()
     margin-bottom: 100px
+
+    &:last-child
+      margin-bottom: 0
 
   header
     padding-bottom 0px
@@ -223,9 +230,6 @@ p.desc
     a
       color: hsl(200, 100%, 50%)
       font-weight bold
-      &:visited
-        color: hsl(200, 100%, 50%)
-          
 
     p.read-more
       margin-top 30px
@@ -292,7 +296,20 @@ p.desc
     padding: .1em 40px
     margin: 0
 
+#main-footer
+  color: hsl(0, 0%, 60%)
+  margin-left: 120px
+  padding-bottom 10px
+  margin-bottom 60px
+  small
+    opacity 1
+    line-height 2em
+    font-size .9rem
+  a
+    color hsl(0, 0%, 70%)
+    
 body.article,
+body.colophone,
 body.archive
 
   #top-header
@@ -302,9 +319,38 @@ body.archive
   #content
     animation-delay: .3s
     .fade-pane
-      transition-duration 1s
+      transition-duration 1.5s
       transition-delay 0s
-      
+
+  small
+    opacity .5
+    font-size 1.0rem
+
+body.colophone
+  section
+    clearfix()
+    margin-bottom 50px
+  h5
+    margin: 0
+    width: 19.4%
+    float: left
+    font-family monoco, monospace
+    color hsl(45, 9%, 50%)
+    letter-spacing -0.08em
+    word-spacing: -.4em
+    font-size 1.0rem
+    font-weight normal
+    text-align right
+    padding-right 30px
+    box-sizing border-box
+
+
+  .right
+    width: 77.3%
+    float: left
+    p
+      margin-top 0
+    
 
 .social
   li

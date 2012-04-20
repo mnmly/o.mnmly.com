@@ -1,0 +1,62 @@
+extends layout
+
+block prepend bodyBlock
+  - bodyClass = 'colophone'
+
+block header
+
+block content
+  
+  section
+    h5 About
+    div.right
+      p 何かしらアウトプット用。Web中心にその他もろもろを書く予定。
+      p
+        small Simply to output something on web / design, whatever.
+  
+  section
+    h5 Author
+    
+    div.right
+      p
+        a( href="http://mnmly.com", target="_blank") mnmly
+        | , an autodidact.
+  
+  
+  section
+    h5 Contact
+
+    .right
+      a( href="http://twitter.com/mnmly", target="_blank") twitter
+      |  / 
+      a( href="mailto:i.am@mnmly.com", target="_blank") mail
+
+  section
+    h5 Code
+    div.right
+      p すべての記事とコードは
+        a( href="http://github.com/mnmly/o.mnmly.com", target="_blank" ) github
+        | で管理
+      p
+        a( href="http://github.com/mnmly/o.mnmly.com/tree/master", target="_blank" ) master
+        | はビルド前、
+        a( href="http://github.com/mnmly/o.mnmly.com/tree/gh-pages", target="_blank" ) gh-pages
+        | はビルド後
+      p 
+        small All the code and articles has been up on 
+          a( href="http://github.com/mnmly/o.mnmly.com", target="_blank" ) github
+          | . 
+        br
+        small
+          a( href="http://github.com/mnmly/o.mnmly.com/tree/master", target="_blank" ) master
+          |  is pre-build.
+          a( href="http://github.com/mnmly/o.mnmly.com/tree/gh-pages", target="_blank" ) gh-pages
+          |  is post-build.
+
+  section
+    h5 Misc
+    div.right
+      p Written on 
+        a( href="http://www.iawriter.com/", target="_blank" ) iA Writer
+      p Build on 
+        a( href="https://github.com/jnordberg/wintersmith", target="_blank" ) wintersmith

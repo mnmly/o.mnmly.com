@@ -20,12 +20,14 @@ task 'build', 'Build project', ->
       baseUrl: "build/js"
       paths:
         rAF: "libs/raf"
+        jquery: "libs/jquery-1.7.2.min"
         zepto: "libs/zepto"
-        coffee: "libs/coffee-script"
         highlight: "libs/highlight.pack"
+        coffee: "libs/coffee-script"
         modernizr: "libs/modernizr.custom"
         analytics: "libs/analytics"
         socialite: "libs/socialite.min"
+        swipe: "libs/swipe.min"
 
     requirejs.optimize config, (buildResponse) ->
 

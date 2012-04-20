@@ -9,7 +9,11 @@ define ->
       @body          = $('body')
       @topHeader     = $("#top-header")
       @logoOuter     = $("#logo-outer")
-      @containerTop  = $('.article-container').offset().top
+      
+      if $('.article-container').length > 0
+        @containerTop  = $('.article-container').offset().top
+      else
+        @containerTop  = 0
 
 
     onScroll: (scrollTop, direction)=>

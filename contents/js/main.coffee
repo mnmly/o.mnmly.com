@@ -17,7 +17,6 @@ setTimeout ->
 , 0
 
 require ['app', 'update-message'], (App, UpdateMessage)->
-
   return new UpdateMessage unless ( Modernizr.cssanimations and Modernizr.csstransforms3d )
 
   $ ->
