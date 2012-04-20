@@ -383,7 +383,8 @@ p.desc {
 }
 body.article #top-header,
 body.colophone #top-header,
-body.archive #top-header {
+body.archive #top-header,
+body.four-oh-four #top-header {
   -webkit-animation: pull-down 0.5s 0.25s both cubic-bezier(0.86, 0, 0.07, 1);
   -moz-animation: pull-down 0.5s 0.25s both cubic-bezier(0.86, 0, 0.07, 1);
   animation: pull-down 0.5s 0.25s both cubic-bezier(0.86, 0, 0.07, 1);
@@ -392,14 +393,16 @@ body.archive #top-header {
 }
 body.article #content,
 body.colophone #content,
-body.archive #content {
+body.archive #content,
+body.four-oh-four #content {
   -webkit-animation-delay: 0.3s;
   -moz-animation-delay: 0.3s;
   animation-delay: 0.3s;
 }
 body.article #content .fade-pane,
 body.colophone #content .fade-pane,
-body.archive #content .fade-pane {
+body.archive #content .fade-pane,
+body.four-oh-four #content .fade-pane {
   -webkit-transition-duration: 1.5s;
   -moz-transition-duration: 1.5s;
   -o-transition-duration: 1.5s;
@@ -411,10 +414,67 @@ body.archive #content .fade-pane {
 }
 body.article small,
 body.colophone small,
-body.archive small {
+body.archive small,
+body.four-oh-four small {
   opacity: 0.5;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
   font-size: 1rem;
+}
+body.four-oh-four {
+  background: #0af;
+}
+body.four-oh-four #top-header {
+  background: #0af;
+  border-color: #fff;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+body.four-oh-four #top-header svg * {
+  fill: #fff;
+}
+body.four-oh-four #top-header h3 {
+  color: #fff;
+}
+body.four-oh-four #content {
+  -webkit-animation-delay: 0.3s;
+  -moz-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+body.four-oh-four #content .fade-pane {
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(0,170,255,0.00)), color-stop(0.3, #0af));
+  background-image: -webkit-linear-gradient(left, rgba(0,170,255,0.00) 0%, #0af 30%);
+  background-image: -moz-linear-gradient(left, rgba(0,170,255,0.00) 0%, #0af 30%);
+  background-image: -o-linear-gradient(left, rgba(0,170,255,0.00) 0%, #0af 30%);
+  background-image: -ms-linear-gradient(left, rgba(0,170,255,0.00) 0%, #0af 30%);
+  background-image: linear-gradient(left, rgba(0,170,255,0.00) 0%, #0af 30%);
+  -webkit-transition-duration: 1.5s;
+  -moz-transition-duration: 1.5s;
+  -o-transition-duration: 1.5s;
+  transition-duration: 1.5s;
+  -webkit-transition-delay: 0s;
+  -moz-transition-delay: 0s;
+  -o-transition-delay: 0s;
+  transition-delay: 0s;
+}
+body.four-oh-four h1 {
+  margin-left: 120px;
+  font-size: 4rem;
+  color: transparent;
+  text-shadow: 0 0 23px #fff;
+  display: inline-block;
+  line-height: 2em;
+  -webkit-transition: 2s cubic-bezier(0.86, 0, 0.07, 1);
+  -moz-transition: 2s cubic-bezier(0.86, 0, 0.07, 1);
+  -o-transition: 2s cubic-bezier(0.86, 0, 0.07, 1);
+  transition: 2s cubic-bezier(0.86, 0, 0.07, 1);
+}
+body.four-oh-four .mobile-logo {
+  display: none;
+}
+.no-touch .four-oh-four h1,
+.touch .four-oh-four h1 {
+  text-shadow: 0 0 0px #fff;
 }
 body.colophone section {
   zoom: 1;

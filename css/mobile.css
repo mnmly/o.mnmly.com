@@ -152,5 +152,27 @@ padding-left
   body.colophone section .right {
     width: 100%;
   }
+  body.four-oh-four h1 {
+    margin: 0;
+    width: 100%;
+    margin-top: 60px;
+    text-align: center;
+  }
+  body.four-oh-four #top-header {
+    display: none;
+  }
+  body.four-oh-four .mobile-logo {
+    text-align: center;
+    display: block;
+    opacity: 0;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  }
+  .touch .mobile-logo {
+    opacity: 1;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    -webkit-animation: fade-scale-up 2s cubic-bezier(0.86, 0, 0.07, 1) both;
+    -moz-animation: fade-scale-up 2s cubic-bezier(0.86, 0, 0.07, 1) both;
+    animation: fade-scale-up 2s cubic-bezier(0.86, 0, 0.07, 1) both;
+  }
 }
 /* Mobile */
