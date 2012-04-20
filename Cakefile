@@ -32,3 +32,10 @@ task 'build', 'Build project', ->
     requirejs.optimize config, (buildResponse) ->
 
       console.log "mmain-built.js has been generated."
+
+task 'deploy', 'Deploy project', ->
+
+  exec 'cd build; git add . ; git commit -am "built"; git push origin gh-pages; cd ..;', (err, stdout, stderr)->
+
+    throw err if err
+    console.log stdout + stderr
