@@ -67,7 +67,7 @@ define [
         
       $(".post").on 'click tap', 'a', (e)=>
 
-        return true if target.getAttribute('target') is "_blank"
+        return true if e.target.getAttribute('target') is "_blank"
 
         e.preventDefault()
         if e.target.href?
