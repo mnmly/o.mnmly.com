@@ -9,7 +9,12 @@ block content
     div.inner
       //include author
       //- underscore helps us filter and sort our articles
-      - var articles = _.chain(contents.articles._.directories).map(function(item) {
+      - var articles = _.chain(contents.articles._.directories).filter(function(item){
+      -   // Won't render it if this is draft
+      -   if ( ! /articles\/_([\w\-\d\_]+)\//.test(item['index.md']['_filename']) ){
+      -     return item;
+      -   }
+      - }).map(function(item) {
       -   // map articles to index pages of subdirectories of 'articles'
       -   return item.index
       - }).compact().sortBy(function(item) { // compact removes any directories w/o an index
