@@ -1,0 +1,117 @@
+#content #mt-popup.on-selected ul {
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+}
+#content #mt-popup:not(.on-selected) li {
+  -webkit-transform: scale(0.93);
+  -moz-transform: scale(0.93);
+  -o-transform: scale(0.93);
+  -ms-transform: scale(0.93);
+  transform: scale(0.93);
+}
+#content #mt-popup ul {
+  padding: 0 22px;
+  padding-top: 32px;
+  text-align: center;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -o-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  zoom: 1;
+  position: relative;
+  height: 206px;
+  width: 214px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  -webkit-transition: 0.5s cubic-bezier(0.86, 0, 0.07, 1);
+  -moz-transition: 0.5s cubic-bezier(0.86, 0, 0.07, 1);
+  -o-transition: 0.5s cubic-bezier(0.86, 0, 0.07, 1);
+  -ms-transition: 0.5s cubic-bezier(0.86, 0, 0.07, 1);
+  transition: 0.5s cubic-bezier(0.86, 0, 0.07, 1);
+  -webkit-tap-highlight-color: rgba(0,0,0,0.00) !important;
+}
+#content #mt-popup ul:before,
+#content #mt-popup ul:after {
+  content: "";
+  display: table;
+}
+#content #mt-popup ul:after {
+  clear: both;
+}
+#content #mt-popup ul li {
+  display: inline-block;
+  width: 37px;
+  height: 37px;
+  margin: 7px;
+  border: 1px solid #0af;
+  background-image: url("../images/uit-head-bg.png");
+  -webkit-background-size: 10px;
+  -moz-background-size: 10px;
+  -o-background-size: 10px;
+  -ms-background-size: 10px;
+  background-size: 10px;
+  background-color: rgba(128,128,128,0.30);
+  cursor: pointer;
+  -webkit-transition-property: width, height, -webkit-transform, top, left, z-index, background-color;
+  -webkit-transition-duration: 0.5s;
+  -webkit-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  -moz-transition-property: width, height, -moz-transform, top, left, z-index, background-color;
+  -moz-transition-duration: 0.5s;
+  -moz-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  -webkit-tap-highlight-color: rgba(0,0,0,0.00) !important;
+  -webkit-backface-visibility: hidden;
+}
+#content #mt-popup ul li:active {
+  -webkit-transition-duration: 0.1s;
+  -moz-transition-duration: 0.1s;
+  -o-transition-duration: 0.1s;
+  -ms-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  -webkit-transform: scale(0.85);
+  -moz-transform: scale(0.85);
+  -o-transform: scale(0.85);
+  -ms-transform: scale(0.85);
+  transform: scale(0.85);
+}
+#content #mt-popup ul li:hover {
+  background-color: #0af;
+}
+#content #mt-popup ul li.selected {
+  z-index: 10;
+  height: 216px;
+  width: 216px;
+  -webkit-background-size: 25px;
+  -moz-background-size: 25px;
+  -o-background-size: 25px;
+  -ms-background-size: 25px;
+  background-size: 25px;
+  -webkit-transition-duration: 0.65s;
+  -moz-transition-duration: 0.65s;
+  -o-transition-duration: 0.65s;
+  -ms-transition-duration: 0.65s;
+  transition-duration: 0.65s;
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  transform: scale(1.25);
+  background-color: #0af;
+  top: 18px;
+  left: -1px;
+  border: none;
+}
+#content #mt-popup ul li.back {
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+}

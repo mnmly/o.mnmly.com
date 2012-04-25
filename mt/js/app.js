@@ -2,9 +2,9 @@
 (function() {
   var transitions;
 
-  transitions = ['zepto', 'mt-slide'];
+  transitions = ['zepto', 'mt-slide', 'mt-popup'];
 
-  define(transitions, function($, MTSlide) {
+  define(transitions, function($, MTSlide, MTPopup) {
     var App;
     return App = (function() {
 
@@ -15,7 +15,8 @@
       }
 
       App.prototype.initTransitions = function() {
-        return this.slide = new MTSlide($("#mt-slide"));
+        this.slide = new MTSlide($("#mt-slide"));
+        return this.popup = new MTPopup($("#mt-popup"));
       };
 
       return App;

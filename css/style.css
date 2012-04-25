@@ -33,6 +33,7 @@
 }
 #lang a {
   color: #8b8574;
+  font-weight: normal;
 }
 #lang .active {
   text-decoration: underline;
