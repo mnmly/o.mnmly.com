@@ -1,0 +1,27 @@
+extends article
+
+block content
+  article.post
+    header
+      h2.title.link
+        a(href=page._metadata.link)= page.title
+        span.link-icon
+          include ../includes/link.svg
+
+    aside.meta
+      time(datetime=page.date)= moment(page.date).format("MMM. Do, YYYY")
+    
+    div.article-container
+      section.body-text!= page.html
+
+      footer
+        div.share
+          include ../includes/share.svg
+          span.seduce-text Did you like it?
+          ul.social
+            li.g
+              a.socialite.googleplus( data-size = "medium", data-annotation = "inline", data-width =  "100" )
+            li.t
+              a.socialite.twitter(href="https://twitter.com/share", data-via = "mnmly", data-lang = "en" )
+            li.f
+              a.socialite.facebook(href="http://www.facebook.com/sharer.php?u=" + locals.url + page.url + "&t=" + page.title, data-href=locals.url + page.url, data-send="false", data-layout="button_count", data-width="60", data-show-faces="false", rel="nofollow", target="_blank")

@@ -33,7 +33,7 @@ module.exports = (wintersmith, callback) ->
       
       $html = $(html)
       html = html.replace /<pre>([\S\s]*?)<\/pre>/g, (a, g)->
-        return g unless /class="coffeescript"/g.test(g)
+        return "<pre>#{g}</pre>" unless /class="coffeescript"/g.test(g)
         $el = $(g)
         _pattern = /(\s|\))\-/g
         # Compiles coffee to js for preview

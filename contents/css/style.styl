@@ -1,5 +1,7 @@
 @import nib
 @import '_utils'
+blue = hsl(200, 100%, 50%)
+monospeceType = 'Bitstream Vera Sans Mono', 'Courier', monospace
 
 //vendor-prefixes = webkit
 
@@ -24,7 +26,7 @@ logo-radius = 40
     margin: 0 !important
 
 #lang
-  font-family: monoco, monospace
+  font-family: monospeceType
   letter-spacing: -0.08em
   font-size: 1rem
   a
@@ -174,7 +176,7 @@ header.identity-header
 
 p.desc
   margin-top: 55px
-  font-family: monospace
+  font-family: monospeceType
   padding-left: 10px
   float: left
   color: hsl(44, 9%, 50%)
@@ -247,6 +249,33 @@ p.desc
       margin-left: 21.2%
       display inline-block
       //border-bottom 1px dotted hsla(0, 0%, 0%, .5)
+      &:hover
+        .link-icon
+          animation-name link-out
+          opacity .7
+          svg
+            fill blue
+        a
+          color: blue
+      &.link
+        font-size: 1.3rem
+        .link-icon
+          display inline-block
+          margin-left: 7px
+          animation-duration 1.2s
+          animation-fill-mode both
+          animation-iteration-count infinite
+          animation-timing-function ease-in-out
+        svg
+          width: 10px
+          height: 10px
+          top: 0px
+          position: relative
+          fill: hsl(44, 9%, 70%)
+          //animation link-out 1.5s both infinite ease-in-out
+        a
+          border-bottom: 1px dotted black
+          padding-bottom 2px
       a
         color black
 
@@ -259,7 +288,7 @@ p.desc
     float: left
 
     time
-      font-family monoco, monospace
+      font-family monospeceType
       color hsl(45, 9%, 50%)
       letter-spacing -0.08em
       word-spacing: -.4em
@@ -320,17 +349,17 @@ p.desc
     overflow: auto
     padding: 2px 6px
     border-radius: 3px
+    font-family: monospeceType
 
   pre
-    margin:1em 0;
-    font-size: 1em;
-    background-color: hsla(0, 0%, 100%, .3);
-    border:1px solid #ddd;
-    padding:5px;
-    line-height: 1.4em
-    color:#444;
-    overflow: auto
-
+    margin: 1em 0;
+    font-size: 1.0rem;
+    background-color: hsl(0, 0%, 97%);
+    border: 1px solid hsl(0, 0%, 87%);
+    padding: 6px 10px;
+    color: hsl(0, 0%, 27%);
+    overflow: auto;
+    font-family: monospeceType
     code
       padding: 0
       background-color: transparent
@@ -428,7 +457,7 @@ body.colophone
     margin: 0
     width: 19.4%
     float: left
-    font-family monoco, monospace
+    font-family monospeceType
     color hsl(45, 9%, 50%)
     letter-spacing -0.08em
     word-spacing: -.4em
@@ -475,7 +504,7 @@ body.colophone
 .share
   display inline-block
   margin-top 0px
-  font-family: monoco, monospace
+  font-family: monospeceType
   font-weight: normal
   position relative
 
@@ -787,3 +816,15 @@ div[style*="2000000"]
   100%
     transform scale(1)
     opacity 1
+
+@keyframes link-out
+  0%
+    transform translate3d(0, 0, 0)
+    opacity 0
+  10%
+    opacity 1
+  70%
+    opacity 1
+  100%
+    transform translate3d(6px, 0, 0)
+    opacity 0
