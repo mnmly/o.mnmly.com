@@ -10,9 +10,14 @@ html(lang='en')
       meta(property='og:site_name', content=locals.name)
       
       //meta(property='fb:admins', content='USER_ID')
-      
-      meta(property='og:description', content= (page._content) ? page._content.replace(/\n/gi, ' ').replace(/\[(.*?)\]\(.*?\)/ig, "$1").substring(0, 100) + "…" : "output by mnmly")
-      meta(name='description', content= (page._content) ? page._content.replace(/\n/gi, ' ').replace(/\[(.*?)\]\(.*?\)/ig, "$1").substring(0, 100) + "…" : "output by mnmly")
+      - var content = '';
+      - if ( page._content ){
+      -  content = page._content.replace(/\n/gi, ' ').replace(/\[(.*?)\]\(.*?\)/ig, "$1").replace(/<\!\-\- \/?(ja|en)(#\d+)? \-\->/g, ' ').substring(0, 100)  + "…";
+      - } else { 
+      -  content = "output by mnmly";
+      - }
+      meta(property='og:description', content=content)
+      meta(name='description', content=content)
 
       title
         block title

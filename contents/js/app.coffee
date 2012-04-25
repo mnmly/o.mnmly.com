@@ -22,7 +22,9 @@ define [
       @preview   = new Preview
       @header    = new Header
       @scroll    = new Scroll
-      @langSwith = new LangSwitch
+
+      if $(".index").length is 0
+        @langSwith = new LangSwitch
 
       $('.fade-pane').addClass 'in'
 
@@ -43,7 +45,9 @@ define [
 
   
     setTargetBlank: ->
-      $('.post a').each ->
+
+      $('.post a:not(.ignore)').each ->
+
         $link     = $(this)
         targetURL = $link.attr('href')
         if targetURL.charAt(0) is '/' or targetURL.search(document.location.origin) > -1
@@ -69,7 +73,7 @@ define [
         e.preventDefault()
         $.scroll(0, 400)
         
-      $(".post").on 'click tap', 'a', (e)=>
+      $(".post").on 'click tap', 'a:not(.ignore)', (e)=>
 
         return true if e.target.getAttribute('target') is "_blank"
 

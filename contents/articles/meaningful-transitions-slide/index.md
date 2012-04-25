@@ -1,18 +1,19 @@
 title: Meaningful Transitions: Slide
-date: 2012-04-23 12:00
+date: 2012-04-24 20:00
 template: mt.jade
-category: [ Meaningful Transitions ]
 transition: mt-slide
 
 <!-- ja#1 -->
 
-`HTML/JS/CSS`で[Meaningful Transitions] *Part 1*
+`HTML/JS/CSS`で[Meaningful Transitions]の*Part 1*
 
 様々なUIのトランジションパターンをアーカイブし、丁寧な説明を加えて紹介している[Meaningful Transitions]。
 
 UIの作り方のお勉強のためにインタラクティブなバージョンを作り始めようと思います。第1回目のトランジションは`Slide`。
 
-ユーザがアイテムのリストを閲覧する際に効果的なパターン
+ユーザがアイテムのリストを閲覧する際に効果的なパターンですね :)
+
+<span class="more"></span>
 
 <!-- /ja -->
 
@@ -26,7 +27,6 @@ Check out [Meaningful Transitions] for detailed explanations.
 
 <!-- /en -->
 
-<span class="more"></span>
 
 <div id="mt-slide" class="mt-transition" data-title="Slide">
 </div>

@@ -16,20 +16,57 @@ logo-radius = 40
 .transition-container
   //animation fade-scale-up 1s .5s both
   margin 75px auto
-  box-shadow 0 1px 10px hsla(0, 0%, 0%, .2)
+  box-shadow 0 3px 10px hsla(0, 0%, 0%, .1)
   border-radius 3px
   min-height 250px
   position relative
   .mt-transition
     margin: 0 !important
 
-.lang-wrapper
-  clearfix()
+#lang
+  font-family: monoco, monospace
+  letter-spacing: -0.08em
+  word-spacing: -0.4em
+  font-size: 1rem
+  a
+    color: hsl(44, 9%, 50%)
+  .active
+    text-decoration underline
+
+.lang-group
+  display block
   position relative
-  div.en
-    position absolute
-    top 0
-    left 0
+  overflow hidden
+  clearfix()
+  transition height .3s cubic-bezier(0.860, 0.000, 0.070, 1.000)
+  .inner
+    clearfix()
+    width 210%
+    transform translate3d(0, 0, 0)
+    -webkit-transition -webkit-transform .5s .1s cubic-bezier(0.860, 0.000, 0.070, 1.000)
+    -moz-transition -moz-transform .5s .1s cubic-bezier(0.860, 0.000, 0.070, 1.000)
+
+    div
+      width 48%
+      float left
+      margin-right 2%
+      transition opacity .3s cubic-bezier(0.860, 0.000, 0.070, 1.000)
+
+.ja-enabled
+  .inner
+    transform translate3d(0, 0, 0)
+    .ja
+      opacity 1
+    .en
+      opacity 0
+
+.en-enabled
+  .inner
+    transform translate3d(-50%, 0, 0)
+    .ja
+      opacity 0
+    .en
+      opacity 1
 
 :root
   font-size 12px
@@ -432,7 +469,7 @@ body.colophone
     width 57px
     animation-delay .1s
   .f
-    width: 48px
+    width: 54px
 
     animation-delay 0s
 
@@ -471,7 +508,7 @@ body.colophone
     margin-left: -5px
     padding-left: 0px
     display: block
-    width: 227px
+    width: 233px
     float: left
     margin-top: 23px
     margin-bottom: 0
