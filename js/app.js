@@ -11,7 +11,9 @@
         this.preview = new Preview;
         this.header = new Header;
         this.scroll = new Scroll;
-        this.langSwith = new LangSwitch;
+        if ($(".index").length === 0) {
+          this.langSwith = new LangSwitch;
+        }
         $('.fade-pane').addClass('in');
         if (Modernizr.touch) {
           this.mobile = new Mobile;
@@ -34,7 +36,7 @@
       };
 
       App.prototype.setTargetBlank = function() {
-        return $('.post a').each(function() {
+        return $('.post a:not(.ignore)').each(function() {
           var $link, targetURL;
           $link = $(this);
           targetURL = $link.attr('href');
@@ -67,7 +69,7 @@
           e.preventDefault();
           return $.scroll(0, 400);
         });
-        return $(".post").on('click tap', 'a', function(e) {
+        return $(".post").on('click tap', 'a:not(.ignore)', function(e) {
           var url;
           if (e.target.getAttribute('target') === "_blank") {
             return true;
