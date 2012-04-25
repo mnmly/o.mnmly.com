@@ -1,6 +1,6 @@
 (function() {
 
-  define(['zepto', "scroll", "preview", "header", "pjax", "social", "mobile", "update-message", "modernizr", "analytics", "zepto.scroll"], function($, Scroll, Preview, Header, Pjax, Social, Mobile, UpdateMessage) {
+  define(['zepto', "scroll", "preview", "lang-switch", "header", "pjax", "social", "mobile", "update-message", "modernizr", "analytics", "zepto.scroll"], function($, Scroll, Preview, LangSwitch, Header, Pjax, Social, Mobile, UpdateMessage) {
     var App;
     return App = (function() {
 
@@ -11,6 +11,7 @@
         this.preview = new Preview;
         this.header = new Header;
         this.scroll = new Scroll;
+        this.langSwith = new LangSwitch;
         $('.fade-pane').addClass('in');
         if (Modernizr.touch) {
           this.mobile = new Mobile;
@@ -19,6 +20,9 @@
         this.setTargetBlank();
         this.attachEvents();
         this.kickOffMonitor();
+        if ((typeof MNMLY !== "undefined" && MNMLY !== null ? MNMLY.onScriptLoaded : void 0) != null) {
+          MNMLY.onScriptLoaded();
+        }
       }
 
       App.prototype.initSocial = function() {

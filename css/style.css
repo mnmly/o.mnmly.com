@@ -12,6 +12,37 @@
 .no-amin  * .fade-pane {
   display: none;
 }
+.transition-container {
+  margin: 75px auto;
+  -webkit-box-shadow: 0 1px 10px rgba(0,0,0,0.20);
+  -moz-box-shadow: 0 1px 10px rgba(0,0,0,0.20);
+  box-shadow: 0 1px 10px rgba(0,0,0,0.20);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  min-height: 250px;
+  position: relative;
+}
+.transition-container .mt-transition {
+  margin: 0 !important;
+}
+.lang-wrapper {
+  zoom: 1;
+  position: relative;
+}
+.lang-wrapper:before,
+.lang-wrapper:after {
+  content: "";
+  display: table;
+}
+.lang-wrapper:after {
+  clear: both;
+}
+.lang-wrapper div.en {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 :root {
   font-size: 12px;
 }
@@ -367,6 +398,7 @@ p.desc {
   border-left: 10px solid #c2c1bd;
   padding: 0.1em 40px;
   margin: 0;
+  margin-bottom: 20px;
 }
 #main-footer {
   color: #999;

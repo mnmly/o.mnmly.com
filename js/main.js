@@ -11,8 +11,10 @@
       modernizr: "libs/modernizr.custom",
       analytics: "libs/analytics",
       socialite: "libs/socialite.min",
-      swipe: "libs/swipe.min"
-    }
+      swipe: "libs/swipe.min",
+      order: "libs/rjs-plugins/order"
+    },
+    priority: ['order']
   });
 
   setTimeout(function() {
