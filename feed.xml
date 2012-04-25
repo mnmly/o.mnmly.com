@@ -12,6 +12,31 @@
 &lt;li&gt;CoffeeScriptのインストール&lt;/li&gt;
 &lt;li&gt;実際に使ってみる&lt;/li&gt;
 &lt;/ol&gt;
+</description></item><item><title>Google HTML/CSS Styleguide</title><link>http://o.mnmly.com/articles/google-styleguide/</link><pubDate>Wed, 25 Apr 2012 09:00:00 -0500</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/google-styleguide/</guid><author></author><description>&lt;p&gt;GoogleのHTML/CSSのスタイルガイド。
+
+&lt;/p&gt;
+&lt;p&gt;良い例と悪い例が並列してあって説明もされている。マークアップ書き始めの人にはいい感じのまとめ。
+
+&lt;/p&gt;
+&lt;p&gt;でも「これ知らんかったぁ…」とか「こっちの方がいいんやぁ…」っていうんがちらほら。
+
+&lt;/p&gt;
+&lt;h3&gt;&lt;a href=&quot;http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml#Protocol&quot;&gt;Protocol&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;なんとなぁーく知ってたけど理由が今いちわからなかったのが&lt;code&gt;Protocol&lt;/code&gt;。&lt;code&gt;http:&lt;/code&gt;とか&lt;code&gt;https:&lt;/code&gt;とかのことで、このStyleguide的にはそれは省いている。これで&lt;code&gt;Mixed content issues&lt;/code&gt;が解消されてファイルサイズがほんの少し縮小されるらしい。(&lt;code&gt;Mixed content issue&lt;/code&gt;が何のことかはわからないです :D)
+
+&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;!-- Not recommended --&gt;
+&lt;script src=&quot;http://o.mnmly.com/js/main.js&quot;&gt;&lt;/script&gt;
+
+&lt;!-- Recommended --&gt;
+&lt;script src=&quot;//o.mnmly.com/js/main.js&quot;&gt;&lt;/script&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;でも&lt;a href=&quot;http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml?showone=Document_type#Document_type&quot;&gt;HTML5を使おう！&lt;/a&gt;と書いている一方でこのStyleguideそのものは&lt;code&gt;xml&lt;/code&gt;で書かれている感がGoogleっぽい :P
+
+&lt;/p&gt;
+&lt;p&gt;個人的には&lt;a href=&quot;https://github.com&quot;&gt;Github&lt;/a&gt;の&lt;a href=&quot;https://github.com/styleguide/&quot;&gt;Styleguide&lt;/a&gt;の方が見やすくて好き。
+
+&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;(via &lt;a href=&quot;https://twitter.com/jsgoodies/status/195130038964862976&quot;&gt;@jsgoodies&lt;/a&gt;)&lt;/small&gt;&lt;/p&gt;
 </description></item><item><title>Google Drive</title><link>http://o.mnmly.com/articles/google-drive/</link><pubDate>Tue, 24 Apr 2012 12:00:00 -0500</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/google-drive/</guid><author></author><description>&lt;p&gt;&lt;a href=&quot;http://drive.google.com/&quot;&gt;Google Drive&lt;/a&gt;がようやく出ましたね。
 
 &lt;/p&gt;
@@ -44,6 +69,69 @@
 &lt;/p&gt;
 &lt;p&gt;ちょっと雰囲気が違いますね :] Googleは前にデータについての方針を一本化したけど、これについては別のToSの方がいい気がする。。。
 
+
+&lt;/p&gt;
+</description></item><item><title>Meaningful Transitions: Slide</title><link>http://o.mnmly.com/articles/meaningful-transitions-slide/</link><pubDate>Tue, 24 Apr 2012 20:00:00 -0500</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/meaningful-transitions-slide/</guid><author></author><description>&lt;!-- ja#1 --&gt;
+
+&lt;p&gt;&lt;code&gt;HTML/JS/CSS&lt;/code&gt;で&lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;の&lt;em&gt;Part 1&lt;/em&gt;
+
+&lt;/p&gt;
+&lt;p&gt;様々なUIのトランジションパターンをアーカイブし、丁寧な説明を加えて紹介している&lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;。
+
+&lt;/p&gt;
+&lt;p&gt;UIの作り方のお勉強のためにインタラクティブなバージョンを作り始めようと思います。第1回目のトランジションは&lt;code&gt;Slide&lt;/code&gt;。
+
+&lt;/p&gt;
+&lt;p&gt;ユーザがアイテムのリストを閲覧する際に効果的なパターンですね :)
+
+&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;
+
+&lt;/p&gt;
+&lt;!-- /ja --&gt;
+
+&lt;!-- en#1 --&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt; in &lt;code&gt;HTML/JS/CSS&lt;/code&gt;&lt;em&gt;Part 1&lt;/em&gt;
+
+&lt;/p&gt;
+&lt;p&gt;I will be building an interactive version of &lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt; purely for learning, the first transition is &lt;code&gt;Slide&lt;/code&gt;
+
+&lt;/p&gt;
+&lt;p&gt;Check out &lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt; for detailed explanations.
+
+&lt;/p&gt;
+&lt;!-- /en --&gt;
+
+
+&lt;div id=&quot;mt-slide&quot; class=&quot;mt-transition&quot; data-title=&quot;Slide&quot;&gt;
+&lt;/div&gt;
+
+&lt;!-- ja --&gt;
+
+&lt;h3&gt;使用できる領域 &lt;small&gt;Field of Use&lt;/small&gt;&lt;/h3&gt;
+&lt;p&gt;ユーザがアイテムのリストを閲覧するインターフェイス
+
+&lt;/p&gt;
+&lt;h3&gt;動作の説明 &lt;small&gt;Description&lt;/small&gt;&lt;/h3&gt;
+&lt;p&gt;ユーザのスワイプによってリストが移動し、アイテムは自動的に中央に止まる
+
+&lt;/p&gt;
+&lt;h3&gt;一貫性 &lt;small&gt;Consistency&lt;/small&gt;&lt;/h3&gt;
+&lt;p&gt;指向性トランジションで、アイテムはインタラクションの方向に従って移動する
+
+&lt;/p&gt;
+&lt;h3&gt;効果 &lt;small&gt;Benefit&lt;/small&gt;&lt;/h3&gt;
+&lt;p&gt;指向性トランジションのため、アイテムの並び方を効果的に見せることが可能
+
+&lt;/p&gt;
+&lt;h3&gt;例の説明 &lt;small&gt;Illustration&lt;/small&gt;&lt;/h3&gt;
+&lt;p&gt;アイテムは長い帯に配置されたような形をとる
+
+&lt;/p&gt;
+&lt;!-- /ja --&gt;
+
+&lt;p&gt;&lt;small&gt;Cited from &lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;&lt;/small&gt;
 
 &lt;/p&gt;
 </description></item><item><title>シカゴから西海岸へお引っ越しします</title><link>http://o.mnmly.com/articles/next-step/</link><pubDate>Fri, 20 Apr 2012 12:00:00 -0500</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/next-step/</guid><author></author><description>&lt;p&gt;2012年3月で、1年半ほどお世話になったシカゴから離れて、今度は西海岸の方にお引っ越しすることにしました。(ビザがきちんとおりればですが…)
@@ -213,69 +301,6 @@ Prototypingをすることになりました。夜遅くまでやいやいした
 &lt;/p&gt;
 &lt;p&gt;(も、もし！！ビザのトランスファーがうまく行かずに、10月まで待たないといけない状況になる場合は、おそらく日本でお仕事をする予定にはしているので、その際は何かお声がけください…)
 
-
-&lt;/p&gt;
-</description></item><item><title>Meaningful Transitions: Slide</title><link>http://o.mnmly.com/articles/meaningful-transitions-slide/</link><pubDate>Tue, 24 Apr 2012 20:00:00 -0500</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/meaningful-transitions-slide/</guid><author></author><description>&lt;!-- ja#1 --&gt;
-
-&lt;p&gt;&lt;code&gt;HTML/JS/CSS&lt;/code&gt;で&lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;の&lt;em&gt;Part 1&lt;/em&gt;
-
-&lt;/p&gt;
-&lt;p&gt;様々なUIのトランジションパターンをアーカイブし、丁寧な説明を加えて紹介している&lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;。
-
-&lt;/p&gt;
-&lt;p&gt;UIの作り方のお勉強のためにインタラクティブなバージョンを作り始めようと思います。第1回目のトランジションは&lt;code&gt;Slide&lt;/code&gt;。
-
-&lt;/p&gt;
-&lt;p&gt;ユーザがアイテムのリストを閲覧する際に効果的なパターンですね :)
-
-&lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;
-
-&lt;/p&gt;
-&lt;!-- /ja --&gt;
-
-&lt;!-- en#1 --&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt; in &lt;code&gt;HTML/JS/CSS&lt;/code&gt;&lt;em&gt;Part 1&lt;/em&gt;
-
-&lt;/p&gt;
-&lt;p&gt;I will be building an interactive version of &lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt; purely for learning, the first transition is &lt;code&gt;Slide&lt;/code&gt;
-
-&lt;/p&gt;
-&lt;p&gt;Check out &lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt; for detailed explanations.
-
-&lt;/p&gt;
-&lt;!-- /en --&gt;
-
-
-&lt;div id=&quot;mt-slide&quot; class=&quot;mt-transition&quot; data-title=&quot;Slide&quot;&gt;
-&lt;/div&gt;
-
-&lt;!-- ja --&gt;
-
-&lt;h3&gt;使用できる領域 &lt;small&gt;Field of Use&lt;/small&gt;&lt;/h3&gt;
-&lt;p&gt;ユーザがアイテムのリストを閲覧するインターフェイス
-
-&lt;/p&gt;
-&lt;h3&gt;動作の説明 &lt;small&gt;Description&lt;/small&gt;&lt;/h3&gt;
-&lt;p&gt;ユーザのスワイプによってリストが移動し、アイテムは自動的に中央に止まる
-
-&lt;/p&gt;
-&lt;h3&gt;一貫性 &lt;small&gt;Consistency&lt;/small&gt;&lt;/h3&gt;
-&lt;p&gt;指向性トランジションで、アイテムはインタラクションの方向に従って移動する
-
-&lt;/p&gt;
-&lt;h3&gt;効果 &lt;small&gt;Benefit&lt;/small&gt;&lt;/h3&gt;
-&lt;p&gt;指向性トランジションのため、アイテムの並び方を効果的に見せることが可能
-
-&lt;/p&gt;
-&lt;h3&gt;例の説明 &lt;small&gt;Illustration&lt;/small&gt;&lt;/h3&gt;
-&lt;p&gt;アイテムは長い帯に配置されたような形をとる
-
-&lt;/p&gt;
-&lt;!-- /ja --&gt;
-
-&lt;p&gt;&lt;small&gt;Cited from &lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;&lt;/small&gt;
 
 &lt;/p&gt;
 </description></item></channel></rss>

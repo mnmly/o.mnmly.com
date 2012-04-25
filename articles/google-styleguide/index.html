@@ -1,0 +1,87 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><meta property="og:title" content="Google HTML/CSS Styleguide - an autodidact's output"><meta property="og:type" content="article"><meta property="og:url" content="http://o.mnmly.com/articles/google-styleguide/"><meta property="og:site_name" content="an autodidact's output"><!--meta(property='fb:admins', content='USER_ID')--><meta property="og:description" content="GoogleのHTML/CSSのスタイルガイド。  良い例と悪い例が並列してあって説明もされている。マークアップ書き始めの人にはいい感じのまとめ。  でも「これ知らんかったぁ…」とか「こっちの方がいい…"><meta name="description" content="GoogleのHTML/CSSのスタイルガイド。  良い例と悪い例が並列してあって説明もされている。マークアップ書き始めの人にはいい感じのまとめ。  でも「これ知らんかったぁ…」とか「こっちの方がいい…"><title>Google HTML/CSS Styleguide -
+an autodidact's output</title><link rel="alternate" href="http://o.mnmly.com/feed.xml" type="application/rss+xml" title="an autodidact who needs output"><link rel="stylesheet" href="/css/normalize.css"><link rel="stylesheet" href="/css/github.css"><link rel="stylesheet" href="/css/style.css"><link rel="stylesheet" href="/css/mobile.css"><script src="/js/libs/require.js"></script><script type="text/javascript">
+(function() {
+
+  window.MNMLY = {
+    onScriptLoaded: function() {}
+  };
+
+  if (/\:8080/.test(document.location.href)) {
+    document.write('<script src="//' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js"></' + 'script>');
+    require(['/js/main.js']);
+  } else {
+    require(['/js/main-built.js']);
+  }
+
+  window.scrollTo(0, 1);
+
+}).call(this);
+</script></head><body class="article"><div id="top-header"><a href="/"><?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="15.198px" height="14.157px" viewBox="0 0 15.198 14.157" enable-background="new 0 0 15.198 14.157" xml:space="preserve">
+<g>
+	<rect y="3.047" fill="#FFFFFF" width="1.9" height="8.125"/>
+	<rect x="3.325" y="3.047" fill="#FFFFFF" width="1.9" height="8.125"/>
+	<rect x="6.649" y="3.047" fill="#FFFFFF" width="1.899" height="8.125"/>
+	<rect x="9.974" fill="#FFFFFF" width="1.9" height="11.172"/>
+	<rect x="13.298" y="3.047" fill="#FFFFFF" width="1.9" height="11.11"/>
+</g>
+</svg>
+</a><div class="inner"><h5>Google HTML/CSS Styleguide</h5></div></div><header class="identity-header"><div class="inner"></div></header><div id="content"><div class="fade-pane"></div><article class="post"><header><h2 class="title link"><a href="http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml">Google HTML/CSS Styleguide</a><span class="link-icon"><?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="20px" height="21.642px" viewBox="0 0 20 21.642" enable-background="new 0 0 20 21.642" xml:space="preserve">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0,21.642L10.82,10.82L0,0h9.179L20,10.82L9.179,21.642H0z"/>
+</svg>
+</span></h2></header><aside class="meta"><time datetime="Wed Apr 25 2012 09:00:00 GMT-0500 (CDT)">Apr. 25th, 2012</time></aside><div class="article-container"><section class="body-text"><p>GoogleのHTML/CSSのスタイルガイド。
+
+</p>
+<p>良い例と悪い例が並列してあって説明もされている。マークアップ書き始めの人にはいい感じのまとめ。
+
+</p>
+<p>でも「これ知らんかったぁ…」とか「こっちの方がいいんやぁ…」っていうんがちらほら。
+
+</p>
+<h3><a href="http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml#Protocol">Protocol</a></h3>
+<p>なんとなぁーく知ってたけど理由が今いちわからなかったのが<code>Protocol</code>。<code>http:</code>とか<code>https:</code>とかのことで、このStyleguide的にはそれは省いている。これで<code>Mixed content issues</code>が解消されてファイルサイズがほんの少し縮小されるらしい。(<code>Mixed content issue</code>が何のことかはわからないです :D)
+
+</p>
+<pre><code>&lt;!-- Not recommended -->
+&lt;script src="http://o.mnmly.com/js/main.js">&lt;/script>
+
+&lt;!-- Recommended -->
+&lt;script src="//o.mnmly.com/js/main.js">&lt;/script></code></pre>
+<p>でも<a href="http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml?showone=Document_type#Document_type">HTML5を使おう！</a>と書いている一方でこのStyleguideそのものは<code>xml</code>で書かれている感がGoogleっぽい :P
+
+</p>
+<p>個人的には<a href="https://github.com">Github</a>の<a href="https://github.com/styleguide/">Styleguide</a>の方が見やすくて好き。
+
+</p>
+<p><small>(via <a href="https://twitter.com/jsgoodies/status/195130038964862976">@jsgoodies</a>)</small></p>
+</section><footer><div class="share"><svg version="1.1" id="share" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="5720px" height="2871.9px" viewBox="-2081.571 -641.771 5720 2871.9" enable-background="new -2081.571 -641.771 5720 2871.9" space="preserve">
+<path d="M1323,1533L869,363l-70-47h-27l-67,47L250,1533c-6.667,19.334-5.833,38.501,2.5,57.501s21.833,31.833,40.5,38.5
+  c5.333,2.666,14.333,4,27,4c34,0,56.333-15.667,67-47L410,1529h373l381,0.001l22,57c10.667,31.334,33.333,47,68,47
+  c12,0,20.667-1.334,26-4c19.334-6.666,33.167-19.666,41.5-39C1329.834,1570.667,1330.334,1551.667,1323,1533z M1135,1455L856,1455
+  L1057,1256L1135,1455z M1028,1180l-67,66l-127-125l123-123L1028,1180z M922,931l-139,137L643,931H922z M910,1299l-127,127l-127-127
+  l127-127L910,1299z M901,857H672l115-297L901,857z M732,1121l-127,125l-62-59l72-183L732,1121z M709,1455H439l75-195L709,1455z"></path>
+<path d="M881,220c0-26-9.167-48.166-27.5-66.5C835.167,135.167,813,126,787,126s-48.167,9.168-66.5,27.5
+  C702.167,171.833,693,194,693,220s9.167,48.168,27.5,66.5C738.833,304.833,761,314,787,314s48.167-9.166,66.5-27.5
+  C871.833,268.167,881,246,881,220z"></path>
+<g>
+  <path d="M1481,281c-2.666-128-48.333-235.666-137-323l-64,65c72.667,69.334,109,157.334,109,264c0,104-36.333,192.334-109,264.999
+    L1342,615C1432,525,1478.334,413.668,1481,281z"></path>
+  <path d="M1217,285c0-77.332-31.333-146.666-94-208l-60,61c44,40.668,66,92,66,154c0,57.333-20,105.667-60,144.999l58,57
+    C1187,434,1217,364.333,1217,285z"></path>
+  <path d="M500,441c-44-40.666-65.667-92.666-65-156c0-54.666,19.667-103,59-145l-57-57c-60,66.668-90.333,137-91,211
+    c0.667,77.334,31.667,146,93,206L500,441z"></path>
+  <path d="M283,556c-74-70.666-109.333-158.666-106-264c-2.667-104,32.667-193,106-267l-61-59C132,54.667,85.333,165.333,82,298
+    c3.333,128,49.333,235,138,321L283,556z"></path>
+</g>
+</svg>
+
+<span class="seduce-text">Did you like it?</span><ul class="social"><li class="g"><a data-size="medium" data-annotation="inline" data-width="100" class="socialite googleplus"></a></li><li class="t"><a href="https://twitter.com/share" data-via="mnmly" data-lang="en" class="socialite twitter"></a></li><li class="f"><a href="http://www.facebook.com/sharer.php?u=http://o.mnmly.com/articles/google-styleguide/&amp;t=Google HTML/CSS Styleguide" data-href="http://o.mnmly.com/articles/google-styleguide/" data-send="false" data-layout="button_count" data-width="60" data-show-faces="false" rel="nofollow" target="_blank" class="socialite facebook"></a></li></ul></div></footer></div></article></div><footer id="main-footer"><small>By <a href="http://mnmly.com" target="_blank">mnmly</a>.
+<br>Here's a 
+<a href="/colophone.html">colophone</a></small></footer><div id="fb-root"></div></body></html>

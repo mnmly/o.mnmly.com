@@ -6,7 +6,7 @@
   };
 
   if (/\:8080/.test(document.location.href)) {
-    document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js"></' + 'script>');
+    document.write('<script src="//' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js"></' + 'script>');
     require(['/js/main.js']);
   } else {
     require(['/js/main-built.js']);
@@ -41,7 +41,32 @@
 	<rect x="13.298" y="3.047" fill="#FFFFFF" width="1.9" height="11.11"/>
 </g>
 </svg>
-</div></a></h1><p class="desc">an autodidact who needs output</p></div></header><div id="content"><div class="fade-pane"></div><section id="article-list"><div class="inner"><!--include author--><article class="post"><header><h2><!--include ../includes/pointer.svg--><a href="/articles/meaningful-transitions-slide/">Meaningful Transitions: Slide</a></h2></header><aside class="meta"><time datetime="Tue Apr 24 2012 20:00:00 GMT-0500 (CDT)">Apr. 24th, 2012</time></aside><div class="article-container"><section class="body-text"><div class="ja" data-group="#1">
+</div></a></h1><p class="desc">an autodidact who needs output</p></div></header><div id="content"><div class="fade-pane"></div><section id="article-list"><div class="inner"><!--include author--><article class="post"><header><h2><!--include ../includes/pointer.svg--><a href="/articles/google-styleguide/">Google HTML/CSS Styleguide</a></h2></header><aside class="meta"><time datetime="Wed Apr 25 2012 09:00:00 GMT-0500 (CDT)">Apr. 25th, 2012</time></aside><div class="article-container"><section class="body-text"><p>GoogleのHTML/CSSのスタイルガイド。
+
+</p>
+<p>良い例と悪い例が並列してあって説明もされている。マークアップ書き始めの人にはいい感じのまとめ。
+
+</p>
+<p>でも「これ知らんかったぁ…」とか「こっちの方がいいんやぁ…」っていうんがちらほら。
+
+</p>
+<h3><a href="http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml#Protocol">Protocol</a></h3>
+<p>なんとなぁーく知ってたけど理由が今いちわからなかったのが<code>Protocol</code>。<code>http:</code>とか<code>https:</code>とかのことで、このStyleguide的にはそれは省いている。これで<code>Mixed content issues</code>が解消されてファイルサイズがほんの少し縮小されるらしい。(<code>Mixed content issue</code>が何のことかはわからないです :D)
+
+</p>
+<pre><code>&lt;!-- Not recommended -->
+&lt;script src="http://o.mnmly.com/js/main.js">&lt;/script>
+
+&lt;!-- Recommended -->
+&lt;script src="//o.mnmly.com/js/main.js">&lt;/script></code></pre>
+<p>でも<a href="http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml?showone=Document_type#Document_type">HTML5を使おう！</a>と書いている一方でこのStyleguideそのものは<code>xml</code>で書かれている感がGoogleっぽい :P
+
+</p>
+<p>個人的には<a href="https://github.com">Github</a>の<a href="https://github.com/styleguide/">Styleguide</a>の方が見やすくて好き。
+
+</p>
+<p><small>(via <a href="https://twitter.com/jsgoodies/status/195130038964862976">@jsgoodies</a>)</small></p>
+</section></div></article><article class="post"><header><h2><!--include ../includes/pointer.svg--><a href="/articles/meaningful-transitions-slide/">Meaningful Transitions: Slide</a></h2></header><aside class="meta"><time datetime="Tue Apr 24 2012 20:00:00 GMT-0500 (CDT)">Apr. 24th, 2012</time></aside><div class="article-container"><section class="body-text"><div class="ja" data-group="#1">
 
 <p><code>HTML/JS/CSS</code>で<a href="http://www.ui-transitions.com/">Meaningful Transitions</a>の<em>Part 1</em>
 

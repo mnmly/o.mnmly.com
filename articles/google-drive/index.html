@@ -7,7 +7,7 @@ an autodidact's output</title><link rel="alternate" href="http://o.mnmly.com/fee
   };
 
   if (/\:8080/.test(document.location.href)) {
-    document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js"></' + 'script>');
+    document.write('<script src="//' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js"></' + 'script>');
     require(['/js/main.js']);
   } else {
     require(['/js/main-built.js']);
