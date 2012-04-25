@@ -2,6 +2,7 @@ define [
   'zepto',
   "scroll",
   "preview",
+  "lang-switch",
   "header",
   "pjax",
   "social"
@@ -10,18 +11,18 @@ define [
   "modernizr"
   "analytics"
   "zepto.scroll"
-  ], ($, Scroll, Preview, Header, Pjax, Social, Mobile, UpdateMessage)->
+  ], ($, Scroll, Preview, LangSwitch, Header, Pjax, Social, Mobile, UpdateMessage)->
 
   class App
 
     constructor: ->
-
-      @body    = $('body')
+      @body     = $('body')
 
       #@pjax    = new Pjax
-      @preview = new Preview
-      @header  = new Header
-      @scroll  = new Scroll
+      @preview   = new Preview
+      @header    = new Header
+      @scroll    = new Scroll
+      @langSwith = new LangSwitch
 
       $('.fade-pane').addClass 'in'
 
@@ -32,6 +33,9 @@ define [
       @setTargetBlank()
       @attachEvents()
       @kickOffMonitor()
+
+      if MNMLY?.onScriptLoaded?
+        MNMLY.onScriptLoaded()
     
     initSocial: ->
       return if $(".social").length is 0

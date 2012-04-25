@@ -18,10 +18,16 @@ module.exports = (wintersmith, callback) ->
       locals.moment = moment
       html = @fn(locals)
       html = @compileJSText(html)
+      html = @wrapLanguage(html)
       try
         callback null, new Buffer html
       catch error
         callback error
+
+    wrapLanguage: (html)->
+      html = html.replace(/<\!\-\- (ja|en)(#\d+)? \-\->/g, '<div class="$1" data-group="$2">')
+                 .replace(/<\!\-\- \/(ja|en) \-\->/g, '</div>')
+      html.replace('class="en"','class="en" style="display: none;"')
 
     compileJSText: (html)->
       

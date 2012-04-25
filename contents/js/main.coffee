@@ -11,6 +11,11 @@ require.config
     analytics: "libs/analytics"
     socialite: "libs/socialite.min"
     swipe: "libs/swipe.min"
+    order: "libs/rjs-plugins/order"
+
+  priority: [
+    'order'
+  ]
 
 setTimeout ->
   window.scrollTo 0, 1

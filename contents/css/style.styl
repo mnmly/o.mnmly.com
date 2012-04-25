@@ -13,6 +13,24 @@ logo-radius = 40
   .fade-pane
     display none
 
+.transition-container
+  //animation fade-scale-up 1s .5s both
+  margin 75px auto
+  box-shadow 0 1px 10px hsla(0, 0%, 0%, .2)
+  border-radius 3px
+  min-height 250px
+  position relative
+  .mt-transition
+    margin: 0 !important
+
+.lang-wrapper
+  clearfix()
+  position relative
+  div.en
+    position absolute
+    top 0
+    left 0
+
 :root
   font-size 12px
 
@@ -296,6 +314,7 @@ p.desc
     border-left: 10px solid hsl(45, 4%, 75%)
     padding: .1em 40px
     margin: 0
+    margin-bottom 20px
 
 #main-footer
   color: hsl(0, 0%, 60%)

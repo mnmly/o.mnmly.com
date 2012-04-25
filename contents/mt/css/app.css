@@ -1,0 +1,57 @@
+.transition-container {
+  width: 216px;
+}
+.transition-container h3 {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  background: #0af;
+  text-align: center;
+  width: 100%;
+  z-index: 2;
+  background-image: url("../images/uit-head-bg.png");
+  font-size: 2rem;
+  padding: 5px 0;
+  margin-bottom: 0 !important;
+}
+.transition-container h3::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  width: 15px;
+  height: 15px;
+  display: block;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  left: 46%;
+  bottom: -5px;
+  background-color: #0af;
+}
+.mt-transition {
+  width: 100%;
+  margin: 0;
+  background: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px solid #0af;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 216px;
+}
+/*
+.touch
+  background: hsla(0, 100%, 100%, 0.6);
+  border-radius: 17px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3), inset 0 0 4px hsla(0, 0%, 100%, 0.5);
+  position: absolute;
+  z-index: 1;
+  top: 90px;
+  left: 84px;*/

@@ -17,20 +17,27 @@ html(lang='en')
       title
         block title
           = locals.name
+
       link(rel='alternate', href=locals.url+'/feed.xml', type='application/rss+xml', title=locals.description)
       link(rel='stylesheet', href='/css/normalize.css')
       link(rel='stylesheet', href='/css/github.css')
       link(rel='stylesheet', href='/css/style.css')
       link(rel='stylesheet', href='/css/mobile.css')
       script(src="/js/libs/require.js")
-      script
-        if( /\:8080/.test( document.location.href ) ){
+
+      :coffeescript
+
+        window.MNMLY =
+          onScriptLoaded: ->
+
+        if /\:8080/.test( document.location.href )
           document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js"></' + 'script>')
-          require(['/js/main.js']);
-        } else{
-          require(['/js/main-built.js']);
-        }
-        window.scrollTo(0, 1);
+          require(['/js/main.js'])
+        else
+          require(['/js/main-built.js'])
+
+        window.scrollTo(0, 1)
+
 
   - bodyClass = "index"
 

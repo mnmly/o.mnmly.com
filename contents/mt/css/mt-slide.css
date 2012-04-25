@@ -1,0 +1,41 @@
+#mt-slide {
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+#mt-slide #slides {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  padding-top: 20px;
+}
+#mt-slide #slides .panel {
+  list-style: none;
+  float: left;
+  width: 80px;
+  height: 135px;
+  background: #fff;
+  margin: 0 15px;
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.10);
+  -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.10);
+  -o-box-shadow: 0 1px 3px rgba(0,0,0,0.10);
+  -ms-box-shadow: 0 1px 3px rgba(0,0,0,0.10);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.10);
+  background-image: url("../images/uit-head-bg.png");
+  background-color: rgba(128,128,128,0.30);
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s;
+  opacity: 0.5;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+  outline: 2px solid #0af;
+}
+#mt-slide #slides .panel.on {
+  opacity: 1;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  background-color: #0af;
+}

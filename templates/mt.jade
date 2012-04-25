@@ -1,0 +1,13 @@
+extends article
+
+block append head
+  
+  :coffeescript
+    window.MNMLY.onScriptLoaded = ->
+      
+      requiredConfig = [
+        'order!/mt/js/config.js',
+        "order!/mt/js/#{$(".mt-transition").attr('id')}.js"
+      ]
+      require requiredConfig, (obj, TransitionClass)->
+        new TransitionClass( $(".mt-transition"))
