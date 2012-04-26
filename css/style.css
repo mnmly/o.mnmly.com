@@ -520,6 +520,9 @@ p.desc {
   margin-left: 120px;
   padding-bottom: 10px;
   margin-bottom: 60px;
+  -webkit-animation: fade-in 1s 2s cubic-bezier(0.86, 0, 0.07, 1) both;
+  -moz-animation: fade-in 1s 2s cubic-bezier(0.86, 0, 0.07, 1) both;
+  animation: fade-in 1s 2s cubic-bezier(0.86, 0, 0.07, 1) both;
 }
 #main-footer small {
   opacity: 1;
