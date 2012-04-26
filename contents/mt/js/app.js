@@ -15,9 +15,6 @@
       }
 
       App.prototype.initTransitions = function() {
-        this.slide = new MTSlide($("#mt-slide"));
-        this.popup = new MTPopup($("#mt-popup"));
-        this.minimize = new MTMinimize($("#mt-minimize"));
         return this.objectSwich = new MTObjectSwitch($("#mt-object-switch"));
       };
 

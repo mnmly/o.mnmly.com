@@ -1,18 +1,18 @@
-title: Meaningful Transitions: Minimize
-date: 2012-04-26 17:00
+title: Meaningful Transitions: Object Switch
+date: 2012-04-27 17:00
 template: mt.jade
-transition: mt-minimize
+transition: mt-object-switch
 
 <!-- ja#1 -->
 
-`HTML/JS/CSS`で[Meaningful Transitions]の*Part 3*
+`HTML/JS/CSS`で[Meaningful Transitions]の*Part 4*
 
 様々なUIのトランジションパターンをアーカイブし、丁寧な説明を加えて紹介している[Meaningful Transitions]。
 
 UIの作り方のお勉強のためにインタラクティブなバージョンを作ってます。
-第3回目のトランジションは`Minimize`。
+第4回目のトランジションは`Object Switch`。
 
-大きなアイテムを縮小化するときに効果的なトランジション :)
+ユーザが大きなアイテムを縮小化するときに効果的なトランジション :)
 
 <span class="more"></span>
 
@@ -20,18 +20,18 @@ UIの作り方のお勉強のためにインタラクティブなバージョン
 
 <!-- en#1 -->
 
-[Meaningful Transitions] in `HTML/JS/CSS` *Part 3*
+[Meaningful Transitions] in `HTML/JS/CSS` *Part 4*
 
 I started building an interactive version of [Meaningful Transitions] purely for learning ui pattern, transition and animations. 
 
-The third transition is `Minimize`
+The fourth transition is `Object Switch`
 
 Check out [Meaningful Transitions] for detailed explanations.
 
 <!-- /en -->
 
 
-<div id="mt-minimize" class="mt-transition" data-title="Minimize">
+<div id="mt-object-switch" class="mt-transition" data-title="Object Switch">
 </div>
 
 <!-- ja -->
