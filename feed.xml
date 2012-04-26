@@ -37,69 +37,6 @@
 
 &lt;/p&gt;
 &lt;p&gt;&lt;small&gt;(via &lt;a href=&quot;https://twitter.com/jsgoodies/status/195130038964862976&quot;&gt;@jsgoodies&lt;/a&gt;)&lt;/small&gt;&lt;/p&gt;
-</description></item><item><title>Meaningful Transitions: Slide</title><link>http://o.mnmly.com/articles/meaningful-transitions-slide/</link><pubDate>Tue, 24 Apr 2012 20:00:00 -0500</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/meaningful-transitions-slide/</guid><author></author><description>&lt;!-- ja#1 --&gt;
-
-&lt;p&gt;&lt;code&gt;HTML/JS/CSS&lt;/code&gt;で&lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;の&lt;em&gt;Part 1&lt;/em&gt;
-
-&lt;/p&gt;
-&lt;p&gt;様々なUIのトランジションパターンをアーカイブし、丁寧な説明を加えて紹介している&lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;。
-
-&lt;/p&gt;
-&lt;p&gt;UIの作り方のお勉強のためにインタラクティブなバージョンを作り始めようと思います。第1回目のトランジションは&lt;code&gt;Slide&lt;/code&gt;。
-
-&lt;/p&gt;
-&lt;p&gt;ユーザがアイテムのリストを閲覧する際に効果的なパターンですね :)
-
-&lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;
-
-&lt;/p&gt;
-&lt;!-- /ja --&gt;
-
-&lt;!-- en#1 --&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt; in &lt;code&gt;HTML/JS/CSS&lt;/code&gt;&lt;em&gt;Part 1&lt;/em&gt;
-
-&lt;/p&gt;
-&lt;p&gt;I will be building an interactive version of &lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt; purely for learning, the first transition is &lt;code&gt;Slide&lt;/code&gt;
-
-&lt;/p&gt;
-&lt;p&gt;Check out &lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt; for detailed explanations.
-
-&lt;/p&gt;
-&lt;!-- /en --&gt;
-
-
-&lt;div id=&quot;mt-slide&quot; class=&quot;mt-transition&quot; data-title=&quot;Slide&quot;&gt;
-&lt;/div&gt;
-
-&lt;!-- ja --&gt;
-
-&lt;h3&gt;使用できる領域 &lt;small&gt;Field of Use&lt;/small&gt;&lt;/h3&gt;
-&lt;p&gt;ユーザがアイテムのリストを閲覧するインターフェイス
-
-&lt;/p&gt;
-&lt;h3&gt;動作の説明 &lt;small&gt;Description&lt;/small&gt;&lt;/h3&gt;
-&lt;p&gt;ユーザのスワイプによってリストが移動し、アイテムは自動的に中央に止まる
-
-&lt;/p&gt;
-&lt;h3&gt;一貫性 &lt;small&gt;Consistency&lt;/small&gt;&lt;/h3&gt;
-&lt;p&gt;指向性トランジションで、アイテムはインタラクションの方向に従って移動する
-
-&lt;/p&gt;
-&lt;h3&gt;効果 &lt;small&gt;Benefit&lt;/small&gt;&lt;/h3&gt;
-&lt;p&gt;指向性トランジションのため、アイテムの並び方を効果的に見せることが可能
-
-&lt;/p&gt;
-&lt;h3&gt;例の説明 &lt;small&gt;Illustration&lt;/small&gt;&lt;/h3&gt;
-&lt;p&gt;アイテムは長い帯に配置されたような形をとる
-
-&lt;/p&gt;
-&lt;!-- /ja --&gt;
-
-&lt;p&gt;&lt;small&gt;Cited from &lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;&lt;/small&gt;
-
-&lt;/p&gt;
 </description></item><item><title>Google Drive</title><link>http://o.mnmly.com/articles/google-drive/</link><pubDate>Tue, 24 Apr 2012 12:00:00 -0500</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/google-drive/</guid><author></author><description>&lt;p&gt;&lt;a href=&quot;http://drive.google.com/&quot;&gt;Google Drive&lt;/a&gt;がようやく出ましたね。
 
 &lt;/p&gt;
@@ -132,6 +69,73 @@
 &lt;/p&gt;
 &lt;p&gt;ちょっと雰囲気が違いますね :] Googleは前にデータについての方針を一本化したけど、これについては別のToSの方がいい気がする。。。
 
+
+&lt;/p&gt;
+</description></item><item><title>Meaningful Transitions: Minimize</title><link>http://o.mnmly.com/articles/meaningful-transitions-minimize/</link><pubDate>Thu, 26 Apr 2012 17:00:00 -0500</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/meaningful-transitions-minimize/</guid><author></author><description>&lt;!-- ja#1 --&gt;
+
+&lt;p&gt;&lt;code&gt;HTML/JS/CSS&lt;/code&gt;で&lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;の&lt;em&gt;Part 3&lt;/em&gt;
+
+&lt;/p&gt;
+&lt;p&gt;様々なUIのトランジションパターンをアーカイブし、丁寧な説明を加えて紹介している&lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;。
+
+&lt;/p&gt;
+&lt;p&gt;UIの作り方のお勉強のためにインタラクティブなバージョンを作ってます。
+第3回目のトランジションは&lt;code&gt;Minimize&lt;/code&gt;。
+
+&lt;/p&gt;
+&lt;p&gt;ユーザが大きなアイテムを縮小化するときに効果的なトランジション :)
+
+&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;
+
+&lt;/p&gt;
+&lt;!-- /ja --&gt;
+
+&lt;!-- en#1 --&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt; in &lt;code&gt;HTML/JS/CSS&lt;/code&gt;&lt;em&gt;Part 3&lt;/em&gt;
+
+&lt;/p&gt;
+&lt;p&gt;I started building an interactive version of &lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt; purely for learning ui pattern, transition and animations. 
+
+&lt;/p&gt;
+&lt;p&gt;The second transition is &lt;code&gt;Popup&lt;/code&gt;
+
+&lt;/p&gt;
+&lt;p&gt;Check out &lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt; for detailed explanations.
+
+&lt;/p&gt;
+&lt;!-- /en --&gt;
+
+
+&lt;div id=&quot;mt-minimize&quot; class=&quot;mt-transition&quot; data-title=&quot;Minimize&quot;&gt;
+&lt;/div&gt;
+
+&lt;!-- ja --&gt;
+
+&lt;h3&gt;使用できる領域 &lt;small&gt;Field of Use&lt;/small&gt;&lt;/h3&gt;
+&lt;p&gt;ユーザがアイテムを縮小化したいとき
+
+&lt;/p&gt;
+&lt;h3&gt;動作の説明 &lt;small&gt;Description&lt;/small&gt;&lt;/h3&gt;
+&lt;p&gt;アイテムは縮小しながらスクリーン上の特定の場所に移動する
+
+&lt;/p&gt;
+&lt;h3&gt;一貫性 &lt;small&gt;Consistency&lt;/small&gt;&lt;/h3&gt;
+&lt;p&gt;元に戻るためのトランジションは逆にアイテムが拡大してフルスクリーンになる
+
+&lt;/p&gt;
+&lt;h3&gt;効果 &lt;small&gt;Benefit&lt;/small&gt;&lt;/h3&gt;
+&lt;p&gt;縮小化されたアイテムがどこに配置してあるか知らせることができる。縮小されたアイテムはスクリーン上ではそれほど目立った場所には配置されないが、それでもこのトランジションによってどこにあるかを明確にできる
+
+&lt;/p&gt;
+&lt;h3&gt;例の説明 &lt;small&gt;Illustration&lt;/small&gt;&lt;/h3&gt;
+&lt;p&gt;アイテムは縮んでいくように見える
+
+&lt;/p&gt;
+&lt;!-- /ja --&gt;
+
+&lt;p&gt;&lt;small&gt;Cited from &lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;&lt;/small&gt;
 
 &lt;/p&gt;
 </description></item><item><title>Meaningful Transitions: Popup</title><link>http://o.mnmly.com/articles/meaningful-transitions-popup/</link><pubDate>Wed, 25 Apr 2012 16:00:00 -0500</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/meaningful-transitions-popup/</guid><author></author><description>&lt;!-- ja#1 --&gt;
@@ -196,6 +200,69 @@
 &lt;/p&gt;
 &lt;h3&gt;例の説明 &lt;small&gt;Illustration&lt;/small&gt;&lt;/h3&gt;
 &lt;p&gt;アイテムはステージ上で大きくなっていくように見える
+
+&lt;/p&gt;
+&lt;!-- /ja --&gt;
+
+&lt;p&gt;&lt;small&gt;Cited from &lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;&lt;/small&gt;
+
+&lt;/p&gt;
+</description></item><item><title>Meaningful Transitions: Slide</title><link>http://o.mnmly.com/articles/meaningful-transitions-slide/</link><pubDate>Tue, 24 Apr 2012 20:00:00 -0500</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/meaningful-transitions-slide/</guid><author></author><description>&lt;!-- ja#1 --&gt;
+
+&lt;p&gt;&lt;code&gt;HTML/JS/CSS&lt;/code&gt;で&lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;の&lt;em&gt;Part 1&lt;/em&gt;
+
+&lt;/p&gt;
+&lt;p&gt;様々なUIのトランジションパターンをアーカイブし、丁寧な説明を加えて紹介している&lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;。
+
+&lt;/p&gt;
+&lt;p&gt;UIの作り方のお勉強のためにインタラクティブなバージョンを作り始めようと思います。第1回目のトランジションは&lt;code&gt;Slide&lt;/code&gt;。
+
+&lt;/p&gt;
+&lt;p&gt;ユーザがアイテムのリストを閲覧する際に効果的なパターンですね :)
+
+&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;
+
+&lt;/p&gt;
+&lt;!-- /ja --&gt;
+
+&lt;!-- en#1 --&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt; in &lt;code&gt;HTML/JS/CSS&lt;/code&gt;&lt;em&gt;Part 1&lt;/em&gt;
+
+&lt;/p&gt;
+&lt;p&gt;I will be building an interactive version of &lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt; purely for learning, the first transition is &lt;code&gt;Slide&lt;/code&gt;
+
+&lt;/p&gt;
+&lt;p&gt;Check out &lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt; for detailed explanations.
+
+&lt;/p&gt;
+&lt;!-- /en --&gt;
+
+
+&lt;div id=&quot;mt-slide&quot; class=&quot;mt-transition&quot; data-title=&quot;Slide&quot;&gt;
+&lt;/div&gt;
+
+&lt;!-- ja --&gt;
+
+&lt;h3&gt;使用できる領域 &lt;small&gt;Field of Use&lt;/small&gt;&lt;/h3&gt;
+&lt;p&gt;ユーザがアイテムのリストを閲覧するインターフェイス
+
+&lt;/p&gt;
+&lt;h3&gt;動作の説明 &lt;small&gt;Description&lt;/small&gt;&lt;/h3&gt;
+&lt;p&gt;ユーザのスワイプによってリストが移動し、アイテムは自動的に中央に止まる
+
+&lt;/p&gt;
+&lt;h3&gt;一貫性 &lt;small&gt;Consistency&lt;/small&gt;&lt;/h3&gt;
+&lt;p&gt;指向性トランジションで、アイテムはインタラクションの方向に従って移動する
+
+&lt;/p&gt;
+&lt;h3&gt;効果 &lt;small&gt;Benefit&lt;/small&gt;&lt;/h3&gt;
+&lt;p&gt;指向性トランジションのため、アイテムの並び方を効果的に見せることが可能
+
+&lt;/p&gt;
+&lt;h3&gt;例の説明 &lt;small&gt;Illustration&lt;/small&gt;&lt;/h3&gt;
+&lt;p&gt;アイテムは長い帯に配置されたような形をとる
 
 &lt;/p&gt;
 &lt;!-- /ja --&gt;
