@@ -20,7 +20,7 @@ UIの作り方のお勉強のためにインタラクティブなバージョン
 
 <!-- en#1 -->
 
-[Meaningful Transitions] in `HTML/JS/CSS`*Part 3*
+[Meaningful Transitions] in `HTML/JS/CSS` *Part 3*
 
 I started building an interactive version of [Meaningful Transitions] purely for learning ui pattern, transition and animations. 
 

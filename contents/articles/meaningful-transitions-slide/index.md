@@ -19,7 +19,7 @@ UIの作り方のお勉強のためにインタラクティブなバージョン
 
 <!-- en#1 -->
 
-[Meaningful Transitions] in `HTML/JS/CSS`*Part 1*
+[Meaningful Transitions] in `HTML/JS/CSS` *Part 1*
 
 I will be building an interactive version of [Meaningful Transitions] purely for learning, the first transition is `Slide`
 
