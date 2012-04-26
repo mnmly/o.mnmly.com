@@ -24,7 +24,7 @@ UIの作り方のお勉強のためにインタラクティブなバージョン
 
 I started building an interactive version of [Meaningful Transitions] purely for learning ui pattern, transition and animations. 
 
-The second transition is `Popup`
+The third transition is `Minimize`
 
 Check out [Meaningful Transitions] for detailed explanations.
 
