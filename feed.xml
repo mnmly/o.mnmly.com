@@ -1,18 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>an autodidact's output</title><atom:link href="http://o.mnmly.com/feed.xml" rel="self" type="application/rss+xml"></atom:link><link>http://o.mnmly.com</link><description>an autodidact who needs output</description><pubDate>Sat, 21 Apr 2012 12:00:00 -0500</pubDate><generator>The mighty Wintersmith</generator><language>en</language><item><title>CoffeeScriptの始め方</title><link>http://o.mnmly.com/articles/_writing-less/</link><pubDate>Sat, 21 Apr 2012 12:00:00 -0500</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/_writing-less/</guid><author></author><description>&lt;p&gt;[CoffeeScript]は聞いたことがあるが使ったことがない人のために。
-僕自身があんまり記事の文字を読んで理解できるたちではないので、ここではscreencastを用いて説明していきたいと思います。
-
-&lt;/p&gt;
-&lt;p&gt;軽い流れはこちらです。
-
-&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Node.jsのインストール&lt;/li&gt;
-&lt;li&gt;nvmのインストール&lt;/li&gt;
-&lt;li&gt;npmのインストール&lt;/li&gt;
-&lt;li&gt;CoffeeScriptのインストール&lt;/li&gt;
-&lt;li&gt;実際に使ってみる&lt;/li&gt;
-&lt;/ol&gt;
-</description></item><item><title>Meaningful Transitions: Minimize</title><link>http://o.mnmly.com/articles/meaningful-transitions-minimize/</link><pubDate>Thu, 26 Apr 2012 17:00:00 -0500</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/meaningful-transitions-minimize/</guid><author></author><description>&lt;!-- ja#1 --&gt;
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>an autodidact's output</title><atom:link href="http://o.mnmly.com/feed.xml" rel="self" type="application/rss+xml"></atom:link><link>http://o.mnmly.com</link><description>an autodidact who needs output</description><pubDate>Thu, 26 Apr 2012 17:00:00 -0500</pubDate><generator>The mighty Wintersmith</generator><language>en</language><item><title>Meaningful Transitions: Minimize</title><link>http://o.mnmly.com/articles/meaningful-transitions-minimize/</link><pubDate>Thu, 26 Apr 2012 17:00:00 -0500</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/meaningful-transitions-minimize/</guid><author></author><description>&lt;!-- ja#1 --&gt;
 
 &lt;p&gt;&lt;code&gt;HTML/JS/CSS&lt;/code&gt;で&lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;の&lt;em&gt;Part 3&lt;/em&gt;
 
@@ -63,11 +49,11 @@
 
 &lt;/p&gt;
 &lt;h3&gt;一貫性 &lt;small&gt;Consistency&lt;/small&gt;&lt;/h3&gt;
-&lt;p&gt;元に戻るためのトランジションは逆にアイテムが拡大してフルスクリーンになる
+&lt;p&gt;元に戻るときのトランジションはアイテムが拡大してフルスクリーンになる
 
 &lt;/p&gt;
 &lt;h3&gt;効果 &lt;small&gt;Benefit&lt;/small&gt;&lt;/h3&gt;
-&lt;p&gt;縮小化されたアイテムがどこに配置してあるか知らせることができる。縮小されたアイテムはスクリーン上ではそれほど目立った場所には配置されないが、それでもこのトランジションによってどこにあるかを明確にできる
+&lt;p&gt;縮小化されたアイテムがどこに配置してあるかを示すことが可能。縮小されたアイテムはスクリーン上ではそれほど目立った場所には配置されないが、このトランジションによってどこにあるかを明確にできる
 
 &lt;/p&gt;
 &lt;h3&gt;例の説明 &lt;small&gt;Illustration&lt;/small&gt;&lt;/h3&gt;
@@ -77,6 +63,54 @@
 &lt;!-- /ja --&gt;
 
 &lt;p&gt;&lt;small&gt;Cited from &lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;&lt;/small&gt;
+
+&lt;/p&gt;
+</description></item><item><title>CoffeeScriptの始め方</title><link>http://o.mnmly.com/articles/_writing-less/</link><pubDate>Sat, 21 Apr 2012 12:00:00 -0500</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/_writing-less/</guid><author></author><description>&lt;p&gt;[CoffeeScript]は聞いたことがあるが使ったことがない人のために。
+僕自身があんまり記事の文字を読んで理解できるたちではないので、ここではscreencastを用いて説明していきたいと思います。
+
+&lt;/p&gt;
+&lt;p&gt;軽い流れはこちらです。
+
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Node.jsのインストール&lt;/li&gt;
+&lt;li&gt;nvmのインストール&lt;/li&gt;
+&lt;li&gt;npmのインストール&lt;/li&gt;
+&lt;li&gt;CoffeeScriptのインストール&lt;/li&gt;
+&lt;li&gt;実際に使ってみる&lt;/li&gt;
+&lt;/ol&gt;
+</description></item><item><title>Google Drive</title><link>http://o.mnmly.com/articles/google-drive/</link><pubDate>Tue, 24 Apr 2012 12:00:00 -0500</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/google-drive/</guid><author></author><description>&lt;p&gt;&lt;a href=&quot;http://drive.google.com/&quot;&gt;Google Drive&lt;/a&gt;がようやく出ましたね。
+
+&lt;/p&gt;
+&lt;p&gt;まぁそんなに重要な書類の共有には使わないとは思いますが、ただ少し気になることが…
+
+&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.google.com/intl/en/policies/terms/#toc-content&quot;&gt;Google Terms of Service&lt;/a&gt;より
+&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;When you upload or otherwise submit content to our Services, you give Google (and those we work with) a worldwide license to use, host, store, reproduce, modify, create derivative works.
+
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;つまり、&lt;strong&gt;Googleにアップロードすることによって、自由に使用する権利をGoogleに与えることになります&lt;/strong&gt;っていう文言があること。
+
+&lt;/p&gt;
+&lt;p&gt;じゃぁ&lt;a href=&quot;http://dropbox.com&quot;&gt;Dropbox&lt;/a&gt;はどうなん？ってことですが、
+
+&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://dropbox.com&quot;&gt;Dropbox Terms&lt;/a&gt;より
+
+&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;You retain full ownership to your stuff. We don’t claim any ownership to any of it.
+
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;要は、&lt;strong&gt;あなたのものは完全にあなたが所有権を持っています。Dropboxはそれに対して何ら所有権を要求しません&lt;/strong&gt;というもの。
+
+&lt;/p&gt;
+&lt;p&gt;ちょっと雰囲気が違いますね :] Googleは前にデータについての方針を一本化したけど、これについては別のToSの方がいい気がする。。。
+
 
 &lt;/p&gt;
 </description></item><item><title>Google HTML/CSS Styleguide</title><link>http://o.mnmly.com/articles/google-styleguide/</link><pubDate>Wed, 25 Apr 2012 09:00:00 -0500</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/google-styleguide/</guid><author></author><description>&lt;p&gt;GoogleのHTML/CSSのスタイルガイド。
@@ -171,40 +205,6 @@
 &lt;!-- /ja --&gt;
 
 &lt;p&gt;&lt;small&gt;Cited from &lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;&lt;/small&gt;
-
-&lt;/p&gt;
-</description></item><item><title>Google Drive</title><link>http://o.mnmly.com/articles/google-drive/</link><pubDate>Tue, 24 Apr 2012 12:00:00 -0500</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/google-drive/</guid><author></author><description>&lt;p&gt;&lt;a href=&quot;http://drive.google.com/&quot;&gt;Google Drive&lt;/a&gt;がようやく出ましたね。
-
-&lt;/p&gt;
-&lt;p&gt;まぁそんなに重要な書類の共有には使わないとは思いますが、ただ少し気になることが…
-
-&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.google.com/intl/en/policies/terms/#toc-content&quot;&gt;Google Terms of Service&lt;/a&gt;より
-&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;When you upload or otherwise submit content to our Services, you give Google (and those we work with) a worldwide license to use, host, store, reproduce, modify, create derivative works.
-
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;つまり、&lt;strong&gt;Googleにアップロードすることによって、自由に使用する権利をGoogleに与えることになります&lt;/strong&gt;っていう文言があること。
-
-&lt;/p&gt;
-&lt;p&gt;じゃぁ&lt;a href=&quot;http://dropbox.com&quot;&gt;Dropbox&lt;/a&gt;はどうなん？ってことですが、
-
-&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://dropbox.com&quot;&gt;Dropbox Terms&lt;/a&gt;より
-
-&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;You retain full ownership to your stuff. We don’t claim any ownership to any of it.
-
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;要は、&lt;strong&gt;あなたのものは完全にあなたが所有権を持っています。Dropboxはそれに対して何ら所有権を要求しません&lt;/strong&gt;というもの。
-
-&lt;/p&gt;
-&lt;p&gt;ちょっと雰囲気が違いますね :] Googleは前にデータについての方針を一本化したけど、これについては別のToSの方がいい気がする。。。
-
 
 &lt;/p&gt;
 </description></item><item><title>Meaningful Transitions: Slide</title><link>http://o.mnmly.com/articles/meaningful-transitions-slide/</link><pubDate>Tue, 24 Apr 2012 20:00:00 -0500</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/meaningful-transitions-slide/</guid><author></author><description>&lt;!-- ja#1 --&gt;
