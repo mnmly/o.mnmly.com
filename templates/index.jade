@@ -20,7 +20,7 @@ block content
       - }).compact().sortBy(function(item) { // compact removes any directories w/o an index
       -   // sort them by date
       -   return -item.date
-      - }).first(5).value() // and finally take the first 5
+      - }).first(10).value() // and finally take the first 5
       each article in articles
         article.post
           header

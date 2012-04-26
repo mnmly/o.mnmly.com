@@ -3,7 +3,7 @@
 }
 #mt-minimize .item {
   background-image: url("../images/uit-head-bg.png");
-  z-index: 10;
+  z-index: 2;
   height: 216px;
   width: 216px;
   -webkit-background-size: 25px;
@@ -35,22 +35,26 @@
 #mt-minimize .item .close {
   cursor: pointer;
   border: none;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -o-border-radius: 20px;
-  -ms-border-radius: 20px;
-  border-radius: 20px;
   display: block;
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 11px;
+  left: 11px;
   color: #0af;
-  background: rgba(255,255,255,0.70);
+  background: transparent;
   font-size: 19px;
   font-weight: bold;
   line-height: 0em;
   text-align: center;
   text-indent: -2px;
+  width: 25px;
+  height: 25px;
+}
+#mt-minimize .item .close svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.8;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
   width: 20px;
   height: 20px;
 }
