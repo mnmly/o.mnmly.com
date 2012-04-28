@@ -1,5 +1,5 @@
 title: Meaningful Transitions: Object Switch
-date: 2012-04-27 17:00
+date: 2012-04-27 19:00
 template: mt.jade
 transition: mt-object-switch
 
@@ -12,7 +12,7 @@ transition: mt-object-switch
 UIの作り方のお勉強のためにインタラクティブなバージョンを作ってます。
 第4回目のトランジションは`Object Switch`。
 
-ユーザが大きなアイテムを縮小化するときに効果的なトランジション :)
+アイテム間の移動に使用できるトランジション :)
 
 <span class="more"></span>
 
@@ -37,19 +37,18 @@ Check out [Meaningful Transitions] for detailed explanations.
 <!-- ja -->
 
 ### 使用できる領域 <small>Field of Use</small>
-ユーザがアイテムを縮小化したいとき
+ユーザがアイテムを交換するとき
 
 ### 動作の説明 <small>Description</small>
-アイテムは縮小しながらスクリーン上の特定の場所に移動する
+前面にあったアイテムが後ろに移動すると同時に、後方のアイテムが前面に出てくる
 
-### 一貫性 <small>Consistency</small>
-元に戻るためのトランジションは逆にアイテムが拡大してフルスクリーンになる
 
 ### 効果 <small>Benefit</small>
-縮小化されたアイテムがどこに配置してあるか知らせることができる。縮小されたアイテムはスクリーン上ではそれほど目立った場所には配置されないが、それでもこのトランジションによってどこにあるかを明確にできる
+このトランジションによってアイテム間のつながりを説明できる
+
 
 ### 例の説明 <small>Illustration</small>
-アイテムは縮んでいくように見える
+アイテムはもう片方のアイテムのためにスペースを空けるような動きをする
 
 <!-- /ja -->
 
