@@ -68,7 +68,7 @@
   -moz-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
   -webkit-tap-highlight-color: rgba(0,0,0,0.00) !important;
   -webkit-backface-visibility: hidden;
-  z-index: 0;
+  z-index: 1;
 }
 #content #mt-popup ul li:active {
   -webkit-transition-duration: 0.1s;

@@ -7,6 +7,24 @@
 
       MTBase.name = 'MTBase';
 
+      MTBase.vendor = (function() {
+        var prop, regex, someScript;
+        regex = /^(Moz|Webkit|Khtml|O|ms|Icab)(?=[A-Z])/;
+        someScript = document.getElementsByTagName("script")[0];
+        for (prop in someScript.style) {
+          if (regex.test(prop)) {
+            return prop.match(regex)[0].toLowerCase();
+          }
+        }
+        if ("WebkitOpacity" in someScript.style) {
+          return "webkit";
+        }
+        if ("KhtmlOpacity" in someScript.style) {
+          return "khtml";
+        }
+        return "";
+      })();
+
       function MTBase(el) {
         this.el = el;
         this.setupDOM();

@@ -7,7 +7,7 @@
   define(['zepto', 'mt-base', 'text!../templates/mt-object-switch.html', 'libs/Tween', 'css!../css/mt-object-switch.css', 'css!../css/app.css'], function($, MTBase, template) {
     var MTObjectSwitch;
     return MTObjectSwitch = (function(_super) {
-      var _duration, _tapOrClick;
+      var getVendorPrefix, _duration, _istouch, _tapOrClick;
 
       __extends(MTObjectSwitch, _super);
 
@@ -17,25 +17,56 @@
         return MTObjectSwitch.__super__.constructor.apply(this, arguments);
       }
 
-      (function() {
-        var vendor, vendors, _i, _len, _results;
-        vendors = ["ms", "moz", "webkit", "o"];
-        _results = [];
-        for (_i = 0, _len = vendors.length; _i < _len; _i++) {
-          vendor = vendors[_i];
-          window.requestAnimationFrame = window[vendor + "RequestAnimationFrame"];
-          window.cancelAnimationFrame = window[vendor + "CancelAnimationFrame"] || window[vendor + "CancelRequestAnimationFrame"];
-          if (window.requestAnimationFrame) {
-            MTObjectSwitch.vendor = vendor;
-            break;
-          } else {
-            _results.push(void 0);
+      MTObjectSwitch.vendor = (getVendorPrefix = function() {
+        var prop, regex, someScript;
+        regex = /^(Moz|Webkit|Khtml|O|ms|Icab)(?=[A-Z])/;
+        someScript = document.getElementsByTagName("script")[0];
+        for (prop in someScript.style) {
+          if (regex.test(prop)) {
+            return prop.match(regex)[0].toLowerCase();
           }
         }
-        return _results;
+        if ("WebkitOpacity" in someScript.style) {
+          return "webkit";
+        }
+        if ("KhtmlOpacity" in someScript.style) {
+          return "khtml";
+        }
+        return "";
+      })();
+
+      (function() {
+        var lastTime, vendors, x;
+        lastTime = 0;
+        vendors = ["ms", "moz", "webkit", "o"];
+        x = 0;
+        while (x < vendors.length && !window.requestAnimationFrame) {
+          window.requestAnimationFrame = window[vendors[x] + "RequestAnimationFrame"];
+          window.cancelAnimationFrame = window[vendors[x] + "CancelAnimationFrame"] || window[vendors[x] + "CancelRequestAnimationFrame"];
+          ++x;
+        }
+        if (!window.requestAnimationFrame) {
+          window.requestAnimationFrame = function(callback, element) {
+            var currTime, id, timeToCall;
+            currTime = new Date().getTime();
+            timeToCall = Math.max(0, 16 - (currTime - lastTime));
+            id = window.setTimeout(function() {
+              return callback(currTime + timeToCall);
+            }, timeToCall);
+            lastTime = currTime + timeToCall;
+            return id;
+          };
+        }
+        if (!window.cancelAnimationFrame) {
+          return window.cancelAnimationFrame = function(id) {
+            return clearTimeout(id);
+          };
+        }
       })();
 
       _tapOrClick = __indexOf.call(window, 'ontouchstart') >= 0 ? 'tap' : 'click';
+
+      _istouch = __indexOf.call(window, 'ontouchstart') >= 0;
 
       _duration = 2500;
 
