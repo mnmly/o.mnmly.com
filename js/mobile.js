@@ -29,23 +29,27 @@
         desc = "p.desc";
         content = "#content";
         $animationTarget = $(header).add(logo).add(desc).add(content);
-        $animationTarget.addClass(_killAnimationClass);
-        $animationTarget.on(_animationEndName, function(e) {
+        return $animationTarget.on(_animationEndName, function(e) {
           var $target;
           e.stopPropagation();
           $target = $(e.target);
+          console.log(e.target);
           if ($target.is(logo)) {
+            console.log("tagline appears");
             return _this.triggerAnimation($animationTarget.filter(desc), "fade-in .5s both");
           } else if ($target.is(desc)) {
+            console.log("stay this state for a bit");
             _this.triggerAnimation($animationTarget.filter(header), "slide-up .75s .75s both");
             return _this.triggerAnimation($animationTarget.filter(content), "fade-scale-up 1.5s 1s both cubic-bezier(0.860, 0.000, 0.070, 1.000)");
           }
         });
-        return this.triggerAnimation($animationTarget.filter(logo), 'intro 2s both');
       };
 
       Mobile.prototype.triggerAnimation = function($elem, value) {
-        return $elem.removeClass(_killAnimationClass).get(0).style[_animationPropName] = value;
+        $elem.removeClass(_killAnimationClass).get(0).style[_animationPropName] = value;
+        console.log($elem.get(0).tagName);
+        console.log($elem.attr('id'));
+        return console.log($elem.attr('class'));
       };
 
       Mobile.prototype.setupSwipe = function(sliderIndex) {

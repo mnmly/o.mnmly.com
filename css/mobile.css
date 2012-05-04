@@ -11,6 +11,21 @@
     -ms-transform: translate3d(-251.327412px, 0, 0) rotate(-360deg);
     transform: translate3d(-251.327412px, 0, 0) rotate(-360deg);
   }
+  .index header.identity-header {
+    -webkit-animation: slide-up 0.75s 3.75s both;
+    -moz-animation: slide-up 0.75s 3.75s both;
+    animation: slide-up 0.75s 3.75s both;
+  }
+  .index p.desc {
+    -webkit-animation: fade-in 0.5s 2s both;
+    -moz-animation: fade-in 0.5s 2s both;
+    animation: fade-in 0.5s 2s both;
+  }
+  .index #content {
+    -webkit-animation: fade-scale-up 1.5s 4s both cubic-bezier(0.86, 0, 0.07, 1);
+    -moz-animation: fade-scale-up 1.5s 4s both cubic-bezier(0.86, 0, 0.07, 1);
+    animation: fade-scale-up 1.5s 4s both cubic-bezier(0.86, 0, 0.07, 1);
+  }
   p.desc {
     opacity: 0;
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);

@@ -1,6 +1,6 @@
 (function() {
 
-  define(['zepto', "scroll", "preview", "lang-switch", "header", "pjax", "social", "mobile", "update-message", "modernizr", "analytics", "zepto.scroll"], function($, Scroll, Preview, LangSwitch, Header, Pjax, Social, Mobile, UpdateMessage) {
+  define(['zepto', "scroll", "preview", "lang-switch", "header", "social", "mobile", "update-message", "modernizr", "analytics", "zepto.scroll"], function($, Scroll, Preview, LangSwitch, Header, Social, Mobile, UpdateMessage) {
     var App;
     return App = (function() {
 
@@ -49,15 +49,6 @@
       };
 
       App.prototype.attachEvents = function() {
-        /*
-              @pjax.bind "load:article", (articleData)=>
-                { index } =  articleData
-                # Swap top-header's title
-                $("#top-header h5").text $(".post").eq(index).find('.title').text()
-                Socialite.load()
-                @mobile.setupSwipe(index)
-        */
-
         var _this = this;
         this.scroll.bind("scroll", this.header.onScroll);
         $("#top-header").on('click tap', function(e) {
