@@ -12,7 +12,7 @@ iPadでのテキストの編集方法に関して、一般ユーザから提案�
 
 <span class="more"></span>
 
-<iframe width="439" height="223" src="http://www.youtube.com/embed/RGQTaHGQ04Q?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="439" height="223" src="http://www.youtube.com/embed/RGQTaHGQ04Q?rel=0&fs=1" frameborder="0" allowfullscreen></iframe>
 
 
 <small>(via [@usabilitypost](https://twitter.com/usabilitypost/status/198198130301341697))</small>
