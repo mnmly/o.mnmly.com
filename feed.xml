@@ -138,6 +138,23 @@
 &lt;p&gt;&lt;small&gt;Cited from &lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;&lt;/small&gt;
 
 &lt;/p&gt;
+</description></item><item><title>How text editing on the iPad should be</title><link>http://o.mnmly.com/articles/text-editiing-on-the-ipad/</link><pubDate>Sat, 05 May 2012 07:00:00 +0900</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/text-editiing-on-the-ipad/</guid><author></author><description>&lt;p&gt;iPadでのテキストの編集方法に関して、一般ユーザから提案されたキーボードを使ったインタラクションがすばらしい。
+
+&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Shift&lt;/code&gt;を押すことで、&lt;code&gt;モード&lt;/code&gt;を変更しキーボードをテキストの選択のインターフェースとして使用できるようにしています。
+
+&lt;/p&gt;
+&lt;p&gt;一般的な&lt;code&gt;Modeless Editor&lt;/code&gt;に&lt;code&gt;Modal Editor&lt;/code&gt;のいいところを取り入れた例。
+
+&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;
+
+&lt;/p&gt;
+&lt;iframe width=&quot;439&quot; height=&quot;223&quot; src=&quot;http://www.youtube.com/embed/RGQTaHGQ04Q?rel=0&amp;fs=1&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+
+&lt;p&gt;&lt;small&gt;(via &lt;a href=&quot;https://twitter.com/usabilitypost/status/198198130301341697&quot;&gt;@usabilitypost&lt;/a&gt;)&lt;/small&gt;
+&lt;/p&gt;
 </description></item><item><title>Meaningful Transitions: Object Switch</title><link>http://o.mnmly.com/articles/meaningful-transitions-object-switch/</link><pubDate>Fri, 27 Apr 2012 19:00:00 +0900</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/meaningful-transitions-object-switch/</guid><author></author><description>&lt;!-- ja#1 --&gt;
 
 &lt;p&gt;&lt;code&gt;HTML/JS/CSS&lt;/code&gt;で&lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;の&lt;em&gt;Part 4&lt;/em&gt;
@@ -348,7 +365,7 @@
 
 &lt;/p&gt;
 &lt;h3&gt;僕がいたチーム&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;http://o.mnmly.com/articles/next-step/IMG_2467.JPG&quot; alt=&quot;&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/next-step/IMG_2467.JPG&quot; alt=&quot;&quot;&gt;
 さて、僕は&lt;a href=&quot;http://simplehonestwork.com&quot;&gt;Simple.Honest.Work&lt;/a&gt;という&lt;a href=&quot;http://simplescott.com&quot;&gt;SimpleScott&lt;/a&gt;をはじめとするWeb中心のデザインファームで1年半お世話になりました。僕が始めたときのチームはScott, &lt;a href=&quot;http://geremygood.com&quot;&gt;Jeremy&lt;/a&gt;, &lt;a href=&quot;http://theelisabeth.com&quot;&gt;Elisabeth&lt;/a&gt;, そして僕、の4人の小規模チームでした。ざっくりとした役割は、ScottとJeremyがデザイン+&lt;code&gt;HTML&lt;/code&gt;+&lt;code&gt;CSS&lt;/code&gt;、僕はそれに加えて&lt;code&gt;JavaScript&lt;/code&gt;とバックエンドとサーバ管理を担当していて、 Elisabethがクライアントとのコミュニケーションとスタジオのマネジメントを担当していました。
 
 &lt;/p&gt;
@@ -397,7 +414,7 @@
 
 &lt;/p&gt;
 &lt;h3&gt;飛行機で行ったり来たり&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;http://o.mnmly.com/articles/next-step/IMG_0769.JPG&quot; alt=&quot;&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/next-step/IMG_0769.JPG&quot; alt=&quot;&quot;&gt;
 これが終わる頃には&lt;a href=&quot;http://www.zinnidesign.com/&quot;&gt;Tony&lt;/a&gt;, &lt;a href=&quot;http://bjoyski.com/&quot;&gt;Brittany&lt;/a&gt;の2人のデザイナーも加わり、スタジオも少し大きくなり始めました。
 
 &lt;/p&gt;
@@ -422,7 +439,7 @@ Prototypingをすることになりました。夜遅くまでやいやいした
 
 &lt;/p&gt;
 &lt;h3&gt;シカゴに戻って&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;http://o.mnmly.com/articles/next-step/IMG_1030.JPG&quot; alt=&quot;&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/next-step/IMG_1030.JPG&quot; alt=&quot;&quot;&gt;
 
 &lt;/p&gt;
 &lt;p&gt;シカゴに戻ってからは、&lt;a href=&quot;http://www.fastcodesign.com/&quot;&gt;Co.Design&lt;/a&gt;や&lt;a href=&quot;http://www.fastcoexist.com/&quot;&gt;Co.Exists&lt;/a&gt;のフロントエンドの実装の手助けと、主に&lt;code&gt;The Noun Project&lt;/code&gt;のバージョンアップをリードして多くの時間を費やしました。またバックエンドのシニアデベロッパの&lt;a href=&quot;http://chadpaulson.com&quot;&gt;Chad&lt;/a&gt;もチームに加わります。
@@ -472,7 +489,7 @@ Prototypingをすることになりました。夜遅くまでやいやいした
 
 &lt;/p&gt;
 &lt;h3&gt;何かを学ぶこと&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;http://o.mnmly.com/articles/next-step/IMG_2754.JPG&quot; alt=&quot;&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/next-step/IMG_2754.JPG&quot; alt=&quot;&quot;&gt;
 
 &lt;/p&gt;
 &lt;p&gt;年齢的にまだ若いだけかもしれないですが、今は幅広いことを学びたいという考えの方が強い気がします。というか、僕はべつに「すごいウェブデベロッパーになろうლ(・∀・)ლ」とか思ってないんです。
@@ -503,22 +520,5 @@ Prototypingをすることになりました。夜遅くまでやいやいした
 &lt;p&gt;(も、もし！！ビザのトランスファーがうまく行かずに、10月まで待たないといけない状況になる場合は、おそらく日本でお仕事をする予定にはしているので、その際は何かお声がけください…)
 
 
-&lt;/p&gt;
-</description></item><item><title>How text editing on the iPad should be</title><link>http://o.mnmly.com/articles/text-editiing-on-the-ipad/</link><pubDate>Sat, 05 May 2012 07:00:00 +0900</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/text-editiing-on-the-ipad/</guid><author></author><description>&lt;p&gt;iPadでのテキストの編集方法に関して、一般ユーザから提案されたキーボードを使ったインタラクションがすばらしい。
-
-&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Shift&lt;/code&gt;を押すことで、&lt;code&gt;モード&lt;/code&gt;を変更しキーボードをテキストの選択のインターフェースとして使用できるようにしています。
-
-&lt;/p&gt;
-&lt;p&gt;一般的な&lt;code&gt;Modeless Editor&lt;/code&gt;に&lt;code&gt;Modal Editor&lt;/code&gt;のいいところを取り入れた例。
-
-&lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;
-
-&lt;/p&gt;
-&lt;iframe width=&quot;439&quot; height=&quot;223&quot; src=&quot;http://www.youtube.com/embed/RGQTaHGQ04Q?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
-
-
-&lt;p&gt;&lt;small&gt;(via &lt;a href=&quot;https://twitter.com/usabilitypost/status/198198130301341697&quot;&gt;@usabilitypost&lt;/a&gt;)&lt;/small&gt;
 &lt;/p&gt;
 </description></item></channel></rss>
