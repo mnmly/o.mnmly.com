@@ -25,6 +25,9 @@
         if ((typeof MNMLY !== "undefined" && MNMLY !== null ? MNMLY.onScriptLoaded : void 0) != null) {
           MNMLY.onScriptLoaded();
         }
+        $("iframe[src*=youtube.com]").each(function(i, el) {
+          return $(el).wrapAll('<div class="video"></div>');
+        });
       }
 
       App.prototype.initSocial = function() {
