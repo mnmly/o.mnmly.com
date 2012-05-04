@@ -16,7 +16,6 @@ define [
 
     constructor: ->
       @body     = $('body')
-
       @preview   = new Preview
       @header    = new Header
       @scroll    = new Scroll
@@ -36,6 +35,10 @@ define [
 
       if MNMLY?.onScriptLoaded?
         MNMLY.onScriptLoaded()
+      
+      $("iframe[src*=youtube.com]").each (i, el)->
+        $( el ).wrapAll('<div class="video"></div>')
+        
     
     initSocial: ->
       return if $(".social").length is 0

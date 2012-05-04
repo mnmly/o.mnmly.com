@@ -4,6 +4,15 @@ template: link.jade
 type: link
 link: http://www.idownloadblog.com/2012/05/03/text-editing-on-the-ipad/
 
+iPadでのテキストの編集方法に関して、一般ユーザから提案されたキーボードを使ったインタラクションがすばらしい。
+
+`Shift`を押すことで、`モード`を変更しキーボードをテキストの選択のインターフェースとして使用できるようにしています。
+
+一般的な`Modeless Editor`に`Modal Editor`のいいところを取り入れた例。
+
+<span class="more"></span>
+
 <iframe width="439" height="223" src="http://www.youtube.com/embed/RGQTaHGQ04Q?rel=0" frameborder="0" allowfullscreen></iframe>
 
-<small>(via [@jsgoodies](https://twitter.com/jsgoodies/status/195130038964862976))</small>
+
+<small>(via [@usabilitypost](https://twitter.com/usabilitypost/status/198198130301341697))</small>
