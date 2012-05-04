@@ -4,21 +4,19 @@ define [
   "preview",
   "lang-switch",
   "header",
-  "pjax",
   "social"
   "mobile"
   "update-message"
   "modernizr"
   "analytics"
   "zepto.scroll"
-  ], ($, Scroll, Preview, LangSwitch, Header, Pjax, Social, Mobile, UpdateMessage)->
+  ], ($, Scroll, Preview, LangSwitch, Header, Social, Mobile, UpdateMessage)->
 
   class App
 
     constructor: ->
       @body     = $('body')
 
-      #@pjax    = new Pjax
       @preview   = new Preview
       @header    = new Header
       @scroll    = new Scroll
@@ -56,14 +54,6 @@ define [
           $link.attr('target', '_blank')
       
     attachEvents: ->
-      ###
-      @pjax.bind "load:article", (articleData)=>
-        { index } =  articleData
-        # Swap top-header's title
-        $("#top-header h5").text $(".post").eq(index).find('.title').text()
-        Socialite.load()
-        @mobile.setupSwipe(index)
-      ###
       
       @scroll.bind "scroll", @header.onScroll
 
