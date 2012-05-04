@@ -20,7 +20,7 @@ define ['zepto', "swipe"], ($)->
   
     setupIntroAnimation: ->
 
-      # Animation Sequence
+      # Animation Sequence (Deprecated)
       # ==================
       # 1. Start with white screen
       # 2. Logo rolls in
@@ -37,32 +37,37 @@ define ['zepto', "swipe"], ($)->
 
       $animationTarget = $(header).add(logo).add(desc).add(content)
 
-      $animationTarget.addClass _killAnimationClass
+      #$animationTarget.addClass _killAnimationClass
       
       # Waits for animation ends
       $animationTarget.on _animationEndName, (e)=>
 
         e.stopPropagation()
         $target = $(e.target)
-
+        console.log e.target
         # when #2 finishes...
         if $target.is(logo)
+          console.log "tagline appears"
           @triggerAnimation($animationTarget.filter(desc), "fade-in .5s both")
 
         # when #3 ends
         else if $target.is(desc)
           # kick off #4
+          console.log "stay this state for a bit"
           @triggerAnimation($animationTarget.filter(header), "slide-up .75s .75s both")
 
           # kick off #5 right before [.5s] #4 finishes
           @triggerAnimation($animationTarget.filter(content), "fade-scale-up 1.5s 1s both cubic-bezier(0.860, 0.000, 0.070, 1.000)")
 
       # Currently #1, lets kickoff #2
-      @triggerAnimation($animationTarget.filter(logo), 'intro 2s both')
+      #@triggerAnimation($animationTarget.filter(logo), 'intro 2s backwards')
     
 
     triggerAnimation: ($elem, value)->
       $elem.removeClass(_killAnimationClass).get(0).style[_animationPropName] = value
+      console.log $elem.get(0).tagName
+      console.log $elem.attr('id')
+      console.log $elem.attr('class')
 
 
     setupSwipe: (sliderIndex = 0)->
