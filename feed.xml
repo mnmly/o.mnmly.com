@@ -335,6 +335,23 @@
 &lt;p&gt;&lt;small&gt;Cited from &lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;&lt;/small&gt;
 
 &lt;/p&gt;
+</description></item><item><title>How text editing on the iPad should be</title><link>http://o.mnmly.com/articles/text-editiing-on-the-ipad/</link><pubDate>Sat, 05 May 2012 07:00:00 +0900</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/text-editiing-on-the-ipad/</guid><author></author><description>&lt;p&gt;iPadでのテキストの編集方法に関して、一般ユーザから提案されたキーボードを使ったインタラクションがすばらしい。
+
+&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Shift&lt;/code&gt;を押すことで、&lt;code&gt;モード&lt;/code&gt;を変更しキーボードをテキストの選択のインターフェースとして使用できるようにしています。
+
+&lt;/p&gt;
+&lt;p&gt;一般的な&lt;code&gt;Modeless Editor&lt;/code&gt;に&lt;code&gt;Modal Editor&lt;/code&gt;のいいところを取り入れた例。
+
+&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;
+
+&lt;/p&gt;
+&lt;iframe width=&quot;439&quot; height=&quot;223&quot; src=&quot;http://www.youtube.com/embed/RGQTaHGQ04Q?rel=0&amp;fs=1&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+
+&lt;p&gt;&lt;small&gt;(via &lt;a href=&quot;https://twitter.com/usabilitypost/status/198198130301341697&quot;&gt;@usabilitypost&lt;/a&gt;)&lt;/small&gt;
+&lt;/p&gt;
 </description></item><item><title>シカゴから西海岸へお引っ越しします</title><link>http://o.mnmly.com/articles/next-step/</link><pubDate>Fri, 20 Apr 2012 12:00:00 +0900</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/next-step/</guid><author></author><description>&lt;p&gt;2012年3月で、1年半ほどお世話になったシカゴから離れて、今度は西海岸の方にお引っ越しすることにしました。(ビザがきちんとおりればですが…)
 
 &lt;/p&gt;
@@ -503,22 +520,5 @@ Prototypingをすることになりました。夜遅くまでやいやいした
 &lt;p&gt;(も、もし！！ビザのトランスファーがうまく行かずに、10月まで待たないといけない状況になる場合は、おそらく日本でお仕事をする予定にはしているので、その際は何かお声がけください…)
 
 
-&lt;/p&gt;
-</description></item><item><title>How text editing on the iPad should be</title><link>http://o.mnmly.com/articles/text-editiing-on-the-ipad/</link><pubDate>Sat, 05 May 2012 07:00:00 +0900</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/text-editiing-on-the-ipad/</guid><author></author><description>&lt;p&gt;iPadでのテキストの編集方法に関して、一般ユーザから提案されたキーボードを使ったインタラクションがすばらしい。
-
-&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Shift&lt;/code&gt;を押すことで、&lt;code&gt;モード&lt;/code&gt;を変更しキーボードをテキストの選択のインターフェースとして使用できるようにしています。
-
-&lt;/p&gt;
-&lt;p&gt;一般的な&lt;code&gt;Modeless Editor&lt;/code&gt;に&lt;code&gt;Modal Editor&lt;/code&gt;のいいところを取り入れた例。
-
-&lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;
-
-&lt;/p&gt;
-&lt;iframe width=&quot;439&quot; height=&quot;223&quot; src=&quot;http://www.youtube.com/embed/RGQTaHGQ04Q?rel=0&amp;fs=1&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
-
-
-&lt;p&gt;&lt;small&gt;(via &lt;a href=&quot;https://twitter.com/usabilitypost/status/198198130301341697&quot;&gt;@usabilitypost&lt;/a&gt;)&lt;/small&gt;
 &lt;/p&gt;
 </description></item></channel></rss>
