@@ -38,11 +38,11 @@
   -ms-transition: 0.5s cubic-bezier(0.86, 0, 0.07, 1);
   transition: 0.5s cubic-bezier(0.86, 0, 0.07, 1);
   -webkit-tap-highlight-color: rgba(0,0,0,0.00) !important;
-  -webkit-animation: rotate-on-unstack 0.6s ease-in-out;
-  -moz-animation: rotate-on-unstack 0.6s ease-in-out;
-  -o-animation: rotate-on-unstack 0.6s ease-in-out;
-  -ms-animation: rotate-on-unstack 0.6s ease-in-out;
-  animation: rotate-on-unstack 0.6s ease-in-out;
+  -webkit-animation: rotate-on-unstack 0.4s ease-in-out;
+  -moz-animation: rotate-on-unstack 0.4s ease-in-out;
+  -o-animation: rotate-on-unstack 0.4s ease-in-out;
+  -ms-animation: rotate-on-unstack 0.4s ease-in-out;
+  animation: rotate-on-unstack 0.4s ease-in-out;
 }
 #mt-fan-of-stack ul:before,
 #mt-fan-of-stack ul:after {
@@ -82,11 +82,11 @@
   -o-animation-fill-mode: both;
   -ms-animation-fill-mode: both;
   animation-fill-mode: both;
-  -webkit-animation-duration: 300ms;
-  -moz-animation-duration: 300ms;
-  -o-animation-duration: 300ms;
-  -ms-animation-duration: 300ms;
-  animation-duration: 300ms;
+  -webkit-animation-duration: 250ms;
+  -moz-animation-duration: 250ms;
+  -o-animation-duration: 250ms;
+  -ms-animation-duration: 250ms;
+  animation-duration: 250ms;
   -webkit-animation-timing-function: ease-in-out;
   -moz-animation-timing-function: ease-in-out;
   -o-animation-timing-function: ease-in-out;

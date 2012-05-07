@@ -273,6 +273,15 @@ p.desc {
 .touch #content .fade-pane {
   display: none;
 }
+ul {
+  padding-left: 40px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.mt-transition ul {
+  margin: 0;
+  padding: 0;
+}
 #content {
   max-width: 570px;
   text-shadow: 0 1px 1px rgba(255,255,255,0.30);
@@ -428,11 +437,6 @@ p.desc {
 #content .body-text {
   border-bottom: 1px dotted rgba(0,0,0,0.50);
   padding-bottom: 30px;
-}
-#content .body-text ul {
-  padding-left: 40px;
-  margin-top: 10px;
-  margin-bottom: 20px;
 }
 #content .body-text p {
   margin-top: 0;
