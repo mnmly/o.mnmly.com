@@ -36,7 +36,7 @@ define [
       if MNMLY?.onScriptLoaded?
         MNMLY.onScriptLoaded()
       
-      $("iframe[src*=youtube.com]").each (i, el)->
+      $("iframe[src*=youtube]").each (i, el)->
         $( el ).wrapAll('<div class="video"></div>')
         
     

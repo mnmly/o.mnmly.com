@@ -19,6 +19,7 @@
         this.popup = new MTPopup($("#mt-popup"));
         this.minimize = new MTMinimize($("#mt-minimize"));
         this.objectSwich = new MTObjectSwitch($("#mt-object-switch"));
+        return this.fanOfStack = new MTFanOfStack($("#mt-fan-of-stack"));
       };
 
       return App;
