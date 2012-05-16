@@ -1,6 +1,6 @@
 (function() {
 
-  define(['zepto', "swipe"], function($) {
+  define(['zepto', "swipe", 'libs/zepto.fitvids'], function($) {
     var Mobile;
     return Mobile = (function() {
       var _animationEndName, _animationPropName, _killAnimationClass;
@@ -19,6 +19,7 @@
           this.setupIntroAnimation();
         }
         $(".share").addClass('on');
+        $(".video-container").fitVids();
       }
 
       Mobile.prototype.setupIntroAnimation = function() {
