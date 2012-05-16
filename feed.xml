@@ -23,6 +23,20 @@
 
 &lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://silencedgood.tumblr.com/post/22547672461/zyngas-going-down&quot;&gt;http://silencedgood.tumblr.com/post/22547672461/zyngas-going-down&lt;/a&gt;&lt;/p&gt;
+</description></item><item><title>CoffeeScriptの始め方</title><link>http://o.mnmly.com/articles/_writing-less/</link><pubDate>Sat, 21 Apr 2012 12:00:00 +0900</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/_writing-less/</guid><author></author><description>&lt;p&gt;[CoffeeScript]は聞いたことがあるが使ったことがない人のために。
+僕自身があんまり記事の文字を読んで理解できるたちではないので、ここではscreencastを用いて説明していきたいと思います。
+
+&lt;/p&gt;
+&lt;p&gt;軽い流れはこちらです。
+
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Node.jsのインストール&lt;/li&gt;
+&lt;li&gt;nvmのインストール&lt;/li&gt;
+&lt;li&gt;npmのインストール&lt;/li&gt;
+&lt;li&gt;CoffeeScriptのインストール&lt;/li&gt;
+&lt;li&gt;実際に使ってみる&lt;/li&gt;
+&lt;/ol&gt;
 </description></item><item><title>Dan Wieden's view on Social markething</title><link>http://o.mnmly.com/articles/dan-wieden-on-social/</link><pubDate>Wed, 16 May 2012 11:30:00 +0900</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/dan-wieden-on-social/</guid><author></author><description>&lt;div class=&quot;video-container&quot;&gt;
 &lt;iframe src=&quot;http://player.vimeo.com/video/38336537?byline=0&amp;portrait=0&quot; width=&quot;440&quot; height=&quot;231&quot; frameborder=&quot;0&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt;
 &lt;/div&gt;
@@ -59,20 +73,6 @@ I don&apos;t like the idea that the eyes in the sky knows exactly who I am and  
 &lt;p&gt;自分が好きなものって他人にほらほらぁって見せられても別になんとも思わんし、
 本当に好きで興味があるものって、やいやい言われんでも自分から探しにいくよ。
 &lt;/p&gt;
-</description></item><item><title>CoffeeScriptの始め方</title><link>http://o.mnmly.com/articles/_writing-less/</link><pubDate>Sat, 21 Apr 2012 12:00:00 +0900</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/_writing-less/</guid><author></author><description>&lt;p&gt;[CoffeeScript]は聞いたことがあるが使ったことがない人のために。
-僕自身があんまり記事の文字を読んで理解できるたちではないので、ここではscreencastを用いて説明していきたいと思います。
-
-&lt;/p&gt;
-&lt;p&gt;軽い流れはこちらです。
-
-&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Node.jsのインストール&lt;/li&gt;
-&lt;li&gt;nvmのインストール&lt;/li&gt;
-&lt;li&gt;npmのインストール&lt;/li&gt;
-&lt;li&gt;CoffeeScriptのインストール&lt;/li&gt;
-&lt;li&gt;実際に使ってみる&lt;/li&gt;
-&lt;/ol&gt;
 </description></item><item><title>Google Drive</title><link>http://o.mnmly.com/articles/google-drive/</link><pubDate>Tue, 24 Apr 2012 12:00:00 +0900</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/google-drive/</guid><author></author><description>&lt;p&gt;&lt;a href=&quot;http://drive.google.com/&quot;&gt;Google Drive&lt;/a&gt;がようやく出ましたね。
 
 &lt;/p&gt;
@@ -266,71 +266,6 @@ I don&apos;t like the idea that the eyes in the sky knows exactly who I am and  
 &lt;p&gt;&lt;small&gt;Cited from &lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;&lt;/small&gt;
 
 &lt;/p&gt;
-</description></item><item><title>Meaningful Transitions: Object Switch</title><link>http://o.mnmly.com/articles/meaningful-transitions-object-switch/</link><pubDate>Fri, 27 Apr 2012 19:00:00 +0900</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/meaningful-transitions-object-switch/</guid><author></author><description>&lt;!-- ja#1 --&gt;
-
-&lt;p&gt;&lt;code&gt;HTML/JS/CSS&lt;/code&gt;で&lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;の&lt;em&gt;Part 4&lt;/em&gt;
-
-&lt;/p&gt;
-&lt;p&gt;様々なUIのトランジションパターンをアーカイブし、丁寧な説明を加えて紹介している&lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;。
-
-&lt;/p&gt;
-&lt;p&gt;UIの作り方のお勉強のためにインタラクティブなバージョンを作ってます。
-第4回目のトランジションは&lt;code&gt;Object Switch&lt;/code&gt;。
-
-&lt;/p&gt;
-&lt;p&gt;アイテム間の移動に使用できるトランジション :)
-
-&lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;
-
-&lt;/p&gt;
-&lt;!-- /ja --&gt;
-
-&lt;!-- en#1 --&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt; in &lt;code&gt;HTML/JS/CSS&lt;/code&gt; &lt;em&gt;Part 4&lt;/em&gt;
-
-&lt;/p&gt;
-&lt;p&gt;I started building an interactive version of &lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt; purely for learning ui pattern, transition and animations. 
-
-&lt;/p&gt;
-&lt;p&gt;The fourth transition is &lt;code&gt;Object Switch&lt;/code&gt;
-
-&lt;/p&gt;
-&lt;p&gt;Check out &lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt; for detailed explanations.
-
-&lt;/p&gt;
-&lt;!-- /en --&gt;
-
-
-&lt;div id=&quot;mt-object-switch&quot; class=&quot;mt-transition&quot; data-title=&quot;Object Switch&quot;&gt;
-&lt;/div&gt;
-
-&lt;!-- ja --&gt;
-
-&lt;h3&gt;使用できる領域 &lt;small&gt;Field of Use&lt;/small&gt;&lt;/h3&gt;
-&lt;p&gt;ユーザがアイテムを交換するとき
-
-&lt;/p&gt;
-&lt;h3&gt;動作の説明 &lt;small&gt;Description&lt;/small&gt;&lt;/h3&gt;
-&lt;p&gt;前面にあったアイテムが後ろに移動すると同時に、後方のアイテムが前面に出てくる
-
-
-&lt;/p&gt;
-&lt;h3&gt;効果 &lt;small&gt;Benefit&lt;/small&gt;&lt;/h3&gt;
-&lt;p&gt;このトランジションによってアイテム間のつながりを説明できる
-
-
-&lt;/p&gt;
-&lt;h3&gt;例の説明 &lt;small&gt;Illustration&lt;/small&gt;&lt;/h3&gt;
-&lt;p&gt;アイテムはもう片方のアイテムのためにスペースを空けるような動きをする
-
-&lt;/p&gt;
-&lt;!-- /ja --&gt;
-
-&lt;p&gt;&lt;small&gt;Cited from &lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;&lt;/small&gt;
-
-&lt;/p&gt;
 </description></item><item><title>Meaningful Transitions: Popup</title><link>http://o.mnmly.com/articles/meaningful-transitions-popup/</link><pubDate>Wed, 25 Apr 2012 16:00:00 +0900</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/meaningful-transitions-popup/</guid><author></author><description>&lt;!-- ja#1 --&gt;
 
 &lt;p&gt;&lt;code&gt;HTML/JS/CSS&lt;/code&gt;で&lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;の&lt;em&gt;Part 2&lt;/em&gt;
@@ -393,6 +328,71 @@ I don&apos;t like the idea that the eyes in the sky knows exactly who I am and  
 &lt;/p&gt;
 &lt;h3&gt;例の説明 &lt;small&gt;Illustration&lt;/small&gt;&lt;/h3&gt;
 &lt;p&gt;アイテムはステージ上で大きくなっていくように見える
+
+&lt;/p&gt;
+&lt;!-- /ja --&gt;
+
+&lt;p&gt;&lt;small&gt;Cited from &lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;&lt;/small&gt;
+
+&lt;/p&gt;
+</description></item><item><title>Meaningful Transitions: Object Switch</title><link>http://o.mnmly.com/articles/meaningful-transitions-object-switch/</link><pubDate>Fri, 27 Apr 2012 19:00:00 +0900</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/meaningful-transitions-object-switch/</guid><author></author><description>&lt;!-- ja#1 --&gt;
+
+&lt;p&gt;&lt;code&gt;HTML/JS/CSS&lt;/code&gt;で&lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;の&lt;em&gt;Part 4&lt;/em&gt;
+
+&lt;/p&gt;
+&lt;p&gt;様々なUIのトランジションパターンをアーカイブし、丁寧な説明を加えて紹介している&lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;。
+
+&lt;/p&gt;
+&lt;p&gt;UIの作り方のお勉強のためにインタラクティブなバージョンを作ってます。
+第4回目のトランジションは&lt;code&gt;Object Switch&lt;/code&gt;。
+
+&lt;/p&gt;
+&lt;p&gt;アイテム間の移動に使用できるトランジション :)
+
+&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;
+
+&lt;/p&gt;
+&lt;!-- /ja --&gt;
+
+&lt;!-- en#1 --&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt; in &lt;code&gt;HTML/JS/CSS&lt;/code&gt; &lt;em&gt;Part 4&lt;/em&gt;
+
+&lt;/p&gt;
+&lt;p&gt;I started building an interactive version of &lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt; purely for learning ui pattern, transition and animations. 
+
+&lt;/p&gt;
+&lt;p&gt;The fourth transition is &lt;code&gt;Object Switch&lt;/code&gt;
+
+&lt;/p&gt;
+&lt;p&gt;Check out &lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt; for detailed explanations.
+
+&lt;/p&gt;
+&lt;!-- /en --&gt;
+
+
+&lt;div id=&quot;mt-object-switch&quot; class=&quot;mt-transition&quot; data-title=&quot;Object Switch&quot;&gt;
+&lt;/div&gt;
+
+&lt;!-- ja --&gt;
+
+&lt;h3&gt;使用できる領域 &lt;small&gt;Field of Use&lt;/small&gt;&lt;/h3&gt;
+&lt;p&gt;ユーザがアイテムを交換するとき
+
+&lt;/p&gt;
+&lt;h3&gt;動作の説明 &lt;small&gt;Description&lt;/small&gt;&lt;/h3&gt;
+&lt;p&gt;前面にあったアイテムが後ろに移動すると同時に、後方のアイテムが前面に出てくる
+
+
+&lt;/p&gt;
+&lt;h3&gt;効果 &lt;small&gt;Benefit&lt;/small&gt;&lt;/h3&gt;
+&lt;p&gt;このトランジションによってアイテム間のつながりを説明できる
+
+
+&lt;/p&gt;
+&lt;h3&gt;例の説明 &lt;small&gt;Illustration&lt;/small&gt;&lt;/h3&gt;
+&lt;p&gt;アイテムはもう片方のアイテムのためにスペースを空けるような動きをする
 
 &lt;/p&gt;
 &lt;!-- /ja --&gt;
