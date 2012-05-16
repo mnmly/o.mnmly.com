@@ -1,17 +1,37 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>an autodidact's output</title><atom:link href="http://o.mnmly.com/feed.xml" rel="self" type="application/rss+xml"></atom:link><link>http://o.mnmly.com</link><description>an autodidact who needs output</description><pubDate>Sat, 21 Apr 2012 12:00:00 +0900</pubDate><generator>The mighty Wintersmith</generator><language>en</language><item><title>CoffeeScriptの始め方</title><link>http://o.mnmly.com/articles/_writing-less/</link><pubDate>Sat, 21 Apr 2012 12:00:00 +0900</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/_writing-less/</guid><author></author><description>&lt;p&gt;[CoffeeScript]は聞いたことがあるが使ったことがない人のために。
-僕自身があんまり記事の文字を読んで理解できるたちではないので、ここではscreencastを用いて説明していきたいと思います。
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>an autodidact's output</title><atom:link href="http://o.mnmly.com/feed.xml" rel="self" type="application/rss+xml"></atom:link><link>http://o.mnmly.com</link><description>an autodidact who needs output</description><pubDate>Wed, 16 May 2012 11:30:00 +0900</pubDate><generator>The mighty Wintersmith</generator><language>en</language><item><title>Dan Wieden's view on Social markething</title><link>http://o.mnmly.com/articles/dan-wieden-on-social/</link><pubDate>Wed, 16 May 2012 11:30:00 +0900</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/dan-wieden-on-social/</guid><author></author><description>&lt;iframe src=&quot;http://player.vimeo.com/video/38336537?byline=0&amp;portrait=0&quot; width=&quot;440&quot; height=&quot;231&quot; frameborder=&quot;0&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Wieden+KennedyのCEO/FounderのDan Wiedenのお話。
 
 &lt;/p&gt;
-&lt;p&gt;軽い流れはこちらです。
+&lt;p&gt;Nike, Levi&apos;sなどのキャンペーンを振り返ったり、ビジネスとの関係性を語っている。
+なかでも、&lt;em&gt;まさに&lt;/em&gt;ってのはこの言葉。
 
 &lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Node.jsのインストール&lt;/li&gt;
-&lt;li&gt;nvmのインストール&lt;/li&gt;
-&lt;li&gt;npmのインストール&lt;/li&gt;
-&lt;li&gt;CoffeeScriptのインストール&lt;/li&gt;
-&lt;li&gt;実際に使ってみる&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;
+
+&lt;/p&gt;
+&lt;p&gt;5:09ぐらいより
+&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The idea of getting really personalized communication, it can get to the place where I find completely irritating quite honestly.
+I don&apos;t like the idea that the eyes in the sky knows exactly who I am and  wants to sell me this now because I looking at this online? I think that&apos;s kinda disgusting, quite honestly.
+
+&lt;/p&gt;
+&lt;p&gt;よりパーソナルなコミュニケーションが進むことで、私自身、正直ものすごくいらいらしてきているんだよ。
+クラウドのどこかにある&lt;em&gt;目&lt;/em&gt;が、私が誰かを知っていて、商品をその場で買わせようとしてる。
+僕がオンラインでそれを見ていたからというそんな単純な理由で？ はっきり言って、こんなものうんざりだ。
+
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Facebookで見る広告なんかほんっとに意味が無い。
+
+&lt;/p&gt;
+&lt;p&gt;「パーソナライズされたコンテンツを提供することで…」って文言をよくきくけど、正直してもらわんくてもいい。
+
+&lt;/p&gt;
+&lt;p&gt;自分が好きなものって他人にほらほらぁって見せられても別になんとも思わんし、
+本当に好きで興味があるものって、やいやい言われんでも自分から探しにいくよ。
+&lt;/p&gt;
 </description></item><item><title>Google Drive</title><link>http://o.mnmly.com/articles/google-drive/</link><pubDate>Tue, 24 Apr 2012 12:00:00 +0900</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/google-drive/</guid><author></author><description>&lt;p&gt;&lt;a href=&quot;http://drive.google.com/&quot;&gt;Google Drive&lt;/a&gt;がようやく出ましたね。
 
 &lt;/p&gt;
@@ -46,31 +66,45 @@
 
 
 &lt;/p&gt;
-</description></item><item><title>Google HTML/CSS Styleguide</title><link>http://o.mnmly.com/articles/google-styleguide/</link><pubDate>Wed, 25 Apr 2012 09:00:00 +0900</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/google-styleguide/</guid><author></author><description>&lt;p&gt;GoogleのHTML/CSSのスタイルガイド。
+</description></item><item><title>Zynga’s Going Down</title><link>http://o.mnmly.com/articles/_fear-on-social-games/</link><pubDate>Mon, 07 May 2012 11:30:00 +0900</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/_fear-on-social-games/</guid><author></author><description>&lt;p&gt;&lt;a href=&quot;http://silencedgood.tumblr.com/post/22547672461/zyngas-going-down&quot;&gt;Zynga’s Going Down&lt;/a&gt;を読んでみて少し考えてみるとやっぱりある怖さが垣間見える。
 
 &lt;/p&gt;
-&lt;p&gt;良い例と悪い例が並列してあって説明もされている。マークアップ書き始めの人にはいい感じのまとめ。
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;
 
 &lt;/p&gt;
-&lt;p&gt;でも「これ知らんかったぁ…」とか「こっちの方がいいんやぁ…」っていうんがちらほら。
+&lt;p&gt;最近Funzioを買収したある会社も含め、日本のソーシャルゲーム業界も同じ、いや… 例の「がちゃ」の件もあるし、より悪いと思う。
 
 &lt;/p&gt;
-&lt;h3&gt;&lt;a href=&quot;http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml#Protocol&quot;&gt;Protocol&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;なんとなぁーく知ってたけど理由が今いちわからなかったのが&lt;code&gt;Protocol&lt;/code&gt;。&lt;code&gt;http:&lt;/code&gt;とか&lt;code&gt;https:&lt;/code&gt;とかのことで、このStyleguide的にはそれは省いている。これで&lt;code&gt;Mixed content issues&lt;/code&gt;が解消されてファイルサイズがほんの少し縮小されるらしい。(&lt;code&gt;Mixed content issue&lt;/code&gt;が何のことかはわからないです :D)
+&lt;p&gt;ZyngaはDraw SomethingのOMGPOPを買収してからたった2ヶ月で株価は38%下落。さらにOMGPOPからは500万人以上のユーザが離れていったとのレポートもある。。。
 
 &lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;&lt;!-- Not recommended --&gt;
-&lt;script src=&quot;http://o.mnmly.com/js/main.js&quot;&gt;&lt;/script&gt;
-
-&lt;!-- Recommended --&gt;
-&lt;script src=&quot;//o.mnmly.com/js/main.js&quot;&gt;&lt;/script&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;でも&lt;a href=&quot;http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml?showone=Document_type#Document_type&quot;&gt;HTML5を使おう！&lt;/a&gt;と書いている一方でこのStyleguideそのものは&lt;code&gt;xml&lt;/code&gt;で書かれている感がGoogleっぽい :P
+&lt;p&gt;確かにオンラインでのUser Engagementはものすごい高いコンテンツですごい業界やとは思うけど、それに付随する&quot;紙くずですらない&quot;電子アイテムの購入のしやすさと手軽さには個人的には怖さを感じる。どんな怖さかってゆうと、
 
 &lt;/p&gt;
-&lt;p&gt;個人的には&lt;a href=&quot;https://github.com&quot;&gt;Github&lt;/a&gt;の&lt;a href=&quot;https://github.com/styleguide/&quot;&gt;Styleguide&lt;/a&gt;の方が見やすくて好き。
+&lt;blockquote&gt;
+&lt;p&gt;ゲームのキャラって使い始めると、強く育てたい願望が生まれる。そんで、ちょうど親指の位置にワンクリックでアップグレードできるボタンがあるし、それに加えて、ソーシャル性によって他の人のアイテムとかも見れて劣等感も生まれる。「強さとお金」が物理的にも精神的にも直接リンクしとるのが非常に怖い。
+
 
 &lt;/p&gt;
-&lt;p&gt;&lt;small&gt;(via &lt;a href=&quot;https://twitter.com/jsgoodies/status/195130038964862976&quot;&gt;@jsgoodies&lt;/a&gt;)&lt;/small&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;この業界からはそんなにいい話もきかんし…いったい2ヶ月後どうなるんやろう(●･̆⍛･̆●) 
+
+&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://silencedgood.tumblr.com/post/22547672461/zyngas-going-down&quot;&gt;http://silencedgood.tumblr.com/post/22547672461/zyngas-going-down&lt;/a&gt;&lt;/p&gt;
+</description></item><item><title>CoffeeScriptの始め方</title><link>http://o.mnmly.com/articles/_writing-less/</link><pubDate>Sat, 21 Apr 2012 12:00:00 +0900</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/_writing-less/</guid><author></author><description>&lt;p&gt;[CoffeeScript]は聞いたことがあるが使ったことがない人のために。
+僕自身があんまり記事の文字を読んで理解できるたちではないので、ここではscreencastを用いて説明していきたいと思います。
+
+&lt;/p&gt;
+&lt;p&gt;軽い流れはこちらです。
+
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Node.jsのインストール&lt;/li&gt;
+&lt;li&gt;nvmのインストール&lt;/li&gt;
+&lt;li&gt;npmのインストール&lt;/li&gt;
+&lt;li&gt;CoffeeScriptのインストール&lt;/li&gt;
+&lt;li&gt;実際に使ってみる&lt;/li&gt;
+&lt;/ol&gt;
 </description></item><item><title>Meaningful Transitions: Fan of Stack</title><link>http://o.mnmly.com/articles/meaningful-transitions-fan-of-stack/</link><pubDate>Mon, 07 May 2012 10:00:00 +0900</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/meaningful-transitions-fan-of-stack/</guid><author></author><description>&lt;!-- ja#1 --&gt;
 
 &lt;p&gt;&lt;code&gt;HTML/JS/CSS&lt;/code&gt;で&lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;の&lt;em&gt;Part 5&lt;/em&gt;
@@ -118,7 +152,7 @@
 
 &lt;/p&gt;
 &lt;h3&gt;動作の説明 &lt;small&gt;Description&lt;/small&gt;&lt;/h3&gt;
-&lt;p&gt;ユーザがアイテムの束をピンチアウトすることで、束が開く
+&lt;p&gt;ユーザがアイテムの束をタップもしくはピンチアウトすることで、束が開く
 
 &lt;/p&gt;
 &lt;h3&gt;一貫性 &lt;small&gt;Consistency&lt;/small&gt;&lt;/h3&gt;
@@ -130,73 +164,7 @@
 
 &lt;/p&gt;
 &lt;h3&gt;例の説明 &lt;small&gt;Illustration&lt;/small&gt;&lt;/h3&gt;
-&lt;p&gt;The objects seems to be extended on the stage.
-アイテムはステージ上で広がっていくように見える
-
-&lt;/p&gt;
-&lt;!-- /ja --&gt;
-
-&lt;p&gt;&lt;small&gt;Cited from &lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;&lt;/small&gt;
-
-&lt;/p&gt;
-</description></item><item><title>Meaningful Transitions: Object Switch</title><link>http://o.mnmly.com/articles/meaningful-transitions-object-switch/</link><pubDate>Fri, 27 Apr 2012 19:00:00 +0900</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/meaningful-transitions-object-switch/</guid><author></author><description>&lt;!-- ja#1 --&gt;
-
-&lt;p&gt;&lt;code&gt;HTML/JS/CSS&lt;/code&gt;で&lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;の&lt;em&gt;Part 4&lt;/em&gt;
-
-&lt;/p&gt;
-&lt;p&gt;様々なUIのトランジションパターンをアーカイブし、丁寧な説明を加えて紹介している&lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;。
-
-&lt;/p&gt;
-&lt;p&gt;UIの作り方のお勉強のためにインタラクティブなバージョンを作ってます。
-第4回目のトランジションは&lt;code&gt;Object Switch&lt;/code&gt;。
-
-&lt;/p&gt;
-&lt;p&gt;アイテム間の移動に使用できるトランジション :)
-
-&lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;
-
-&lt;/p&gt;
-&lt;!-- /ja --&gt;
-
-&lt;!-- en#1 --&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt; in &lt;code&gt;HTML/JS/CSS&lt;/code&gt; &lt;em&gt;Part 4&lt;/em&gt;
-
-&lt;/p&gt;
-&lt;p&gt;I started building an interactive version of &lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt; purely for learning ui pattern, transition and animations. 
-
-&lt;/p&gt;
-&lt;p&gt;The fourth transition is &lt;code&gt;Object Switch&lt;/code&gt;
-
-&lt;/p&gt;
-&lt;p&gt;Check out &lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt; for detailed explanations.
-
-&lt;/p&gt;
-&lt;!-- /en --&gt;
-
-
-&lt;div id=&quot;mt-object-switch&quot; class=&quot;mt-transition&quot; data-title=&quot;Object Switch&quot;&gt;
-&lt;/div&gt;
-
-&lt;!-- ja --&gt;
-
-&lt;h3&gt;使用できる領域 &lt;small&gt;Field of Use&lt;/small&gt;&lt;/h3&gt;
-&lt;p&gt;ユーザがアイテムを交換するとき
-
-&lt;/p&gt;
-&lt;h3&gt;動作の説明 &lt;small&gt;Description&lt;/small&gt;&lt;/h3&gt;
-&lt;p&gt;前面にあったアイテムが後ろに移動すると同時に、後方のアイテムが前面に出てくる
-
-
-&lt;/p&gt;
-&lt;h3&gt;効果 &lt;small&gt;Benefit&lt;/small&gt;&lt;/h3&gt;
-&lt;p&gt;このトランジションによってアイテム間のつながりを説明できる
-
-
-&lt;/p&gt;
-&lt;h3&gt;例の説明 &lt;small&gt;Illustration&lt;/small&gt;&lt;/h3&gt;
-&lt;p&gt;アイテムはもう片方のアイテムのためにスペースを空けるような動きをする
+&lt;p&gt;アイテムはステージ上で広がっていくように見える
 
 &lt;/p&gt;
 &lt;!-- /ja --&gt;
@@ -264,6 +232,96 @@
 &lt;/p&gt;
 &lt;h3&gt;例の説明 &lt;small&gt;Illustration&lt;/small&gt;&lt;/h3&gt;
 &lt;p&gt;アイテムは縮んでいくように見える
+
+&lt;/p&gt;
+&lt;!-- /ja --&gt;
+
+&lt;p&gt;&lt;small&gt;Cited from &lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;&lt;/small&gt;
+
+&lt;/p&gt;
+</description></item><item><title>Google HTML/CSS Styleguide</title><link>http://o.mnmly.com/articles/google-styleguide/</link><pubDate>Wed, 25 Apr 2012 09:00:00 +0900</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/google-styleguide/</guid><author></author><description>&lt;p&gt;GoogleのHTML/CSSのスタイルガイド。
+
+&lt;/p&gt;
+&lt;p&gt;良い例と悪い例が並列してあって説明もされている。マークアップ書き始めの人にはいい感じのまとめ。
+
+&lt;/p&gt;
+&lt;p&gt;でも「これ知らんかったぁ…」とか「こっちの方がいいんやぁ…」っていうんがちらほら。
+
+&lt;/p&gt;
+&lt;h3&gt;&lt;a href=&quot;http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml#Protocol&quot;&gt;Protocol&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;なんとなぁーく知ってたけど理由が今いちわからなかったのが&lt;code&gt;Protocol&lt;/code&gt;。&lt;code&gt;http:&lt;/code&gt;とか&lt;code&gt;https:&lt;/code&gt;とかのことで、このStyleguide的にはそれは省いている。これで&lt;code&gt;Mixed content issues&lt;/code&gt;が解消されてファイルサイズがほんの少し縮小されるらしい。(&lt;code&gt;Mixed content issue&lt;/code&gt;が何のことかはわからないです :D)
+
+&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;!-- Not recommended --&gt;
+&lt;script src=&quot;http://o.mnmly.com/js/main.js&quot;&gt;&lt;/script&gt;
+
+&lt;!-- Recommended --&gt;
+&lt;script src=&quot;//o.mnmly.com/js/main.js&quot;&gt;&lt;/script&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;でも&lt;a href=&quot;http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml?showone=Document_type#Document_type&quot;&gt;HTML5を使おう！&lt;/a&gt;と書いている一方でこのStyleguideそのものは&lt;code&gt;xml&lt;/code&gt;で書かれている感がGoogleっぽい :P
+
+&lt;/p&gt;
+&lt;p&gt;個人的には&lt;a href=&quot;https://github.com&quot;&gt;Github&lt;/a&gt;の&lt;a href=&quot;https://github.com/styleguide/&quot;&gt;Styleguide&lt;/a&gt;の方が見やすくて好き。
+
+&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;(via &lt;a href=&quot;https://twitter.com/jsgoodies/status/195130038964862976&quot;&gt;@jsgoodies&lt;/a&gt;)&lt;/small&gt;&lt;/p&gt;
+</description></item><item><title>Meaningful Transitions: Object Switch</title><link>http://o.mnmly.com/articles/meaningful-transitions-object-switch/</link><pubDate>Fri, 27 Apr 2012 19:00:00 +0900</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/meaningful-transitions-object-switch/</guid><author></author><description>&lt;!-- ja#1 --&gt;
+
+&lt;p&gt;&lt;code&gt;HTML/JS/CSS&lt;/code&gt;で&lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;の&lt;em&gt;Part 4&lt;/em&gt;
+
+&lt;/p&gt;
+&lt;p&gt;様々なUIのトランジションパターンをアーカイブし、丁寧な説明を加えて紹介している&lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;。
+
+&lt;/p&gt;
+&lt;p&gt;UIの作り方のお勉強のためにインタラクティブなバージョンを作ってます。
+第4回目のトランジションは&lt;code&gt;Object Switch&lt;/code&gt;。
+
+&lt;/p&gt;
+&lt;p&gt;アイテム間の移動に使用できるトランジション :)
+
+&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;
+
+&lt;/p&gt;
+&lt;!-- /ja --&gt;
+
+&lt;!-- en#1 --&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt; in &lt;code&gt;HTML/JS/CSS&lt;/code&gt; &lt;em&gt;Part 4&lt;/em&gt;
+
+&lt;/p&gt;
+&lt;p&gt;I started building an interactive version of &lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt; purely for learning ui pattern, transition and animations. 
+
+&lt;/p&gt;
+&lt;p&gt;The fourth transition is &lt;code&gt;Object Switch&lt;/code&gt;
+
+&lt;/p&gt;
+&lt;p&gt;Check out &lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt; for detailed explanations.
+
+&lt;/p&gt;
+&lt;!-- /en --&gt;
+
+
+&lt;div id=&quot;mt-object-switch&quot; class=&quot;mt-transition&quot; data-title=&quot;Object Switch&quot;&gt;
+&lt;/div&gt;
+
+&lt;!-- ja --&gt;
+
+&lt;h3&gt;使用できる領域 &lt;small&gt;Field of Use&lt;/small&gt;&lt;/h3&gt;
+&lt;p&gt;ユーザがアイテムを交換するとき
+
+&lt;/p&gt;
+&lt;h3&gt;動作の説明 &lt;small&gt;Description&lt;/small&gt;&lt;/h3&gt;
+&lt;p&gt;前面にあったアイテムが後ろに移動すると同時に、後方のアイテムが前面に出てくる
+
+
+&lt;/p&gt;
+&lt;h3&gt;効果 &lt;small&gt;Benefit&lt;/small&gt;&lt;/h3&gt;
+&lt;p&gt;このトランジションによってアイテム間のつながりを説明できる
+
+
+&lt;/p&gt;
+&lt;h3&gt;例の説明 &lt;small&gt;Illustration&lt;/small&gt;&lt;/h3&gt;
+&lt;p&gt;アイテムはもう片方のアイテムのためにスペースを空けるような動きをする
 
 &lt;/p&gt;
 &lt;!-- /ja --&gt;
