@@ -12,7 +12,9 @@ html(lang='en')
       //meta(property='fb:admins', content='USER_ID')
       - var content = '';
       - if ( page._content ){
-      -  content = page._content.replace(/\n/gi, ' ').replace(/\[(.*?)\]\(.*?\)/ig, "$1").replace(/<\!\-\- \/?(ja|en)(#\d+)? \-\->/g, ' ').substring(0, 100)  + "…";
+      -  content = page._content.replace(/\n/gi, ' ').replace(/\[(.*?)\]\(.*?\)/ig, "$1").replace(/<\!\-\- \/?(ja|en)(#\d+)? \-\->/g, ' ')
+      -  content = content.replace(/<div class="video\-container">(.*?)<\/div>/g, '')
+      -  content = content.substring(0, 100)  + "…";
       - } else { 
       -  content = "output by mnmly";
       - }

@@ -40,7 +40,7 @@ Check out [Meaningful Transitions] for detailed explanations.
 ユーザがアイテムの束を開けるとき
 
 ### 動作の説明 <small>Description</small>
-ユーザがアイテムの束をピンチアウトすることで、束が開く
+ユーザがアイテムの束をタップもしくはピンチアウトすることで、束が開く
 
 ### 一貫性 <small>Consistency</small>
 束を閉じる際も同様の動きをとる
@@ -49,7 +49,6 @@ Check out [Meaningful Transitions] for detailed explanations.
 アイテムがどのように配置されるかを示すことで、アイテムの並び方を説明することができる
 
 ### 例の説明 <small>Illustration</small>
-The objects seems to be extended on the stage.
 アイテムはステージ上で広がっていくように見える
 
 <!-- /ja -->

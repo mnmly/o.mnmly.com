@@ -1,4 +1,4 @@
-define ['zepto', "swipe"], ($)->
+define ['zepto', "swipe", 'libs/zepto.fitvids'], ($)->
   
   class Mobile
 
@@ -16,6 +16,7 @@ define ['zepto', "swipe"], ($)->
       @setupIntroAnimation() if $('#logo-outer').length > 0
       # Trigger mobile styling
       $(".share").addClass 'on'
+      $(".video-container").fitVids()
     
   
     setupIntroAnimation: ->
