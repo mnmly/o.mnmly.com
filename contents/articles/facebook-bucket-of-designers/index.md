@@ -84,7 +84,7 @@ FourSquareよりもデザインは洗練されて、イラストもポップで�
 <small class="h3-meta">[Instagram + Facebook](http://blog.instagram.com/post/20785013897/instagram-facebook)</small>
 
 
-さらに最近、もう一人のAppleの中の人[Wilson Miner](http://wilsonminer.com/)も[Rdio](http://rdio.com)から[Facebook移るみたい](https://twitter.com/wilsonminer/status/199568732685742080)やし。
+さらに最近、もう一人のAppleの中の人[Wilson Miner](http://wilsonminer.com/)も[Rdio](http://rdio.com)から[Facebookに移るみたい](https://twitter.com/wilsonminer/status/199568732685742080)やし。
 デザイナーの巣窟と化してきたFacebook… もちろん、これは僕が個人的に抜粋したwikiのリスト+αやけど、Creative Directorの[Ji Lee](http://pleaseenjoy.com/)氏はどんなんしてこんなチームを動かしとるんやろうかと悶々とする。
 
 
