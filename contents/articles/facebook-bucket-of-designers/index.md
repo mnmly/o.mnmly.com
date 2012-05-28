@@ -43,6 +43,7 @@ Information Graphicsのクリエイティブでは彼がトップクラスな気
 
 ### [Things that are brown](http://thingsthatarebrown.com/)
 
+<span class="before-icon-img"></span>
 ![](http://cl.ly/GvT4/Image%202012.05.28%202:29:52%20AM.png)
 
 [MIX Online](http://visitmix.com)とか[Harvest](http://www.getharvest.com/)を手がけたWeb Design Firmの彼らも、今はFacebookでFull-time。
