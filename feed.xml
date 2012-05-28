@@ -1,18 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>an autodidact's output</title><atom:link href="http://o.mnmly.com/feed.xml" rel="self" type="application/rss+xml"></atom:link><link>http://o.mnmly.com</link><description>an autodidact who needs output</description><pubDate>Sat, 21 Apr 2012 12:00:00 +0900</pubDate><generator>The mighty Wintersmith</generator><language>en</language><item><title>CoffeeScriptの始め方</title><link>http://o.mnmly.com/articles/_writing-less/</link><pubDate>Sat, 21 Apr 2012 12:00:00 +0900</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/_writing-less/</guid><author></author><description>&lt;p&gt;[CoffeeScript]は聞いたことがあるが使ったことがない人のために。
-僕自身があんまり記事の文字を読んで理解できるたちではないので、ここではscreencastを用いて説明していきたいと思います。
-
-&lt;/p&gt;
-&lt;p&gt;軽い流れはこちらです。
-
-&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Node.jsのインストール&lt;/li&gt;
-&lt;li&gt;nvmのインストール&lt;/li&gt;
-&lt;li&gt;npmのインストール&lt;/li&gt;
-&lt;li&gt;CoffeeScriptのインストール&lt;/li&gt;
-&lt;li&gt;実際に使ってみる&lt;/li&gt;
-&lt;/ol&gt;
-</description></item><item><title>Zynga’s Going Down</title><link>http://o.mnmly.com/articles/_fear-on-social-games/</link><pubDate>Mon, 07 May 2012 11:30:00 +0900</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/_fear-on-social-games/</guid><author></author><description>&lt;p&gt;&lt;a href=&quot;http://silencedgood.tumblr.com/post/22547672461/zyngas-going-down&quot;&gt;Zynga’s Going Down&lt;/a&gt;を読んでみて少し考えてみるとやっぱりある怖さが垣間見える。
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>an autodidact's output</title><atom:link href="http://o.mnmly.com/feed.xml" rel="self" type="application/rss+xml"></atom:link><link>http://o.mnmly.com</link><description>an autodidact who needs output</description><pubDate>Mon, 07 May 2012 11:30:00 +0900</pubDate><generator>The mighty Wintersmith</generator><language>en</language><item><title>Zynga’s Going Down</title><link>http://o.mnmly.com/articles/_fear-on-social-games/</link><pubDate>Mon, 07 May 2012 11:30:00 +0900</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/_fear-on-social-games/</guid><author></author><description>&lt;p&gt;&lt;a href=&quot;http://silencedgood.tumblr.com/post/22547672461/zyngas-going-down&quot;&gt;Zynga’s Going Down&lt;/a&gt;を読んでみて少し考えてみるとやっぱりある怖さが垣間見える。
 
 &lt;/p&gt;
 &lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;
@@ -37,6 +23,20 @@
 
 &lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://silencedgood.tumblr.com/post/22547672461/zyngas-going-down&quot;&gt;http://silencedgood.tumblr.com/post/22547672461/zyngas-going-down&lt;/a&gt;&lt;/p&gt;
+</description></item><item><title>CoffeeScriptの始め方</title><link>http://o.mnmly.com/articles/_writing-less/</link><pubDate>Sat, 21 Apr 2012 12:00:00 +0900</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/_writing-less/</guid><author></author><description>&lt;p&gt;[CoffeeScript]は聞いたことがあるが使ったことがない人のために。
+僕自身があんまり記事の文字を読んで理解できるたちではないので、ここではscreencastを用いて説明していきたいと思います。
+
+&lt;/p&gt;
+&lt;p&gt;軽い流れはこちらです。
+
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Node.jsのインストール&lt;/li&gt;
+&lt;li&gt;nvmのインストール&lt;/li&gt;
+&lt;li&gt;npmのインストール&lt;/li&gt;
+&lt;li&gt;CoffeeScriptのインストール&lt;/li&gt;
+&lt;li&gt;実際に使ってみる&lt;/li&gt;
+&lt;/ol&gt;
 </description></item><item><title>Dan Wieden's view on Social markething</title><link>http://o.mnmly.com/articles/dan-wieden-on-social/</link><pubDate>Wed, 16 May 2012 11:30:00 +0900</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/dan-wieden-on-social/</guid><author></author><description>&lt;div class=&quot;video-container&quot;&gt;
 &lt;iframe src=&quot;http://player.vimeo.com/video/38336537?byline=0&amp;portrait=0&quot; width=&quot;440&quot; height=&quot;231&quot; frameborder=&quot;0&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt;
 &lt;/div&gt;
@@ -173,7 +173,7 @@ FourSquareよりもデザインは洗練されて、イラストもポップで�
 
 &lt;/p&gt;
 &lt;p&gt;さらに最近、もう一人のAppleの中の人&lt;a href=&quot;http://wilsonminer.com/&quot;&gt;Wilson Miner&lt;/a&gt;も&lt;a href=&quot;http://rdio.com&quot;&gt;Rdio&lt;/a&gt;から&lt;a href=&quot;https://twitter.com/wilsonminer/status/199568732685742080&quot;&gt;Facebook移るみたい&lt;/a&gt;やし。
-デザイナーの巣窟と化してきたFacebook… もちろん、これは僕が個人的に抜粋したwikiのリスト+αやけど、Creative Directorの&lt;a href=&quot;http://pleaseenjoy.com/&quot;&gt;Ji Lee&lt;/a&gt;氏はどんなんしてこんなチームを動かしとるんやろうかと悶々とする。
+デザイナーの巣窟と化してきたFacebook… もちろん、これは僕が個人的に抜粋したwikiのリスト+αやけど、Facebook Creative Directorの&lt;a href=&quot;http://pleaseenjoy.com/&quot;&gt;Ji Lee&lt;/a&gt;氏はどんなんしてこんなチームを動かしとるんやろうかと悶々とする。
 
 
 &lt;/p&gt;
