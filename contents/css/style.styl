@@ -418,6 +418,16 @@ body.four-oh-four
     opacity .5
     font-size 1.0rem
 
+    &.h3-meta
+      opacity 1
+      display: block
+      margin-bottom 30px
+      border-bottom 1px solid hsla(0, 0%, 0%, .1)
+      padding-bottom 20px
+      &::before
+        content '-'
+        padding-right 10px
+
 body.four-oh-four
   background: hsl(200, 100%, 50%)
 
@@ -655,6 +665,12 @@ img, object, embed
 
 img
   -ms-interpolation-mode: bicubic
+
+.before-icon-img+img
+  margin 20px auto
+  width: 225px
+  height: auto
+  display: block
 
 
 .video
