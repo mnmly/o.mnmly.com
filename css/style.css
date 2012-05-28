@@ -576,6 +576,24 @@ body.four-oh-four small {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
   font-size: 1rem;
 }
+body.article small.h3-meta,
+body.colophone small.h3-meta,
+body.archive small.h3-meta,
+body.four-oh-four small.h3-meta {
+  opacity: 1;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  display: block;
+  margin-bottom: 30px;
+  border-bottom: 1px solid rgba(0,0,0,0.10);
+  padding-bottom: 20px;
+}
+body.article small.h3-meta::before,
+body.colophone small.h3-meta::before,
+body.archive small.h3-meta::before,
+body.four-oh-four small.h3-meta::before {
+  content: '-';
+  padding-right: 10px;
+}
 body.four-oh-four {
   background: #0af;
 }
@@ -953,6 +971,12 @@ embed {
 }
 img {
   -ms-interpolation-mode: bicubic;
+}
+.before-icon-img+img {
+  margin: 20px auto;
+  width: 225px;
+  height: auto;
+  display: block;
 }
 .video {
   margin-top: 30px;
