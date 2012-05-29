@@ -22,7 +22,7 @@
   }, 0);
 
   require(['app', 'update-message'], function(App, UpdateMessage) {
-    if (!(Modernizr.cssanimations && Modernizr.csstransforms3d)) {
+    if (!(Modernizr.cssanimations && (Modernizr.csstransforms3d || /Chrome/.test(navigator.userAgent)))) {
       return new UpdateMessage;
     }
     return $(function() {
