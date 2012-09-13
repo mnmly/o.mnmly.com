@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>an autodidact's output</title><atom:link href="http://o.mnmly.com/feed.xml" rel="self" type="application/rss+xml"></atom:link><link>http://o.mnmly.com</link><description>an autodidact who needs output</description><pubDate>Mon, 07 May 2012 11:30:00 +0900</pubDate><generator>The mighty Wintersmith</generator><language>en</language><item><title>Zynga’s Going Down</title><link>http://o.mnmly.com/articles/_fear-on-social-games/</link><pubDate>Mon, 07 May 2012 11:30:00 +0900</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/_fear-on-social-games/</guid><author></author><description>&lt;p&gt;&lt;a href=&quot;http://silencedgood.tumblr.com/post/22547672461/zyngas-going-down&quot;&gt;Zynga’s Going Down&lt;/a&gt;を読んでみて少し考えてみるとやっぱりある怖さが垣間見える。
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>an autodidact's output</title><atom:link href="http://o.mnmly.com/feed.xml" rel="self" type="application/rss+xml"></atom:link><link>http://o.mnmly.com</link><description>an autodidact who needs output</description><pubDate>Mon, 07 May 2012 11:30:00 -0700</pubDate><generator>The mighty Wintersmith</generator><language>en</language><item><title>Zynga’s Going Down</title><link>http://o.mnmly.com/articles/_fear-on-social-games/</link><pubDate>Mon, 07 May 2012 11:30:00 -0700</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/_fear-on-social-games/</guid><author></author><description>&lt;p&gt;&lt;a href=&quot;http://silencedgood.tumblr.com/post/22547672461/zyngas-going-down&quot;&gt;Zynga’s Going Down&lt;/a&gt;を読んでみて少し考えてみるとやっぱりある怖さが垣間見える。
 
 &lt;/p&gt;
 &lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;
@@ -23,7 +23,21 @@
 
 &lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://silencedgood.tumblr.com/post/22547672461/zyngas-going-down&quot;&gt;http://silencedgood.tumblr.com/post/22547672461/zyngas-going-down&lt;/a&gt;&lt;/p&gt;
-</description></item><item><title>Dan Wieden's view on Social markething</title><link>http://o.mnmly.com/articles/dan-wieden-on-social/</link><pubDate>Wed, 16 May 2012 11:30:00 +0900</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/dan-wieden-on-social/</guid><author></author><description>&lt;div class=&quot;video-container&quot;&gt;
+</description></item><item><title>CoffeeScriptの始め方</title><link>http://o.mnmly.com/articles/_writing-less/</link><pubDate>Sat, 21 Apr 2012 12:00:00 -0700</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/_writing-less/</guid><author></author><description>&lt;p&gt;[CoffeeScript]は聞いたことがあるが使ったことがない人のために。
+僕自身があんまり記事の文字を読んで理解できるたちではないので、ここではscreencastを用いて説明していきたいと思います。
+
+&lt;/p&gt;
+&lt;p&gt;軽い流れはこちらです。
+
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Node.jsのインストール&lt;/li&gt;
+&lt;li&gt;nvmのインストール&lt;/li&gt;
+&lt;li&gt;npmのインストール&lt;/li&gt;
+&lt;li&gt;CoffeeScriptのインストール&lt;/li&gt;
+&lt;li&gt;実際に使ってみる&lt;/li&gt;
+&lt;/ol&gt;
+</description></item><item><title>Dan Wieden's view on Social markething</title><link>http://o.mnmly.com/articles/dan-wieden-on-social/</link><pubDate>Wed, 16 May 2012 11:30:00 -0700</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/dan-wieden-on-social/</guid><author></author><description>&lt;div class=&quot;video-container&quot;&gt;
 &lt;iframe src=&quot;http://player.vimeo.com/video/38336537?byline=0&amp;portrait=0&quot; width=&quot;440&quot; height=&quot;231&quot; frameborder=&quot;0&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
@@ -59,21 +73,7 @@ I don&apos;t like the idea that the eyes in the sky knows exactly who I am and  
 &lt;p&gt;自分が好きなものって他人にほらほらぁって見せられても別になんとも思わんし、
 本当に好きで興味があるものって、やいやい言われんでも自分から探しにいくよ。
 &lt;/p&gt;
-</description></item><item><title>CoffeeScriptの始め方</title><link>http://o.mnmly.com/articles/_writing-less/</link><pubDate>Sat, 21 Apr 2012 12:00:00 +0900</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/_writing-less/</guid><author></author><description>&lt;p&gt;[CoffeeScript]は聞いたことがあるが使ったことがない人のために。
-僕自身があんまり記事の文字を読んで理解できるたちではないので、ここではscreencastを用いて説明していきたいと思います。
-
-&lt;/p&gt;
-&lt;p&gt;軽い流れはこちらです。
-
-&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Node.jsのインストール&lt;/li&gt;
-&lt;li&gt;nvmのインストール&lt;/li&gt;
-&lt;li&gt;npmのインストール&lt;/li&gt;
-&lt;li&gt;CoffeeScriptのインストール&lt;/li&gt;
-&lt;li&gt;実際に使ってみる&lt;/li&gt;
-&lt;/ol&gt;
-</description></item><item><title>Let’s look back what Facebook has gotten so far.</title><link>http://o.mnmly.com/articles/facebook-bucket-of-designers/</link><pubDate>Mon, 28 May 2012 08:00:00 +0900</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/facebook-bucket-of-designers/</guid><author></author><description>&lt;p&gt;次は、&lt;a href=&quot;http://www.theverge.com/2012/5/25/3043427/facebook-wants-to-buy-opera-rumor&quot;&gt;Opera&lt;/a&gt;か。。。
+</description></item><item><title>Let’s look back what Facebook has gotten so far.</title><link>http://o.mnmly.com/articles/facebook-bucket-of-designers/</link><pubDate>Mon, 28 May 2012 08:00:00 -0700</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/facebook-bucket-of-designers/</guid><author></author><description>&lt;p&gt;次は、&lt;a href=&quot;http://www.theverge.com/2012/5/25/3043427/facebook-wants-to-buy-opera-rumor&quot;&gt;Opera&lt;/a&gt;か。。。
 ってほんとに前までのGoogleみたいな買い方が目立つFacebook.
 
 &lt;/p&gt;
@@ -179,7 +179,57 @@ FourSquareよりもデザインは洗練されて、イラストもポップで�
 &lt;/p&gt;
 &lt;p&gt;&lt;small&gt;Source: &lt;a href=&quot;http://en.wikipedia.org/wiki/List_of_acquisitions_by_Facebook&quot;&gt;Wikipedia: List of acquisitions by Facebook&lt;/a&gt;&lt;/a&gt;&lt;/small&gt;
 &lt;/p&gt;
-</description></item><item><title>Google Drive</title><link>http://o.mnmly.com/articles/google-drive/</link><pubDate>Tue, 24 Apr 2012 12:00:00 +0900</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/google-drive/</guid><author></author><description>&lt;p&gt;&lt;a href=&quot;http://drive.google.com/&quot;&gt;Google Drive&lt;/a&gt;がようやく出ましたね。
+</description></item><item><title>One sure way to debug Safari on iOS</title><link>http://o.mnmly.com/articles/debugging-ios-safari/</link><pubDate>Thu, 13 Sep 2012 09:36:00 -0700</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/debugging-ios-safari/</guid><author></author><description>&lt;div class=&quot;video-container&quot;&gt;
+&lt;iframe src=&quot;http://player.vimeo.com/video/49387815?title=0&amp;byline=0&amp;portrait=0&amp;color=0af&quot; width=&quot;440&quot; height=&quot;247&quot; frameborder=&quot;0&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The &lt;strong&gt;Official&lt;/strong&gt; way to debug Safari on iOS.
+
+&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;
+
+&lt;/p&gt;
+&lt;!-- en --&gt;
+
+&lt;p&gt;I stumbled upon &lt;a href=&quot;https://developer.apple.com/library/safari/#documentation/AppleApplications/Conceptual/Safari_Developer_Guide/2SafariDeveloperTools/SafariDeveloperTools.html#//apple_ref/doc/uid/TP40007874-CH3-SW4&quot;&gt;this article from Apple&lt;/a&gt; when I was exploring the &lt;em&gt;kinda-new&lt;/em&gt; Inspector on Safari 6.
+
+&lt;/p&gt;
+&lt;p&gt;I gave a shot and found this solution to be the most confortable one since I&apos;ve ever tried.
+
+&lt;/p&gt;
+&lt;p&gt;Even though it requires the connection via USB, it doesn&apos;t bother me at all than waiting for the delay over wireless. (like &lt;a href=&quot;http://labs.adobe.com/technologies/shadow/&quot;&gt;Adobe Shadow&lt;/a&gt;)
+
+&lt;/p&gt;
+&lt;p&gt;Okay here&apos;s what you do.
+
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Open a Web page you wish to debug on Safari on iOS&lt;/li&gt;
+&lt;li&gt;Connect your iOS device to Mac via USB.&lt;/li&gt;
+&lt;li&gt;Open Safari on OSX&lt;/li&gt;
+&lt;li&gt;Navigate to &lt;code&gt;Developer-&gt;[Your Device Name]&lt;/code&gt; then select the web page you want to debug.&lt;/li&gt;
+&lt;li&gt;The developer tool pops up and you can debug on your iOS device :)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;!-- /en --&gt;
+
+&lt;!-- ja --&gt;
+
+&lt;p&gt;Safari 6の新しめなDeveloper Toolが出ていたけど、あまり試さずにChrome使ってたのでちょこっと調べてみるとApple Developer Centerから&lt;a href=&quot;https://developer.apple.com/library/safari/#documentation/AppleApplications/Conceptual/Safari_Developer_Guide/2SafariDeveloperTools/SafariDeveloperTools.html#//apple_ref/doc/uid/TP40007874-CH3-SW4&quot;&gt;この記事&lt;/a&gt;を見つけた。
+試してみると、今まで試したものの中でも一番良かったので簡単にメモ程度に。
+
+
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;iOSのSafariでデバッグしたいページを開く&lt;/li&gt;
+&lt;li&gt;iOSデバイスをUSBでMacに接続&lt;/li&gt;
+&lt;li&gt;MacのSafariを開く&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Developer-&gt;[Your Device Name]&lt;/code&gt; からデバッグしたいページを選択&lt;/li&gt;
+&lt;li&gt;するとiOSデバイスのSafariで開いているページの&lt;code&gt;Inspector&lt;/code&gt;が表示される :)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;!-- /ja --&gt;
+
+
+</description></item><item><title>Google Drive</title><link>http://o.mnmly.com/articles/google-drive/</link><pubDate>Tue, 24 Apr 2012 12:00:00 -0700</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/google-drive/</guid><author></author><description>&lt;p&gt;&lt;a href=&quot;http://drive.google.com/&quot;&gt;Google Drive&lt;/a&gt;がようやく出ましたね。
 
 &lt;/p&gt;
 &lt;p&gt;まぁそんなに重要な書類の共有には使わないとは思いますが、ただ少し気になることが…
@@ -213,7 +263,7 @@ FourSquareよりもデザインは洗練されて、イラストもポップで�
 
 
 &lt;/p&gt;
-</description></item><item><title>Google HTML/CSS Styleguide</title><link>http://o.mnmly.com/articles/google-styleguide/</link><pubDate>Wed, 25 Apr 2012 09:00:00 +0900</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/google-styleguide/</guid><author></author><description>&lt;p&gt;GoogleのHTML/CSSのスタイルガイド。
+</description></item><item><title>Google HTML/CSS Styleguide</title><link>http://o.mnmly.com/articles/google-styleguide/</link><pubDate>Wed, 25 Apr 2012 09:00:00 -0700</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/google-styleguide/</guid><author></author><description>&lt;p&gt;GoogleのHTML/CSSのスタイルガイド。
 
 &lt;/p&gt;
 &lt;p&gt;良い例と悪い例が並列してあって説明もされている。マークアップ書き始めの人にはいい感じのまとめ。
@@ -238,74 +288,7 @@ FourSquareよりもデザインは洗練されて、イラストもポップで�
 
 &lt;/p&gt;
 &lt;p&gt;&lt;small&gt;(via &lt;a href=&quot;https://twitter.com/jsgoodies/status/195130038964862976&quot;&gt;@jsgoodies&lt;/a&gt;)&lt;/small&gt;&lt;/p&gt;
-</description></item><item><title>Meaningful Transitions: Minimize</title><link>http://o.mnmly.com/articles/meaningful-transitions-minimize/</link><pubDate>Thu, 26 Apr 2012 17:00:00 +0900</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/meaningful-transitions-minimize/</guid><author></author><description>&lt;!-- ja#1 --&gt;
-
-&lt;p&gt;&lt;code&gt;HTML/JS/CSS&lt;/code&gt;で&lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;の&lt;em&gt;Part 3&lt;/em&gt;
-
-&lt;/p&gt;
-&lt;p&gt;様々なUIのトランジションパターンをアーカイブし、丁寧な説明を加えて紹介している&lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;。
-
-&lt;/p&gt;
-&lt;p&gt;UIの作り方のお勉強のためにインタラクティブなバージョンを作ってます。
-第3回目のトランジションは&lt;code&gt;Minimize&lt;/code&gt;。
-
-&lt;/p&gt;
-&lt;p&gt;大きなアイテムを縮小化するときに効果的なトランジション :)
-
-&lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;
-
-&lt;/p&gt;
-&lt;!-- /ja --&gt;
-
-&lt;!-- en#1 --&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt; in &lt;code&gt;HTML/JS/CSS&lt;/code&gt; &lt;em&gt;Part 3&lt;/em&gt;
-
-&lt;/p&gt;
-&lt;p&gt;I started building an interactive version of &lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt; purely for learning ui pattern, transition and animations. 
-
-&lt;/p&gt;
-&lt;p&gt;The third transition is &lt;code&gt;Minimize&lt;/code&gt;
-
-&lt;/p&gt;
-&lt;p&gt;Check out &lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt; for detailed explanations.
-
-&lt;/p&gt;
-&lt;!-- /en --&gt;
-
-
-&lt;div id=&quot;mt-minimize&quot; class=&quot;mt-transition&quot; data-title=&quot;Minimize&quot;&gt;
-&lt;/div&gt;
-
-&lt;!-- ja --&gt;
-
-&lt;h3&gt;使用できる領域 &lt;small&gt;Field of Use&lt;/small&gt;&lt;/h3&gt;
-&lt;p&gt;ユーザがアイテムを縮小化したいとき
-
-&lt;/p&gt;
-&lt;h3&gt;動作の説明 &lt;small&gt;Description&lt;/small&gt;&lt;/h3&gt;
-&lt;p&gt;アイテムは縮小しながらスクリーン上の特定の場所に移動する
-
-&lt;/p&gt;
-&lt;h3&gt;一貫性 &lt;small&gt;Consistency&lt;/small&gt;&lt;/h3&gt;
-&lt;p&gt;元に戻るときのトランジションはアイテムが拡大してフルスクリーンになる
-
-&lt;/p&gt;
-&lt;h3&gt;効果 &lt;small&gt;Benefit&lt;/small&gt;&lt;/h3&gt;
-&lt;p&gt;縮小化されたアイテムがどこに配置してあるかを示すことが可能。縮小されたアイテムはスクリーン上ではそれほど目立った場所には配置されないが、このトランジションによってどこにあるかを明確にできる
-
-&lt;/p&gt;
-&lt;h3&gt;例の説明 &lt;small&gt;Illustration&lt;/small&gt;&lt;/h3&gt;
-&lt;p&gt;アイテムは縮んでいくように見える
-
-&lt;/p&gt;
-&lt;!-- /ja --&gt;
-
-&lt;p&gt;&lt;small&gt;Cited from &lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;&lt;/small&gt;
-
-&lt;/p&gt;
-</description></item><item><title>Meaningful Transitions: Fan of Stack</title><link>http://o.mnmly.com/articles/meaningful-transitions-fan-of-stack/</link><pubDate>Mon, 07 May 2012 10:00:00 +0900</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/meaningful-transitions-fan-of-stack/</guid><author></author><description>&lt;!-- ja#1 --&gt;
+</description></item><item><title>Meaningful Transitions: Fan of Stack</title><link>http://o.mnmly.com/articles/meaningful-transitions-fan-of-stack/</link><pubDate>Mon, 07 May 2012 10:00:00 -0700</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/meaningful-transitions-fan-of-stack/</guid><author></author><description>&lt;!-- ja#1 --&gt;
 
 &lt;p&gt;&lt;code&gt;HTML/JS/CSS&lt;/code&gt;で&lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;の&lt;em&gt;Part 5&lt;/em&gt;
 
@@ -372,7 +355,74 @@ FourSquareよりもデザインは洗練されて、イラストもポップで�
 &lt;p&gt;&lt;small&gt;Cited from &lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;&lt;/small&gt;
 
 &lt;/p&gt;
-</description></item><item><title>Meaningful Transitions: Object Switch</title><link>http://o.mnmly.com/articles/meaningful-transitions-object-switch/</link><pubDate>Fri, 27 Apr 2012 19:00:00 +0900</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/meaningful-transitions-object-switch/</guid><author></author><description>&lt;!-- ja#1 --&gt;
+</description></item><item><title>Meaningful Transitions: Minimize</title><link>http://o.mnmly.com/articles/meaningful-transitions-minimize/</link><pubDate>Thu, 26 Apr 2012 17:00:00 -0700</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/meaningful-transitions-minimize/</guid><author></author><description>&lt;!-- ja#1 --&gt;
+
+&lt;p&gt;&lt;code&gt;HTML/JS/CSS&lt;/code&gt;で&lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;の&lt;em&gt;Part 3&lt;/em&gt;
+
+&lt;/p&gt;
+&lt;p&gt;様々なUIのトランジションパターンをアーカイブし、丁寧な説明を加えて紹介している&lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;。
+
+&lt;/p&gt;
+&lt;p&gt;UIの作り方のお勉強のためにインタラクティブなバージョンを作ってます。
+第3回目のトランジションは&lt;code&gt;Minimize&lt;/code&gt;。
+
+&lt;/p&gt;
+&lt;p&gt;大きなアイテムを縮小化するときに効果的なトランジション :)
+
+&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;
+
+&lt;/p&gt;
+&lt;!-- /ja --&gt;
+
+&lt;!-- en#1 --&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt; in &lt;code&gt;HTML/JS/CSS&lt;/code&gt; &lt;em&gt;Part 3&lt;/em&gt;
+
+&lt;/p&gt;
+&lt;p&gt;I started building an interactive version of &lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt; purely for learning ui pattern, transition and animations. 
+
+&lt;/p&gt;
+&lt;p&gt;The third transition is &lt;code&gt;Minimize&lt;/code&gt;
+
+&lt;/p&gt;
+&lt;p&gt;Check out &lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt; for detailed explanations.
+
+&lt;/p&gt;
+&lt;!-- /en --&gt;
+
+
+&lt;div id=&quot;mt-minimize&quot; class=&quot;mt-transition&quot; data-title=&quot;Minimize&quot;&gt;
+&lt;/div&gt;
+
+&lt;!-- ja --&gt;
+
+&lt;h3&gt;使用できる領域 &lt;small&gt;Field of Use&lt;/small&gt;&lt;/h3&gt;
+&lt;p&gt;ユーザがアイテムを縮小化したいとき
+
+&lt;/p&gt;
+&lt;h3&gt;動作の説明 &lt;small&gt;Description&lt;/small&gt;&lt;/h3&gt;
+&lt;p&gt;アイテムは縮小しながらスクリーン上の特定の場所に移動する
+
+&lt;/p&gt;
+&lt;h3&gt;一貫性 &lt;small&gt;Consistency&lt;/small&gt;&lt;/h3&gt;
+&lt;p&gt;元に戻るときのトランジションはアイテムが拡大してフルスクリーンになる
+
+&lt;/p&gt;
+&lt;h3&gt;効果 &lt;small&gt;Benefit&lt;/small&gt;&lt;/h3&gt;
+&lt;p&gt;縮小化されたアイテムがどこに配置してあるかを示すことが可能。縮小されたアイテムはスクリーン上ではそれほど目立った場所には配置されないが、このトランジションによってどこにあるかを明確にできる
+
+&lt;/p&gt;
+&lt;h3&gt;例の説明 &lt;small&gt;Illustration&lt;/small&gt;&lt;/h3&gt;
+&lt;p&gt;アイテムは縮んでいくように見える
+
+&lt;/p&gt;
+&lt;!-- /ja --&gt;
+
+&lt;p&gt;&lt;small&gt;Cited from &lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;&lt;/small&gt;
+
+&lt;/p&gt;
+</description></item><item><title>Meaningful Transitions: Object Switch</title><link>http://o.mnmly.com/articles/meaningful-transitions-object-switch/</link><pubDate>Fri, 27 Apr 2012 19:00:00 -0700</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/meaningful-transitions-object-switch/</guid><author></author><description>&lt;!-- ja#1 --&gt;
 
 &lt;p&gt;&lt;code&gt;HTML/JS/CSS&lt;/code&gt;で&lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;の&lt;em&gt;Part 4&lt;/em&gt;
 
@@ -437,7 +487,7 @@ FourSquareよりもデザインは洗練されて、イラストもポップで�
 &lt;p&gt;&lt;small&gt;Cited from &lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;&lt;/small&gt;
 
 &lt;/p&gt;
-</description></item><item><title>Meaningful Transitions: Popup</title><link>http://o.mnmly.com/articles/meaningful-transitions-popup/</link><pubDate>Wed, 25 Apr 2012 16:00:00 +0900</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/meaningful-transitions-popup/</guid><author></author><description>&lt;!-- ja#1 --&gt;
+</description></item><item><title>Meaningful Transitions: Popup</title><link>http://o.mnmly.com/articles/meaningful-transitions-popup/</link><pubDate>Wed, 25 Apr 2012 16:00:00 -0700</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/meaningful-transitions-popup/</guid><author></author><description>&lt;!-- ja#1 --&gt;
 
 &lt;p&gt;&lt;code&gt;HTML/JS/CSS&lt;/code&gt;で&lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;の&lt;em&gt;Part 2&lt;/em&gt;
 
@@ -506,7 +556,7 @@ FourSquareよりもデザインは洗練されて、イラストもポップで�
 &lt;p&gt;&lt;small&gt;Cited from &lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;&lt;/small&gt;
 
 &lt;/p&gt;
-</description></item><item><title>Meaningful Transitions: Slide</title><link>http://o.mnmly.com/articles/meaningful-transitions-slide/</link><pubDate>Tue, 24 Apr 2012 20:00:00 +0900</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/meaningful-transitions-slide/</guid><author></author><description>&lt;!-- ja#1 --&gt;
+</description></item><item><title>Meaningful Transitions: Slide</title><link>http://o.mnmly.com/articles/meaningful-transitions-slide/</link><pubDate>Tue, 24 Apr 2012 20:00:00 -0700</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/meaningful-transitions-slide/</guid><author></author><description>&lt;!-- ja#1 --&gt;
 
 &lt;p&gt;&lt;code&gt;HTML/JS/CSS&lt;/code&gt;で&lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;の&lt;em&gt;Part 1&lt;/em&gt;
 
@@ -569,7 +619,7 @@ FourSquareよりもデザインは洗練されて、イラストもポップで�
 &lt;p&gt;&lt;small&gt;Cited from &lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;&lt;/small&gt;
 
 &lt;/p&gt;
-</description></item><item><title>シカゴから西海岸へお引っ越しします</title><link>http://o.mnmly.com/articles/next-step/</link><pubDate>Fri, 20 Apr 2012 12:00:00 +0900</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/next-step/</guid><author></author><description>&lt;p&gt;2012年3月で、1年半ほどお世話になったシカゴから離れて、今度は西海岸の方にお引っ越しすることにしました。(ビザがきちんとおりればですが…)
+</description></item><item><title>シカゴから西海岸へお引っ越しします</title><link>http://o.mnmly.com/articles/next-step/</link><pubDate>Fri, 20 Apr 2012 12:00:00 -0700</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/next-step/</guid><author></author><description>&lt;p&gt;2012年3月で、1年半ほどお世話になったシカゴから離れて、今度は西海岸の方にお引っ越しすることにしました。(ビザがきちんとおりればですが…)
 
 &lt;/p&gt;
 &lt;p&gt;おそらくインターンとしてシカゴに行くと言いだしたのも丁度このころだったと思います。あの頃はWebのことなんてほとんど何にも知らなかったのによくもまぁそんなあほみたいな僕を雇ってくれました。&lt;a href=&quot;http://simplescott.com&quot;&gt;Scott&lt;/a&gt;には本当に感謝しています。
@@ -738,7 +788,7 @@ Prototypingをすることになりました。夜遅くまでやいやいした
 
 
 &lt;/p&gt;
-</description></item><item><title>How text editing on the iPad should be</title><link>http://o.mnmly.com/articles/text-editiing-on-the-ipad/</link><pubDate>Sat, 05 May 2012 07:00:00 +0900</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/text-editiing-on-the-ipad/</guid><author></author><description>&lt;p&gt;iPadでのテキストの編集方法に関して、一般ユーザから提案されたキーボードを使ったインタラクションがすばらしい。
+</description></item><item><title>How text editing on the iPad should be</title><link>http://o.mnmly.com/articles/text-editiing-on-the-ipad/</link><pubDate>Sat, 05 May 2012 07:00:00 -0700</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/text-editiing-on-the-ipad/</guid><author></author><description>&lt;p&gt;iPadでのテキストの編集方法に関して、一般ユーザから提案されたキーボードを使ったインタラクションがすばらしい。
 
 &lt;/p&gt;
 &lt;p&gt;&lt;code&gt;Shift&lt;/code&gt;を押すことで、&lt;code&gt;モード&lt;/code&gt;を変更しキーボードをテキストの選択のインターフェースとして使用できるようにしています。
