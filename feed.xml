@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>an autodidact's output</title><atom:link href="http://o.mnmly.com/feed.xml" rel="self" type="application/rss+xml"></atom:link><link>http://o.mnmly.com</link><description>an autodidact who needs output</description><pubDate>Mon, 07 May 2012 11:30:00 -0700</pubDate><generator>The mighty Wintersmith</generator><language>en</language><item><title>Zynga’s Going Down</title><link>http://o.mnmly.com/articles/_fear-on-social-games/</link><pubDate>Mon, 07 May 2012 11:30:00 -0700</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/_fear-on-social-games/</guid><author></author><description>&lt;p&gt;&lt;a href=&quot;http://silencedgood.tumblr.com/post/22547672461/zyngas-going-down&quot;&gt;Zynga’s Going Down&lt;/a&gt;を読んでみて少し考えてみるとやっぱりある怖さが垣間見える。
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>an autodidact's output</title><atom:link href="http://o.mnmly.com/feed.xml" rel="self" type="application/rss+xml"></atom:link><link>http://o.mnmly.com</link><description>an autodidact who needs output</description><pubDate>Sat, 21 Apr 2012 12:00:00 -0700</pubDate><generator>The mighty Wintersmith</generator><language>en</language><item><title>CoffeeScriptの始め方</title><link>http://o.mnmly.com/articles/_writing-less/</link><pubDate>Sat, 21 Apr 2012 12:00:00 -0700</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/_writing-less/</guid><author></author><description>&lt;p&gt;[CoffeeScript]は聞いたことがあるが使ったことがない人のために。
+僕自身があんまり記事の文字を読んで理解できるたちではないので、ここではscreencastを用いて説明していきたいと思います。
+
+&lt;/p&gt;
+&lt;p&gt;軽い流れはこちらです。
+
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Node.jsのインストール&lt;/li&gt;
+&lt;li&gt;nvmのインストール&lt;/li&gt;
+&lt;li&gt;npmのインストール&lt;/li&gt;
+&lt;li&gt;CoffeeScriptのインストール&lt;/li&gt;
+&lt;li&gt;実際に使ってみる&lt;/li&gt;
+&lt;/ol&gt;
+</description></item><item><title>Zynga’s Going Down</title><link>http://o.mnmly.com/articles/_fear-on-social-games/</link><pubDate>Mon, 07 May 2012 11:30:00 -0700</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/_fear-on-social-games/</guid><author></author><description>&lt;p&gt;&lt;a href=&quot;http://silencedgood.tumblr.com/post/22547672461/zyngas-going-down&quot;&gt;Zynga’s Going Down&lt;/a&gt;を読んでみて少し考えてみるとやっぱりある怖さが垣間見える。
 
 &lt;/p&gt;
 &lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;
@@ -23,20 +37,56 @@
 
 &lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://silencedgood.tumblr.com/post/22547672461/zyngas-going-down&quot;&gt;http://silencedgood.tumblr.com/post/22547672461/zyngas-going-down&lt;/a&gt;&lt;/p&gt;
-</description></item><item><title>CoffeeScriptの始め方</title><link>http://o.mnmly.com/articles/_writing-less/</link><pubDate>Sat, 21 Apr 2012 12:00:00 -0700</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/_writing-less/</guid><author></author><description>&lt;p&gt;[CoffeeScript]は聞いたことがあるが使ったことがない人のために。
-僕自身があんまり記事の文字を読んで理解できるたちではないので、ここではscreencastを用いて説明していきたいと思います。
+</description></item><item><title>One sure way to debug Safari on iOS</title><link>http://o.mnmly.com/articles/debugging-ios-safari/</link><pubDate>Thu, 13 Sep 2012 09:36:00 -0700</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/debugging-ios-safari/</guid><author></author><description>&lt;div class=&quot;video-container&quot;&gt;
+&lt;iframe src=&quot;http://player.vimeo.com/video/49387815?title=0&amp;byline=0&amp;portrait=0&amp;color=0af&quot; width=&quot;440&quot; height=&quot;247&quot; frameborder=&quot;0&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The &lt;strong&gt;Official&lt;/strong&gt; way to debug Safari on iOS.
 
 &lt;/p&gt;
-&lt;p&gt;軽い流れはこちらです。
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;
+
+&lt;/p&gt;
+&lt;!-- en --&gt;
+
+&lt;p&gt;I stumbled upon &lt;a href=&quot;https://developer.apple.com/library/safari/#documentation/AppleApplications/Conceptual/Safari_Developer_Guide/2SafariDeveloperTools/SafariDeveloperTools.html#//apple_ref/doc/uid/TP40007874-CH3-SW4&quot;&gt;this article from Apple&lt;/a&gt; when I was exploring the &lt;em&gt;kinda-new&lt;/em&gt; Inspector on Safari 6.
+
+&lt;/p&gt;
+&lt;p&gt;I gave a shot and found this solution to be the most confortable one among the several I&apos;ve ever tried.
+
+&lt;/p&gt;
+&lt;p&gt;Even though it requires the connection via USB, it doesn&apos;t bother me at all than waiting for the delay over wireless. (like &lt;a href=&quot;http://labs.adobe.com/technologies/shadow/&quot;&gt;Adobe Shadow&lt;/a&gt;)
+
+&lt;/p&gt;
+&lt;p&gt;Okay here&apos;s what you do.
 
 &lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;Node.jsのインストール&lt;/li&gt;
-&lt;li&gt;nvmのインストール&lt;/li&gt;
-&lt;li&gt;npmのインストール&lt;/li&gt;
-&lt;li&gt;CoffeeScriptのインストール&lt;/li&gt;
-&lt;li&gt;実際に使ってみる&lt;/li&gt;
+&lt;li&gt;Open a Web page you wish to debug on Safari on iOS&lt;/li&gt;
+&lt;li&gt;Connect your iOS device to Mac via USB.&lt;/li&gt;
+&lt;li&gt;Open Safari on OSX&lt;/li&gt;
+&lt;li&gt;Navigate to &lt;code&gt;Developer-&gt;[Your Device Name]&lt;/code&gt; then select the web page you want to debug.&lt;/li&gt;
+&lt;li&gt;The developer tool pops up and you can debug on your iOS device :)&lt;/li&gt;
 &lt;/ol&gt;
+&lt;!-- /en --&gt;
+
+&lt;!-- ja --&gt;
+
+&lt;p&gt;Safari 6の新しめなDeveloper Toolが出ていたけど、あまり試さずにChrome使ってたのでちょこっと調べてみるとApple Developer Centerから&lt;a href=&quot;https://developer.apple.com/library/safari/#documentation/AppleApplications/Conceptual/Safari_Developer_Guide/2SafariDeveloperTools/SafariDeveloperTools.html#//apple_ref/doc/uid/TP40007874-CH3-SW4&quot;&gt;この記事&lt;/a&gt;を見つけた。
+試してみると、今まで試したものの中でも一番良かったので簡単にメモ程度に。
+
+
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;iOSのSafariでデバッグしたいページを開く&lt;/li&gt;
+&lt;li&gt;iOSデバイスをUSBでMacに接続&lt;/li&gt;
+&lt;li&gt;MacのSafariを開く&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Developer-&gt;[Your Device Name]&lt;/code&gt; からデバッグしたいページを選択&lt;/li&gt;
+&lt;li&gt;するとiOSデバイスのSafariで開いているページの&lt;code&gt;Inspector&lt;/code&gt;が表示される :)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;!-- /ja --&gt;
+
+
 </description></item><item><title>Dan Wieden's view on Social markething</title><link>http://o.mnmly.com/articles/dan-wieden-on-social/</link><pubDate>Wed, 16 May 2012 11:30:00 -0700</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/dan-wieden-on-social/</guid><author></author><description>&lt;div class=&quot;video-container&quot;&gt;
 &lt;iframe src=&quot;http://player.vimeo.com/video/38336537?byline=0&amp;portrait=0&quot; width=&quot;440&quot; height=&quot;231&quot; frameborder=&quot;0&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt;
 &lt;/div&gt;
@@ -179,56 +229,6 @@ FourSquareよりもデザインは洗練されて、イラストもポップで�
 &lt;/p&gt;
 &lt;p&gt;&lt;small&gt;Source: &lt;a href=&quot;http://en.wikipedia.org/wiki/List_of_acquisitions_by_Facebook&quot;&gt;Wikipedia: List of acquisitions by Facebook&lt;/a&gt;&lt;/a&gt;&lt;/small&gt;
 &lt;/p&gt;
-</description></item><item><title>One sure way to debug Safari on iOS</title><link>http://o.mnmly.com/articles/debugging-ios-safari/</link><pubDate>Thu, 13 Sep 2012 09:36:00 -0700</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/debugging-ios-safari/</guid><author></author><description>&lt;div class=&quot;video-container&quot;&gt;
-&lt;iframe src=&quot;http://player.vimeo.com/video/49387815?title=0&amp;byline=0&amp;portrait=0&amp;color=0af&quot; width=&quot;440&quot; height=&quot;247&quot; frameborder=&quot;0&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;p&gt;The &lt;strong&gt;Official&lt;/strong&gt; way to debug Safari on iOS.
-
-&lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;
-
-&lt;/p&gt;
-&lt;!-- en --&gt;
-
-&lt;p&gt;I stumbled upon &lt;a href=&quot;https://developer.apple.com/library/safari/#documentation/AppleApplications/Conceptual/Safari_Developer_Guide/2SafariDeveloperTools/SafariDeveloperTools.html#//apple_ref/doc/uid/TP40007874-CH3-SW4&quot;&gt;this article from Apple&lt;/a&gt; when I was exploring the &lt;em&gt;kinda-new&lt;/em&gt; Inspector on Safari 6.
-
-&lt;/p&gt;
-&lt;p&gt;I gave a shot and found this solution to be the most confortable one since I&apos;ve ever tried.
-
-&lt;/p&gt;
-&lt;p&gt;Even though it requires the connection via USB, it doesn&apos;t bother me at all than waiting for the delay over wireless. (like &lt;a href=&quot;http://labs.adobe.com/technologies/shadow/&quot;&gt;Adobe Shadow&lt;/a&gt;)
-
-&lt;/p&gt;
-&lt;p&gt;Okay here&apos;s what you do.
-
-&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Open a Web page you wish to debug on Safari on iOS&lt;/li&gt;
-&lt;li&gt;Connect your iOS device to Mac via USB.&lt;/li&gt;
-&lt;li&gt;Open Safari on OSX&lt;/li&gt;
-&lt;li&gt;Navigate to &lt;code&gt;Developer-&gt;[Your Device Name]&lt;/code&gt; then select the web page you want to debug.&lt;/li&gt;
-&lt;li&gt;The developer tool pops up and you can debug on your iOS device :)&lt;/li&gt;
-&lt;/ol&gt;
-&lt;!-- /en --&gt;
-
-&lt;!-- ja --&gt;
-
-&lt;p&gt;Safari 6の新しめなDeveloper Toolが出ていたけど、あまり試さずにChrome使ってたのでちょこっと調べてみるとApple Developer Centerから&lt;a href=&quot;https://developer.apple.com/library/safari/#documentation/AppleApplications/Conceptual/Safari_Developer_Guide/2SafariDeveloperTools/SafariDeveloperTools.html#//apple_ref/doc/uid/TP40007874-CH3-SW4&quot;&gt;この記事&lt;/a&gt;を見つけた。
-試してみると、今まで試したものの中でも一番良かったので簡単にメモ程度に。
-
-
-&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;iOSのSafariでデバッグしたいページを開く&lt;/li&gt;
-&lt;li&gt;iOSデバイスをUSBでMacに接続&lt;/li&gt;
-&lt;li&gt;MacのSafariを開く&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Developer-&gt;[Your Device Name]&lt;/code&gt; からデバッグしたいページを選択&lt;/li&gt;
-&lt;li&gt;するとiOSデバイスのSafariで開いているページの&lt;code&gt;Inspector&lt;/code&gt;が表示される :)&lt;/li&gt;
-&lt;/ol&gt;
-&lt;!-- /ja --&gt;
-
-
 </description></item><item><title>Google Drive</title><link>http://o.mnmly.com/articles/google-drive/</link><pubDate>Tue, 24 Apr 2012 12:00:00 -0700</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/google-drive/</guid><author></author><description>&lt;p&gt;&lt;a href=&quot;http://drive.google.com/&quot;&gt;Google Drive&lt;/a&gt;がようやく出ましたね。
 
 &lt;/p&gt;
