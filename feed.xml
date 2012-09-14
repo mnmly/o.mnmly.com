@@ -29,6 +29,9 @@
 &lt;li&gt;Navigate to &lt;code&gt;Developer-&gt;[Your Device Name]&lt;/code&gt; then select the web page you want to debug.&lt;/li&gt;
 &lt;li&gt;The developer tool pops up and you can debug on your iOS device :)&lt;/li&gt;
 &lt;/ol&gt;
+&lt;p&gt;By the way, I&apos;m using &lt;a href=&quot;http://www.reflectionapp.com/&quot;&gt;Reflection.app&lt;/a&gt; for iPhone mirroring, just so you know.
+
+&lt;/p&gt;
 &lt;!-- /en --&gt;
 
 &lt;!-- ja --&gt;
@@ -45,8 +48,10 @@
 &lt;li&gt;&lt;code&gt;Developer-&gt;[Your Device Name]&lt;/code&gt; からデバッグしたいページを選択&lt;/li&gt;
 &lt;li&gt;するとiOSデバイスのSafariで開いているページの&lt;code&gt;Inspector&lt;/code&gt;が表示される :)&lt;/li&gt;
 &lt;/ol&gt;
-&lt;!-- /ja --&gt;
+&lt;p&gt;ちなみに、iPhoneのミラリングは&lt;a href=&quot;http://www.reflectionapp.com/&quot;&gt;Reflection.app&lt;/a&gt;の機能です。
 
+&lt;/p&gt;
+&lt;!-- /ja --&gt;
 
 </description></item><item><title>Zynga’s Going Down</title><link>http://o.mnmly.com/articles/_fear-on-social-games/</link><pubDate>Mon, 07 May 2012 11:30:00 -0700</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/_fear-on-social-games/</guid><author></author><description>&lt;p&gt;&lt;a href=&quot;http://silencedgood.tumblr.com/post/22547672461/zyngas-going-down&quot;&gt;Zynga’s Going Down&lt;/a&gt;を読んでみて少し考えてみるとやっぱりある怖さが垣間見える。
 
@@ -422,6 +427,71 @@ FourSquareよりもデザインは洗練されて、イラストもポップで�
 &lt;p&gt;&lt;small&gt;Cited from &lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;&lt;/small&gt;
 
 &lt;/p&gt;
+</description></item><item><title>Meaningful Transitions: Object Switch</title><link>http://o.mnmly.com/articles/meaningful-transitions-object-switch/</link><pubDate>Fri, 27 Apr 2012 19:00:00 -0700</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/meaningful-transitions-object-switch/</guid><author></author><description>&lt;!-- ja#1 --&gt;
+
+&lt;p&gt;&lt;code&gt;HTML/JS/CSS&lt;/code&gt;で&lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;の&lt;em&gt;Part 4&lt;/em&gt;
+
+&lt;/p&gt;
+&lt;p&gt;様々なUIのトランジションパターンをアーカイブし、丁寧な説明を加えて紹介している&lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;。
+
+&lt;/p&gt;
+&lt;p&gt;UIの作り方のお勉強のためにインタラクティブなバージョンを作ってます。
+第4回目のトランジションは&lt;code&gt;Object Switch&lt;/code&gt;。
+
+&lt;/p&gt;
+&lt;p&gt;アイテム間の移動に使用できるトランジション :)
+
+&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;
+
+&lt;/p&gt;
+&lt;!-- /ja --&gt;
+
+&lt;!-- en#1 --&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt; in &lt;code&gt;HTML/JS/CSS&lt;/code&gt; &lt;em&gt;Part 4&lt;/em&gt;
+
+&lt;/p&gt;
+&lt;p&gt;I started building an interactive version of &lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt; purely for learning ui pattern, transition and animations. 
+
+&lt;/p&gt;
+&lt;p&gt;The fourth transition is &lt;code&gt;Object Switch&lt;/code&gt;
+
+&lt;/p&gt;
+&lt;p&gt;Check out &lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt; for detailed explanations.
+
+&lt;/p&gt;
+&lt;!-- /en --&gt;
+
+
+&lt;div id=&quot;mt-object-switch&quot; class=&quot;mt-transition&quot; data-title=&quot;Object Switch&quot;&gt;
+&lt;/div&gt;
+
+&lt;!-- ja --&gt;
+
+&lt;h3&gt;使用できる領域 &lt;small&gt;Field of Use&lt;/small&gt;&lt;/h3&gt;
+&lt;p&gt;ユーザがアイテムを交換するとき
+
+&lt;/p&gt;
+&lt;h3&gt;動作の説明 &lt;small&gt;Description&lt;/small&gt;&lt;/h3&gt;
+&lt;p&gt;前面にあったアイテムが後ろに移動すると同時に、後方のアイテムが前面に出てくる
+
+
+&lt;/p&gt;
+&lt;h3&gt;効果 &lt;small&gt;Benefit&lt;/small&gt;&lt;/h3&gt;
+&lt;p&gt;このトランジションによってアイテム間のつながりを説明できる
+
+
+&lt;/p&gt;
+&lt;h3&gt;例の説明 &lt;small&gt;Illustration&lt;/small&gt;&lt;/h3&gt;
+&lt;p&gt;アイテムはもう片方のアイテムのためにスペースを空けるような動きをする
+
+&lt;/p&gt;
+&lt;!-- /ja --&gt;
+
+&lt;p&gt;&lt;small&gt;Cited from &lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;&lt;/small&gt;
+
+&lt;/p&gt;
 </description></item><item><title>Meaningful Transitions: Slide</title><link>http://o.mnmly.com/articles/meaningful-transitions-slide/</link><pubDate>Tue, 24 Apr 2012 20:00:00 -0700</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/meaningful-transitions-slide/</guid><author></author><description>&lt;!-- ja#1 --&gt;
 
 &lt;p&gt;&lt;code&gt;HTML/JS/CSS&lt;/code&gt;で&lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;の&lt;em&gt;Part 1&lt;/em&gt;
@@ -553,88 +623,6 @@ FourSquareよりもデザインは洗練されて、イラストもポップで�
 
 &lt;p&gt;&lt;small&gt;Cited from &lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;&lt;/small&gt;
 
-&lt;/p&gt;
-</description></item><item><title>Meaningful Transitions: Object Switch</title><link>http://o.mnmly.com/articles/meaningful-transitions-object-switch/</link><pubDate>Fri, 27 Apr 2012 19:00:00 -0700</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/meaningful-transitions-object-switch/</guid><author></author><description>&lt;!-- ja#1 --&gt;
-
-&lt;p&gt;&lt;code&gt;HTML/JS/CSS&lt;/code&gt;で&lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;の&lt;em&gt;Part 4&lt;/em&gt;
-
-&lt;/p&gt;
-&lt;p&gt;様々なUIのトランジションパターンをアーカイブし、丁寧な説明を加えて紹介している&lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;。
-
-&lt;/p&gt;
-&lt;p&gt;UIの作り方のお勉強のためにインタラクティブなバージョンを作ってます。
-第4回目のトランジションは&lt;code&gt;Object Switch&lt;/code&gt;。
-
-&lt;/p&gt;
-&lt;p&gt;アイテム間の移動に使用できるトランジション :)
-
-&lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;
-
-&lt;/p&gt;
-&lt;!-- /ja --&gt;
-
-&lt;!-- en#1 --&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt; in &lt;code&gt;HTML/JS/CSS&lt;/code&gt; &lt;em&gt;Part 4&lt;/em&gt;
-
-&lt;/p&gt;
-&lt;p&gt;I started building an interactive version of &lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt; purely for learning ui pattern, transition and animations. 
-
-&lt;/p&gt;
-&lt;p&gt;The fourth transition is &lt;code&gt;Object Switch&lt;/code&gt;
-
-&lt;/p&gt;
-&lt;p&gt;Check out &lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt; for detailed explanations.
-
-&lt;/p&gt;
-&lt;!-- /en --&gt;
-
-
-&lt;div id=&quot;mt-object-switch&quot; class=&quot;mt-transition&quot; data-title=&quot;Object Switch&quot;&gt;
-&lt;/div&gt;
-
-&lt;!-- ja --&gt;
-
-&lt;h3&gt;使用できる領域 &lt;small&gt;Field of Use&lt;/small&gt;&lt;/h3&gt;
-&lt;p&gt;ユーザがアイテムを交換するとき
-
-&lt;/p&gt;
-&lt;h3&gt;動作の説明 &lt;small&gt;Description&lt;/small&gt;&lt;/h3&gt;
-&lt;p&gt;前面にあったアイテムが後ろに移動すると同時に、後方のアイテムが前面に出てくる
-
-
-&lt;/p&gt;
-&lt;h3&gt;効果 &lt;small&gt;Benefit&lt;/small&gt;&lt;/h3&gt;
-&lt;p&gt;このトランジションによってアイテム間のつながりを説明できる
-
-
-&lt;/p&gt;
-&lt;h3&gt;例の説明 &lt;small&gt;Illustration&lt;/small&gt;&lt;/h3&gt;
-&lt;p&gt;アイテムはもう片方のアイテムのためにスペースを空けるような動きをする
-
-&lt;/p&gt;
-&lt;!-- /ja --&gt;
-
-&lt;p&gt;&lt;small&gt;Cited from &lt;a href=&quot;http://www.ui-transitions.com/&quot;&gt;Meaningful Transitions&lt;/a&gt;&lt;/small&gt;
-
-&lt;/p&gt;
-</description></item><item><title>How text editing on the iPad should be</title><link>http://o.mnmly.com/articles/text-editiing-on-the-ipad/</link><pubDate>Sat, 05 May 2012 07:00:00 -0700</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/text-editiing-on-the-ipad/</guid><author></author><description>&lt;p&gt;iPadでのテキストの編集方法に関して、一般ユーザから提案されたキーボードを使ったインタラクションがすばらしい。
-
-&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Shift&lt;/code&gt;を押すことで、&lt;code&gt;モード&lt;/code&gt;を変更しキーボードをテキストの選択のインターフェースとして使用できるようにしています。
-
-&lt;/p&gt;
-&lt;p&gt;一般的な&lt;code&gt;Modeless Editor&lt;/code&gt;に&lt;code&gt;Modal Editor&lt;/code&gt;のいいところを取り入れた例。
-
-&lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;
-
-&lt;/p&gt;
-&lt;iframe width=&quot;439&quot; height=&quot;223&quot; src=&quot;http://www.youtube.com/embed/RGQTaHGQ04Q?rel=0&amp;fs=1&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
-
-
-&lt;p&gt;&lt;small&gt;(via &lt;a href=&quot;https://twitter.com/usabilitypost/status/198198130301341697&quot;&gt;@usabilitypost&lt;/a&gt;)&lt;/small&gt;
 &lt;/p&gt;
 </description></item><item><title>シカゴから西海岸へお引っ越しします</title><link>http://o.mnmly.com/articles/next-step/</link><pubDate>Fri, 20 Apr 2012 12:00:00 -0700</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/next-step/</guid><author></author><description>&lt;p&gt;2012年3月で、1年半ほどお世話になったシカゴから離れて、今度は西海岸の方にお引っ越しすることにしました。(ビザがきちんとおりればですが…)
 
@@ -804,5 +792,22 @@ Prototypingをすることになりました。夜遅くまでやいやいした
 &lt;p&gt;(も、もし！！ビザのトランスファーがうまく行かずに、10月まで待たないといけない状況になる場合は、おそらく日本でお仕事をする予定にはしているので、その際は何かお声がけください…)
 
 
+&lt;/p&gt;
+</description></item><item><title>How text editing on the iPad should be</title><link>http://o.mnmly.com/articles/text-editiing-on-the-ipad/</link><pubDate>Sat, 05 May 2012 07:00:00 -0700</pubDate><guid isPermaLink="true">http://o.mnmly.com/articles/text-editiing-on-the-ipad/</guid><author></author><description>&lt;p&gt;iPadでのテキストの編集方法に関して、一般ユーザから提案されたキーボードを使ったインタラクションがすばらしい。
+
+&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Shift&lt;/code&gt;を押すことで、&lt;code&gt;モード&lt;/code&gt;を変更しキーボードをテキストの選択のインターフェースとして使用できるようにしています。
+
+&lt;/p&gt;
+&lt;p&gt;一般的な&lt;code&gt;Modeless Editor&lt;/code&gt;に&lt;code&gt;Modal Editor&lt;/code&gt;のいいところを取り入れた例。
+
+&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;
+
+&lt;/p&gt;
+&lt;iframe width=&quot;439&quot; height=&quot;223&quot; src=&quot;http://www.youtube.com/embed/RGQTaHGQ04Q?rel=0&amp;fs=1&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+
+&lt;p&gt;&lt;small&gt;(via &lt;a href=&quot;https://twitter.com/usabilitypost/status/198198130301341697&quot;&gt;@usabilitypost&lt;/a&gt;)&lt;/small&gt;
 &lt;/p&gt;
 </description></item></channel></rss>
